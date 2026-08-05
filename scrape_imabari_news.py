@@ -5,15 +5,15 @@ scrape_imabari_news.py
 
 今治市公式サイトの更新情報ページ（whatsnew.html）を巡回し、
 過去7日分のお知らせを抽出。各お知らせの詳細ページも取得して、
-タイトルと要約をどちらも「読みやすい日本語」に言い換えて
+タイトルと要約をどちらも読みやすい日本語に言い換えて
 docs/news.json として書き出す。
 
-言い換えはすべてルールベース（パターンマッチ＋見出し抽出）。
-外部APIは一切使わないので、費用は完全に無料。
-  - simplify_title()            : タイトルの「お役所文型」を言い換え
-  - extract_structured_summary(): ページ自身の「対象／期間／金額」等の
-                                   見出しを拾って要約を組み立てる
-  - extract_lead_text()         : 見出しが拾えない場合の予備手段
+言い換えは2段構え：
+  1. GitHub Models（GitHub Actions内でGITHUB_TOKENだけで無料で使えるAI）
+     が使えればそちらでやさしい言い換えを作る
+  2. 使えない場合（GITHUB_TOKEN未設定・ローカル実行・レート制限時など）は
+     ルールベースの言い換えに自動フォールバックする
+どちらも追加のサインアップやクレジットカード登録は不要。
 
 GitHub Actions などから毎日1回実行することを想定している。
 実行のたびに全件を作り直すので、当日分・翌日分の反映も自動で行われる。
@@ -23,6 +23,7 @@ GitHub Actions などから毎日1回実行することを想定している。
 """
 
 import json
+import os
 import re
 import time
 import datetime
@@ -47,6 +48,11 @@ HEADERS = {
 DAYS_TO_KEEP = 7
 MAX_SUMMARY_CHARS = 160
 
+# --- GitHub Models（無料・サインアップ不要。GitHub Actions内でのみ有効） ---
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
+GITHUB_MODELS_URL = "https://models.github.ai/inference/chat/completions"
+GITHUB_MODELS_MODEL = "openai/gpt-4o-mini"
+
 CATEGORY_RULES = [
     ("交通・航路", ["航路", "運航", "交通規制", "運休", "フェリー", "渡船"]),
     ("募集・イベント", ["募集", "開催", "講座", "研修", "説明会", "ワークショップ", "コンテスト", "フェスティバル"]),
@@ -54,8 +60,9 @@ CATEGORY_RULES = [
     ("入札・プロポーザル", ["プロポーザル", "入札", "公募"]),
 ]
 
-# タイトルの「お役所文型」→自然な言い方への変換ルール。
-# 上から順に試して、最初にマッチしたものだけを適用する。
+# タイトルの「お役所文型」→自然な言い方への変換ルール（GitHub Modelsが
+# 使えない場合のフォールバック用）。上から順に試して最初にマッチしたもの
+# だけを適用する。
 TITLE_RULES = [
     (re.compile(r"「(.+?)」に係る公募型プロポーザルの実施について、?(質問及び回答|選定結果)を?掲載しました。?$"),
      lambda m: f"「{m.group(1)}」の{m.group(2)}を公開しました"),
@@ -73,6 +80,7 @@ TITLE_RULES = [
 ]
 
 # 要約を組み立てる際に拾いたい見出しラベルと、そこに対応するキーワード
+# （フォールバック用）
 SUMMARY_FIELD_RULES = [
     ("対象", ["対象", "参加"]),
     ("期間・日程", ["期間", "日程", "日時", "受付期間", "実施日"]),
@@ -89,7 +97,7 @@ def guess_category(title: str) -> str:
     return "お知らせ"
 
 
-def simplify_title(title: str) -> str:
+def simplify_title_rule_based(title: str) -> str:
     """行政特有の言い回しを、自然な言い方に置き換える（ルールベース・無料）。"""
     t = title.strip()
     for pattern, repl in TITLE_RULES:
@@ -140,7 +148,7 @@ def parse_whatsnew(soup: BeautifulSoup):
 
 
 def extract_lead_text(main) -> str:
-    """タイトル(h1)直後の説明文だけを狙って抜き出す（予備手段）。"""
+    """タイトル(h1)直後の説明文だけを狙って抜き出す。"""
     h1 = main.find("h1")
     texts = []
     if h1:
@@ -151,22 +159,21 @@ def extract_lead_text(main) -> str:
                 t = el.get_text(strip=True)
                 if len(t) > 15:
                     texts.append(t)
-            if len(texts) >= 2:
+            if len(texts) >= 3:
                 break
     if not texts:
         texts = [
             p.get_text(strip=True)
             for p in main.find_all(["p", "li"])
             if len(p.get_text(strip=True)) > 15
-        ][:2]
+        ][:3]
     return re.sub(r"\s+", " ", " ".join(texts)).strip()
 
 
 def extract_structured_summary(main) -> str | None:
     """
     ページ自身が使っている見出し（対象／期間／金額 など）を拾って、
-    「対象: 〜／期間: 〜」の形に組み立てる。今治市サイトは元々こうした
-    見出しをよく使っているので、AIを使わずとも整理しやすい。
+    「対象: 〜／期間: 〜」の形に組み立てる（フォールバック用）。
     """
     found = {}
     for h in main.find_all(["h2", "h3"]):
@@ -188,46 +195,107 @@ def extract_structured_summary(main) -> str | None:
                 break
     if not found:
         return None
-    # 問い合わせ先だけしか拾えなかった場合は使わない（要約として弱いため）
     if list(found.keys()) == ["問い合わせ"]:
         return None
     return "　".join(f"{k}：{v}" for k, v in found.items())
 
 
-def summarize_detail_page(url: str) -> str:
+def rewrite_with_github_models(title: str, lead_text: str):
     """
-    詳細ページを取得し、読みやすい要約を1〜2行で返す。
+    GitHub Models（無料・GITHUB_TOKENのみで利用可）で、タイトルと要約を
+    まとめてやさしい日本語に言い換える。GITHUB_TOKENが無い場合や、
+    呼び出しに失敗した場合は None を返す（呼び出し側でフォールバックする）。
+    """
+    if not GITHUB_TOKEN or not lead_text:
+        return None
+
+    prompt = (
+        "あなたは自治体広報の編集者です。以下は今治市公式サイトのお知らせの"
+        "タイトルと本文抜粋です。専門用語や「〜について」「〜に係る」のような"
+        "硬い言い回しを避け、一般市民が一読して内容と自分に関係あるかが"
+        "分かるように書き直してください。日付・金額・締切など具体的な数字は"
+        "省略せず残してください。\n\n"
+        f"【元のタイトル】{title}\n【本文抜粋】{lead_text}\n\n"
+        "次のJSON形式のみで出力してください（前置き・コードブロック記号は不要）：\n"
+        '{"title": "やさしい言い換えタイトル（30字程度）", '
+        '"summary": "やさしい要約（2文以内・120字程度）"}'
+    )
+
+    try:
+        resp = requests.post(
+            GITHUB_MODELS_URL,
+            headers={
+                "Authorization": f"Bearer {GITHUB_TOKEN}",
+                "Content-Type": "application/json",
+                "Accept": "application/vnd.github+json",
+            },
+            json={
+                "model": GITHUB_MODELS_MODEL,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.3,
+            },
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        content = data["choices"][0]["message"]["content"].strip()
+        content = re.sub(r"^```(json)?|```$", "", content, flags=re.MULTILINE).strip()
+        parsed = json.loads(content)
+        plain_title = parsed.get("title", "").strip()
+        plain_summary = parsed.get("summary", "").strip()
+        if plain_title and plain_summary:
+            return plain_title, plain_summary
+        return None
+    except Exception as e:  # noqa: BLE001
+        print(f"[WARN] GitHub Models呼び出しに失敗（ルールベースを使用します）: {e}", file=sys.stderr)
+        return None
+
+
+def rewrite_detail_page(url: str, official_title: str):
+    """
+    詳細ページを取得し、(表示用タイトル, 要約) を返す。
     PDFや外部サイトは本文取得をスキップする。
     """
     if url.lower().endswith(".pdf"):
-        return "（PDF資料）詳細は今治市サイトのPDFをご確認ください。"
+        return simplify_title_rule_based(official_title), "（PDF資料）詳細は今治市サイトのPDFをご確認ください。"
     if "city.imabari.ehime.jp" not in url:
-        return "（外部サイトの情報です）詳細はリンク先をご確認ください。"
+        return simplify_title_rule_based(official_title), "（外部サイトの情報です）詳細はリンク先をご確認ください。"
 
     try:
         soup = fetch(url)
     except Exception as e:  # noqa: BLE001
-        return f"（本文の取得に失敗しました: {e}）"
+        return simplify_title_rule_based(official_title), f"（本文の取得に失敗しました: {e}）"
 
     main = soup.find(id="main_container") or soup
+    lead_text = extract_lead_text(main)
 
+    # 1. GitHub Modelsが使えれば、タイトル・要約をまとめて言い換え
+    ai_result = rewrite_with_github_models(official_title, lead_text)
+    if ai_result:
+        return ai_result
+
+    # 2. フォールバック：ルールベースの言い換え
+    plain_title = simplify_title_rule_based(official_title)
     structured = extract_structured_summary(main)
     if structured:
-        if len(structured) > MAX_SUMMARY_CHARS:
-            structured = structured[:MAX_SUMMARY_CHARS] + "…"
-        return structured
-
-    lead_text = extract_lead_text(main)
-    if not lead_text:
-        return "本文の要約を作成できませんでした。詳細はリンク先をご確認ください。"
-    if len(lead_text) > MAX_SUMMARY_CHARS:
-        lead_text = lead_text[:MAX_SUMMARY_CHARS] + "…"
-    return lead_text
+        summary = structured
+    elif lead_text:
+        summary = lead_text
+    else:
+        summary = "本文の要約を作成できませんでした。詳細はリンク先をご確認ください。"
+    if len(summary) > MAX_SUMMARY_CHARS:
+        summary = summary[:MAX_SUMMARY_CHARS] + "…"
+    return plain_title, summary
 
 
 def main():
     today = datetime.date.today()
     cutoff = today - datetime.timedelta(days=DAYS_TO_KEEP - 1)
+
+    if GITHUB_TOKEN:
+        print("[INFO] GITHUB_TOKEN を検出。GitHub Modelsでの言い換えを試みます。", file=sys.stderr)
+    else:
+        print("[INFO] GITHUB_TOKEN 未設定。ルールベースの言い換えのみ使用します。", file=sys.stderr)
 
     print(f"[INFO] fetching {BASE_URL}", file=sys.stderr)
     soup = fetch(BASE_URL)
@@ -240,11 +308,11 @@ def main():
     results = []
     for it in recent:
         print(f"[INFO] summarizing: {it['title'][:40]}", file=sys.stderr)
-        summary = summarize_detail_page(it["url"])
+        plain_title, summary = rewrite_detail_page(it["url"], it["title"])
         results.append({
             "date": it["date"],
             "category": guess_category(it["title"]),
-            "title": simplify_title(it["title"]),
+            "title": plain_title,
             "official_title": it["title"],
             "summary": summary,
             "url": it["url"],
