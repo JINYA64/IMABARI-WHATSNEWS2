@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  models: read   # GitHub Models（無料AI）の呼び出しに必要
 
 jobs:
   update-news:
@@ -25,6 +26,9 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: 今治市サイトを巡回して news.json を更新
+        env:
+          # Actionsが自動発行するトークン。追加のサインアップ・課金登録は不要。
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scrape_imabari_news.py
 
       - name: 変更があればコミット
