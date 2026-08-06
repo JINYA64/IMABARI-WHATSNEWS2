@@ -9,11 +9,13 @@ scrape_imabari_news.py
 docs/news.json として書き出す。
 
 言い換えは2段構え：
-  1. GitHub Models（GitHub Actions内でGITHUB_TOKENだけで無料で使えるAI）
-     が使えればそちらでやさしい言い換えを作る
-  2. 使えない場合（GITHUB_TOKEN未設定・ローカル実行・レート制限時など）は
-     ルールベースの言い換えに自動フォールバックする
-どちらも追加のサインアップやクレジットカード登録は不要。
+  1. Google AI Studio（Gemini API）の無料枠が使えれば、そちらでAIによる
+     やさしい言い換えを作る。クレジットカード登録不要・期限なしの無料枠。
+     （2026年8月時点で確認。Googleアカウントでのサインアップと、
+       GitHub Actions側でのAPIキー登録（Secrets）は必要）
+  2. GEMINI_API_KEY が未設定、またはAPI呼び出しに失敗した場合
+     （レート制限・一時的な障害など）は、ルールベースの言い換えに
+     自動的にフォールバックする（こちらは完全無料・登録不要）
 
 GitHub Actions などから毎日1回実行することを想定している。
 実行のたびに全件を作り直すので、当日分・翌日分の反映も自動で行われる。
@@ -48,10 +50,13 @@ HEADERS = {
 DAYS_TO_KEEP = 7
 MAX_SUMMARY_CHARS = 160
 
-# --- GitHub Models（無料・サインアップ不要。GitHub Actions内でのみ有効） ---
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "").strip()
-GITHUB_MODELS_URL = "https://models.github.ai/inference/chat/completions"
-GITHUB_MODELS_MODEL = "openai/gpt-4o-mini"
+# --- Google AI Studio / Gemini API（無料枠。クレジットカード不要・期限なし） ---
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
+GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_URL = (
+    f"https://generativelanguage.googleapis.com/v1beta/models/"
+    f"{GEMINI_MODEL}:generateContent"
+)
 
 CATEGORY_RULES = [
     ("交通・航路", ["航路", "運航", "交通規制", "運休", "フェリー", "渡船"]),
@@ -60,9 +65,8 @@ CATEGORY_RULES = [
     ("入札・プロポーザル", ["プロポーザル", "入札", "公募"]),
 ]
 
-# タイトルの「お役所文型」→自然な言い方への変換ルール（GitHub Modelsが
-# 使えない場合のフォールバック用）。上から順に試して最初にマッチしたもの
-# だけを適用する。
+# タイトルの「お役所文型」→自然な言い方への変換ルール（Geminiが使えない
+# 場合のフォールバック用）。上から順に試し、最初にマッチしたものを適用。
 TITLE_RULES = [
     (re.compile(r"「(.+?)」に係る公募型プロポーザルの実施について、?(質問及び回答|選定結果)を?掲載しました。?$"),
      lambda m: f"「{m.group(1)}」の{m.group(2)}を公開しました"),
@@ -200,13 +204,13 @@ def extract_structured_summary(main) -> str | None:
     return "　".join(f"{k}：{v}" for k, v in found.items())
 
 
-def rewrite_with_github_models(title: str, lead_text: str):
+def rewrite_with_gemini(title: str, lead_text: str):
     """
-    GitHub Models（無料・GITHUB_TOKENのみで利用可）で、タイトルと要約を
-    まとめてやさしい日本語に言い換える。GITHUB_TOKENが無い場合や、
-    呼び出しに失敗した場合は None を返す（呼び出し側でフォールバックする）。
+    Google AI Studio（Gemini API・無料枠）で、タイトルと要約をまとめて
+    やさしい日本語に言い換える。GEMINI_API_KEY未設定や失敗時は None を
+    返す（呼び出し側でルールベースにフォールバックする）。
     """
-    if not GITHUB_TOKEN or not lead_text:
+    if not GEMINI_API_KEY or not lead_text:
         return None
 
     prompt = (
@@ -223,23 +227,21 @@ def rewrite_with_github_models(title: str, lead_text: str):
 
     try:
         resp = requests.post(
-            GITHUB_MODELS_URL,
-            headers={
-                "Authorization": f"Bearer {GITHUB_TOKEN}",
-                "Content-Type": "application/json",
-                "Accept": "application/vnd.github+json",
-            },
+            GEMINI_URL,
+            params={"key": GEMINI_API_KEY},
+            headers={"Content-Type": "application/json"},
             json={
-                "model": GITHUB_MODELS_MODEL,
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": 0.3,
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {
+                    "temperature": 0.3,
+                    "responseMimeType": "application/json",
+                },
             },
             timeout=30,
         )
         resp.raise_for_status()
         data = resp.json()
-        content = data["choices"][0]["message"]["content"].strip()
-        content = re.sub(r"^```(json)?|```$", "", content, flags=re.MULTILINE).strip()
+        content = data["candidates"][0]["content"]["parts"][0]["text"].strip()
         parsed = json.loads(content)
         plain_title = parsed.get("title", "").strip()
         plain_summary = parsed.get("summary", "").strip()
@@ -247,7 +249,7 @@ def rewrite_with_github_models(title: str, lead_text: str):
             return plain_title, plain_summary
         return None
     except Exception as e:  # noqa: BLE001
-        print(f"[WARN] GitHub Models呼び出しに失敗（ルールベースを使用します）: {e}", file=sys.stderr)
+        print(f"[WARN] Gemini呼び出しに失敗（ルールベースを使用します）: {e}", file=sys.stderr)
         return None
 
 
@@ -269,8 +271,8 @@ def rewrite_detail_page(url: str, official_title: str):
     main = soup.find(id="main_container") or soup
     lead_text = extract_lead_text(main)
 
-    # 1. GitHub Modelsが使えれば、タイトル・要約をまとめて言い換え
-    ai_result = rewrite_with_github_models(official_title, lead_text)
+    # 1. Geminiが使えれば、タイトル・要約をまとめてAIで言い換え
+    ai_result = rewrite_with_gemini(official_title, lead_text)
     if ai_result:
         return ai_result
 
@@ -292,10 +294,10 @@ def main():
     today = datetime.date.today()
     cutoff = today - datetime.timedelta(days=DAYS_TO_KEEP - 1)
 
-    if GITHUB_TOKEN:
-        print("[INFO] GITHUB_TOKEN を検出。GitHub Modelsでの言い換えを試みます。", file=sys.stderr)
+    if GEMINI_API_KEY:
+        print("[INFO] GEMINI_API_KEY を検出。Geminiでの言い換えを試みます。", file=sys.stderr)
     else:
-        print("[INFO] GITHUB_TOKEN 未設定。ルールベースの言い換えのみ使用します。", file=sys.stderr)
+        print("[INFO] GEMINI_API_KEY 未設定。ルールベースの言い換えのみ使用します。", file=sys.stderr)
 
     print(f"[INFO] fetching {BASE_URL}", file=sys.stderr)
     soup = fetch(BASE_URL)
