@@ -3,175 +3,329 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>今治市 更新情報ボード</title>
+<title>今治市 くらしの更新情報</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg-deep:#0F2534; --bg-panel:#17394E; --bg-panel-2:#1C4258;
-    --cream:#F6F2E8; --cream-dim:#D9D2C2;
-    --mikan:#E8752C; --mikan-soft:#F0975A; --teal:#3E8FA6;
-    --ink-soft:#B9CBD4; --divider:rgba(246,242,232,0.14);
-    --shadow:0 30px 60px -20px rgba(0,0,0,0.55);
+    --paper:#FAF9F4;
+    --card:#FFFFFF;
+    --ink:#20303A;
+    --ink-soft:#5C6B73;
+    --line:#E4DFD2;
+
+    --sea:#1D5C77;
+    --sea-deep:#123C4E;
+    --sea-tint:#E7F1F4;
+
+    --mikan:#C85F14;
+    --mikan-tint:#FBEBDD;
+    --moss:#3F6B4B;
+    --moss-tint:#E7F0E8;
+    --plum:#6E5B78;
+    --plum-tint:#EFEAF1;
+    --gray:#5C6B73;
+    --gray-tint:#EDEBE4;
+
+    --focus:#0B63A8;
+    --font-display:"Zen Maru Gothic", "Hiragino Maru Gothic ProN", sans-serif;
+    --font-body:"Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   }
+
   *{box-sizing:border-box;}
-  html,body{margin:0;padding:0;height:100%;
-    background:radial-gradient(1200px 600px at 15% -10%, #1D4C64 0%, transparent 60%),
-      radial-gradient(1000px 700px at 110% 10%, #123549 0%, transparent 55%), var(--bg-deep);
-    color:var(--cream); font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
-    overflow:hidden;}
-  .stage{height:100vh;display:flex;flex-direction:column;padding:clamp(16px,3vw,36px);gap:clamp(12px,2vw,20px);}
-  .header{display:flex;align-items:center;justify-content:space-between;gap:16px;}
-  .brand{display:flex;align-items:center;gap:14px;}
-  .wave-mark{width:46px;height:46px;flex:0 0 auto;}
-  .brand-text h1{margin:0;font-family:"Noto Serif JP",serif;font-weight:600;font-size:clamp(18px,2.4vw,26px);letter-spacing:.04em;}
-  .brand-text p{margin:2px 0 0;font-size:12px;letter-spacing:.18em;color:var(--ink-soft);text-transform:uppercase;}
-  .clock-block{text-align:right;}
-  .clock{font-family:"Noto Serif JP",serif;font-size:clamp(20px,2.6vw,30px);font-variant-numeric:tabular-nums;}
-  .date-line{font-size:12px;color:var(--ink-soft);margin-top:2px;letter-spacing:.06em;}
-  .sync-line{font-size:11px;color:var(--ink-soft);margin-top:2px;opacity:.75;}
-  .board{flex:1;display:flex;align-items:center;justify-content:center;perspective:2400px;}
-  .card{position:relative;width:min(940px,92%);background:linear-gradient(165deg,var(--bg-panel-2),var(--bg-panel));
-    border:1px solid var(--divider);border-radius:22px;box-shadow:var(--shadow);
-    padding:clamp(28px,5vw,56px) clamp(28px,6vw,64px);transform-style:preserve-3d;transform-origin:center 30%;}
-  .card::before{content:"";position:absolute;left:0;right:0;top:50%;height:1px;background:var(--divider);}
-  .card.flip-out{animation:flipOut .32s cubic-bezier(.5,0,.75,0) forwards;}
-  .card.flip-in{animation:flipIn .38s cubic-bezier(.25,1,.5,1) forwards;}
-  @keyframes flipOut{to{transform:rotateX(-90deg);opacity:.4;}}
-  @keyframes flipIn{from{transform:rotateX(90deg);opacity:.4;}to{transform:rotateX(0deg);opacity:1;}}
-  @media (prefers-reduced-motion: reduce){.card.flip-out,.card.flip-in{animation:none !important;}}
-  .row-top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:22px;}
-  .date-badge{font-family:"Noto Serif JP",serif;font-size:clamp(14px,1.6vw,17px);background:rgba(246,242,232,0.08);
-    border:1px solid var(--divider);padding:6px 16px;border-radius:999px;letter-spacing:.05em;}
-  .date-badge b{color:var(--mikan-soft);font-weight:700;}
-  .cat-tag{font-size:12px;letter-spacing:.08em;padding:6px 14px;border-radius:999px;color:var(--bg-deep);font-weight:700;background:var(--teal);}
-  .cat-tag[data-cat="募集・イベント"]{background:var(--mikan-soft);}
-  .cat-tag[data-cat="補助金・支援"]{background:#9CC9A1;}
-  .cat-tag[data-cat="交通・航路"]{background:var(--teal);}
-  .cat-tag[data-cat="入札・プロポーザル"]{background:#B7A6D9;}
-  .cat-tag[data-cat="お知らせ"]{background:#C9BFAE;}
-  .headline{font-family:"Noto Serif JP",serif;font-weight:700;font-size:clamp(22px,3.6vw,36px);line-height:1.5;min-height:1.6em;}
-  .summary{margin-top:14px;font-size:clamp(14px,1.7vw,17px);line-height:1.7;color:var(--cream-dim);min-height:2.4em;}
-  .link-line{margin-top:10px;font-size:12px;color:var(--ink-soft);word-break:break-all;}
-  .link-line a{color:var(--mikan-soft);text-decoration:none;}
-  .card-foot{display:flex;justify-content:space-between;align-items:center;margin-top:24px;font-size:12px;color:var(--ink-soft);letter-spacing:.04em;}
-  .progress-wrap{height:3px;width:180px;background:rgba(246,242,232,0.12);border-radius:3px;overflow:hidden;}
-  .progress-bar{height:100%;width:0%;background:var(--mikan-soft);}
-  .controls{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:2px;}
-  .ctrl-btn{background:rgba(246,242,232,0.08);border:1px solid var(--divider);color:var(--cream);font-size:13px;
-    padding:8px 16px;border-radius:999px;cursor:pointer;letter-spacing:.03em;font-family:inherit;}
-  .ctrl-btn:hover{background:rgba(246,242,232,0.16);}
-  .counter{font-size:12px;color:var(--ink-soft);letter-spacing:.08em;min-width:64px;text-align:center;}
-  .ticker{border-top:1px solid var(--divider);padding-top:12px;overflow:hidden;position:relative;height:26px;}
-  .ticker::before{content:"NEWS";position:absolute;left:0;top:12px;font-size:11px;letter-spacing:.2em;color:var(--mikan-soft);
-    font-weight:700;background:var(--bg-deep);padding-right:10px;z-index:2;}
-  .ticker-track{position:absolute;left:70px;right:0;top:12px;white-space:nowrap;display:inline-block;
-    animation:scroll-left 65s linear infinite;font-size:13px;color:var(--ink-soft);}
-  .ticker-track span{margin-right:48px;}
-  @keyframes scroll-left{from{transform:translateX(0);}to{transform:translateX(-50%);}}
-  .state-msg{color:var(--ink-soft);text-align:center;font-size:15px;}
+  html.text-lg{ font-size:118%; }
+  html,body{
+    margin:0; padding:0; height:100%;
+    background:
+      radial-gradient(1100px 550px at 12% -8%, var(--sea-tint) 0%, transparent 55%),
+      radial-gradient(900px 600px at 105% 8%, #FDF2E6 0%, transparent 55%),
+      var(--paper);
+    color:var(--ink);
+    font-family:var(--font-body);
+  }
+  a:focus-visible, button:focus-visible{ outline:3px solid var(--focus); outline-offset:2px; }
+
+  /* ---------- 全体を「サイネージ画面」と考え、100vhで固定。
+       一覧モードのときだけ内側をスクロールさせる ---------- */
+  .stage{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    padding:clamp(16px,3vw,32px);
+    gap:clamp(10px,2vw,16px);
+    overflow:hidden;
+  }
+  .stage.list-mode{ overflow:auto; }
+
+  /* ---------- ヘッダー ---------- */
+  .header{
+    display:flex; align-items:center; justify-content:space-between;
+    gap:16px; flex-wrap:wrap; flex:0 0 auto;
+  }
+  .brand{ display:flex; align-items:center; gap:14px; }
+  .brand svg{ width:44px; height:44px; flex:0 0 auto; }
+  .brand-text h1{
+    margin:0; font-family:var(--font-display); font-weight:700;
+    font-size:clamp(18px,2.2vw,25px); color:var(--sea-deep);
+  }
+  .brand-text p{ margin:2px 0 0; font-size:12.5px; color:var(--ink-soft); }
+
+  .header-right{ display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+  .clock-block{ text-align:right; }
+  .clock{
+    font-family:var(--font-display); font-weight:700;
+    font-size:clamp(18px,2.2vw,26px); color:var(--sea-deep);
+    font-variant-numeric:tabular-nums;
+  }
+  .date-line{ font-size:12px; color:var(--ink-soft); margin-top:2px; }
+
+  .mode-btn, .textsize-btn{
+    background:var(--card); border:1.5px solid var(--sea);
+    color:var(--sea-deep); font-family:var(--font-body); font-weight:700;
+    font-size:14px; padding:9px 18px; border-radius:999px; cursor:pointer;
+  }
+  .mode-btn:hover, .textsize-btn:hover{ background:var(--sea-tint); }
+  .textsize-btn{ border-color:var(--line); color:var(--ink); font-weight:500; font-size:13px; padding:9px 14px; }
+
+  /* ---------- サイネージ表示 ---------- */
+  .signage-view{ flex:1; display:flex; flex-direction:column; gap:clamp(10px,2vw,16px); min-height:0; }
+  .board{ flex:1; display:flex; align-items:center; justify-content:center; min-height:0; }
+  .card{
+    position:relative; width:min(920px,94%); max-height:100%; overflow:auto;
+    background:var(--card); border:1px solid var(--line); border-radius:28px;
+    box-shadow:0 24px 50px -24px rgba(18,60,78,0.28);
+    padding:clamp(24px,4.5vw,52px) clamp(24px,5.5vw,60px);
+  }
+  .card.fade-out{ animation:fadeOut .28s ease forwards; }
+  .card.fade-in{ animation:fadeIn .38s ease forwards; }
+  @keyframes fadeOut{ to{ opacity:0; transform:translateY(6px) scale(.985); } }
+  @keyframes fadeIn{ from{ opacity:0; transform:translateY(6px) scale(.985); } to{ opacity:1; transform:none; } }
+  @media (prefers-reduced-motion: reduce){ .card.fade-out,.card.fade-in{ animation:none !important; } }
+
+  .row-top{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:20px; }
+  .date-badge{
+    font-family:var(--font-display); font-weight:700; font-size:clamp(14px,1.5vw,17px);
+    color:var(--sea-deep); background:var(--sea-tint); padding:7px 18px; border-radius:999px;
+  }
+  .cat-tag{ display:inline-block; font-size:13.5px; font-weight:700; padding:6px 16px; border-radius:999px; }
+  .cat-tag[data-cat="お知らせ"]{ background:var(--gray-tint); color:var(--gray); }
+  .cat-tag[data-cat="募集・イベント"]{ background:var(--mikan-tint); color:var(--mikan); }
+  .cat-tag[data-cat="補助金・支援"]{ background:var(--moss-tint); color:var(--moss); }
+  .cat-tag[data-cat="交通・航路"]{ background:var(--sea-tint); color:var(--sea); }
+  .cat-tag[data-cat="入札・プロポーザル"]{ background:var(--plum-tint); color:var(--plum); }
+
+  .headline{
+    font-family:var(--font-display); font-weight:700;
+    font-size:clamp(24px,4.4vw,42px); line-height:1.5; color:var(--ink); min-height:1.4em;
+  }
+  .summary{ margin-top:18px; font-size:clamp(16px,2vw,20px); line-height:1.85; color:var(--ink-soft); }
+  .official-note{ margin-top:14px; font-size:13px; color:var(--ink-soft); opacity:.85; }
+  .link-line{ margin-top:20px; }
+  .link-line a{
+    display:inline-flex; align-items:center; gap:6px; background:var(--sea); color:#fff;
+    font-weight:700; font-size:15px; text-decoration:none; padding:10px 22px; border-radius:999px;
+  }
+  .card-foot{ display:flex; justify-content:space-between; align-items:center; margin-top:26px; font-size:12.5px; color:var(--ink-soft); }
+  .progress-wrap{ height:5px; width:200px; background:var(--gray-tint); border-radius:999px; overflow:hidden; }
+  .progress-bar{ height:100%; width:0%; background:var(--mikan); border-radius:999px; }
+
+  .controls{ display:flex; align-items:center; justify-content:center; gap:10px; flex:0 0 auto; }
+  .ctrl-btn{
+    background:var(--card); border:1.5px solid var(--line); color:var(--ink);
+    font-family:var(--font-body); font-size:13.5px; font-weight:500;
+    padding:8px 16px; border-radius:999px; cursor:pointer;
+  }
+  .ctrl-btn:hover{ background:var(--sea-tint); }
+  .counter{ font-size:12.5px; color:var(--ink-soft); min-width:64px; text-align:center; }
+
+  .ticker{ border-top:1px solid var(--line); padding-top:12px; overflow:hidden; position:relative; height:26px; flex:0 0 auto; }
+  .ticker::before{
+    content:"お知らせ"; position:absolute; left:0; top:11px;
+    font-family:var(--font-display); font-size:12px; font-weight:700; letter-spacing:.06em;
+    color:var(--mikan); background:var(--paper); padding-right:12px; z-index:2;
+  }
+  .ticker-track{
+    position:absolute; left:88px; right:0; top:12px; white-space:nowrap; display:inline-block;
+    animation:scroll-left 65s linear infinite; font-size:13px; color:var(--ink-soft);
+  }
+  .ticker-track span{ margin-right:48px; }
+  @keyframes scroll-left{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
+  @media (prefers-reduced-motion: reduce){ .ticker-track{ animation:none; } }
+
+  .state-msg{ color:var(--ink-soft); text-align:center; font-size:17px; }
+
+  /* ---------- 一覧モード（自分のペースで見る） ---------- */
+  .list-view{ display:none; flex:1; min-height:0; }
+  .list-mode .list-view{ display:block; }
+  .list-mode .signage-view{ display:none; }
+
+  .filters{
+    display:flex; gap:8px; overflow-x:auto; padding:4px 0 14px;
+    border-bottom:1px solid var(--line); margin-bottom:18px;
+  }
+  .filter-chip{
+    flex:0 0 auto; font-family:var(--font-body); font-weight:500; font-size:14.5px;
+    padding:8px 16px; border-radius:999px; border:1.5px solid var(--line);
+    background:var(--card); color:var(--ink); cursor:pointer; white-space:nowrap;
+  }
+  .filter-chip[aria-pressed="true"]{ background:var(--sea); border-color:var(--sea); color:#fff; }
+
+  .list-inner{ max-width:820px; margin:0 auto; padding-bottom:40px; }
+  .section-label{
+    font-family:var(--font-display); font-weight:700; font-size:14px;
+    color:var(--sea); letter-spacing:.1em; margin:0 0 10px;
+  }
+  .day-heading{
+    font-family:var(--font-display); font-weight:700; font-size:15px; color:var(--ink);
+    background:var(--sea-tint); display:inline-block; padding:6px 16px; border-radius:999px;
+    margin:22px 0 12px;
+  }
+  ul.news-list{ list-style:none; margin:0; padding:0; }
+  .news-item{
+    background:var(--card); border:1px solid var(--line); border-radius:14px;
+    padding:16px clamp(14px,3vw,22px); margin-bottom:12px;
+  }
+  .news-item .row-top{ margin-bottom:8px; }
+  .news-item h3{
+    font-family:var(--font-display); font-weight:700; font-size:17.5px; line-height:1.6; margin:0 0 8px;
+  }
+  .news-item p.summary{ font-size:15px; line-height:1.75; margin:0 0 10px; }
+  .news-item a.detail-link{ font-weight:700; font-size:14px; text-decoration:none; color:var(--sea); }
+  .news-item a.detail-link:hover{ text-decoration:underline; }
 </style>
 </head>
 <body>
-<div class="stage">
+<div class="stage" id="stage">
   <header class="header">
     <div class="brand">
-      <svg class="wave-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <circle cx="24" cy="24" r="23" stroke="#F6F2E8" stroke-opacity="0.25"/>
-        <path d="M6 20c4-5 8-5 12 0s8 5 12 0 8-5 12 0" stroke="#3E8FA6" stroke-width="2.4" stroke-linecap="round"/>
-        <path d="M6 28c4-5 8-5 12 0s8 5 12 0 8-5 12 0" stroke="#E8752C" stroke-width="2.4" stroke-linecap="round"/>
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="24" r="22" stroke="#1D5C77" stroke-opacity=".25" stroke-width="1.5"/>
+        <path d="M8 22c4-5 8-5 12 0s8 5 12 0 8-5 8-5" stroke="#C85F14" stroke-width="2.6" stroke-linecap="round"/>
+        <path d="M8 29c4-5 8-5 12 0s8 5 12 0 8-5 8-5" stroke="#1D5C77" stroke-width="2.6" stroke-linecap="round"/>
       </svg>
       <div class="brand-text">
-        <h1>今治市 更新情報ボード</h1>
-        <p>City of Imabari &mdash; What's New</p>
+        <h1>今治市 くらしの更新情報</h1>
+        <p>今治市公式サイトのお知らせを、わかりやすくお届けします</p>
       </div>
     </div>
-    <div class="clock-block">
-      <div class="clock" id="clock">--:--:--</div>
-      <div class="date-line" id="today">----年--月--日（-）</div>
-      <div class="sync-line" id="syncLine">news.json 読み込み中…</div>
+    <div class="header-right">
+      <div class="clock-block">
+        <div class="clock" id="clock">--:--:--</div>
+        <div class="date-line" id="today">----年--月--日（-）</div>
+      </div>
+      <button class="textsize-btn" id="textSizeBtn" type="button" aria-pressed="false">文字を大きく</button>
+      <button class="mode-btn" id="modeBtn" type="button">一覧でゆっくり見る</button>
     </div>
   </header>
 
-  <div class="board">
-    <div class="card" id="card">
-      <div id="cardBody">
-        <p class="state-msg">news.json を読み込んでいます…</p>
+  <!-- サイネージ表示（自動送り） -->
+  <div class="signage-view" id="signageView">
+    <div class="board">
+      <div class="card" id="card">
+        <div id="cardBody"><p class="state-msg">読み込んでいます…</p></div>
       </div>
     </div>
+    <div class="controls" id="controls" style="visibility:hidden;">
+      <button class="ctrl-btn" id="prevBtn" type="button">◀ 前へ</button>
+      <button class="ctrl-btn" id="playBtn" type="button">⏸ 一時停止</button>
+      <button class="ctrl-btn" id="nextBtn" type="button">次へ ▶</button>
+    </div>
+    <div class="ticker"><div class="ticker-track" id="tickerTrack"></div></div>
   </div>
 
-  <div class="controls" id="controls" style="visibility:hidden;">
-    <button class="ctrl-btn" id="prevBtn">◀ 前へ</button>
-    <button class="ctrl-btn" id="playBtn">⏸ 一時停止</button>
-    <button class="ctrl-btn" id="nextBtn">次へ ▶</button>
-    <span class="counter" id="speedLabel">切替：6秒ごと</span>
+  <!-- 一覧表示（自分のペースで見る） -->
+  <div class="list-view" id="listView">
+    <div class="list-inner">
+      <nav class="filters" id="filterBar" aria-label="カテゴリで絞り込み">
+        <button class="filter-chip" data-cat="all" aria-pressed="true" type="button">すべて</button>
+        <button class="filter-chip" data-cat="お知らせ" aria-pressed="false" type="button">お知らせ</button>
+        <button class="filter-chip" data-cat="補助金・支援" aria-pressed="false" type="button">補助金・支援</button>
+        <button class="filter-chip" data-cat="募集・イベント" aria-pressed="false" type="button">募集・イベント</button>
+        <button class="filter-chip" data-cat="交通・航路" aria-pressed="false" type="button">交通・航路</button>
+        <button class="filter-chip" data-cat="入札・プロポーザル" aria-pressed="false" type="button">入札・プロポーザル</button>
+      </nav>
+      <div id="listContent"><p class="state-msg">読み込んでいます…</p></div>
+    </div>
   </div>
-
-  <div class="ticker"><div class="ticker-track" id="tickerTrack"></div></div>
 </div>
 
 <script>
 const WEEKDAYS = ["日","月","火","水","木","金","土"];
-const INTERVAL_MS = 6000;
-const NEWS_JSON_URL = "./news.json";      // 同じフォルダの news.json を読む
-const RELOAD_CHECK_MS = 5 * 60 * 1000;    // 5分ごとに news.json の更新有無を確認
+const INTERVAL_MS = 7000;
+const NEWS_JSON_URL = "./news.json";
+const RELOAD_CHECK_MS = 5 * 60 * 1000;
 
-let NEWS = [];
+let RAW_ITEMS = [];      // 取得した生データ
 let idx = 0, timer = null, playing = true, startTime = null;
+let mode = "signage";    // "signage" | "list"
+let currentFilter = "all";
 
+const stageEl = document.getElementById('stage');
 const cardEl = document.getElementById('card');
 const cardBody = document.getElementById('cardBody');
-const counterWrap = () => document.getElementById('counter');
-const progressWrap = () => document.getElementById('progressBar');
 
 function formatDate(iso){
   const d = new Date(iso + "T00:00:00");
   return `${d.getFullYear()}年${d.getMonth()+1}月${d.getDate()}日（${WEEKDAYS[d.getDay()]}）`;
 }
+function formatDateShort(iso){
+  const d = new Date(iso + "T00:00:00");
+  return `${d.getMonth()+1}月${d.getDate()}日（${WEEKDAYS[d.getDay()]}）`;
+}
+function officialNoteHTML(item){
+  if(item.official_title && item.official_title !== item.title){
+    return `<p class="official-note">正式名称：${item.official_title}</p>`;
+  }
+  return "";
+}
 
-function cardTemplate(item, i){
+/* ---------- サイネージ（自動送り） ---------- */
+function signageOrder(){ return RAW_ITEMS.slice().sort((a,b) => a.date.localeCompare(b.date)); }
+
+function cardTemplate(item, i, total){
   return `
     <div class="row-top">
-      <span class="date-badge"><b>${formatDate(item.date)}</b></span>
+      <span class="date-badge">${formatDate(item.date)}</span>
       <span class="cat-tag" data-cat="${item.category}">${item.category}</span>
     </div>
     <div class="headline">${item.title}</div>
     <div class="summary">${item.summary || ""}</div>
-    <div class="link-line">
-      ${item.official_title && item.official_title !== item.title ? `正式名称：${item.official_title}<br>` : ""}
-      <a href="${item.url}" target="_blank" rel="noopener">今治市サイトで詳細を見る ↗</a>
-    </div>
+    ${officialNoteHTML(item)}
+    <div class="link-line"><a href="${item.url}" target="_blank" rel="noopener">今治市サイトでくわしく見る →</a></div>
     <div class="card-foot">
-      <span id="counter">${i+1} / ${NEWS.length}</span>
+      <span>${i+1} / ${total}</span>
       <div class="progress-wrap"><div class="progress-bar" id="progressBar"></div></div>
     </div>`;
 }
 
-function renderItem(i, animate){
+function renderSignageItem(i, animate){
+  const NEWS = signageOrder();
+  if(NEWS.length === 0) return;
   const item = NEWS[i];
-  const apply = () => { cardBody.innerHTML = cardTemplate(item, i); };
+  const apply = () => { cardBody.innerHTML = cardTemplate(item, i, NEWS.length); };
   if(animate && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
-    cardEl.classList.add('flip-out');
+    cardEl.classList.add('fade-out');
     setTimeout(()=>{
       apply();
-      cardEl.classList.remove('flip-out');
-      cardEl.classList.add('flip-in');
-      setTimeout(()=> cardEl.classList.remove('flip-in'), 400);
-    }, 300);
+      cardEl.classList.remove('fade-out');
+      cardEl.classList.add('fade-in');
+      setTimeout(()=> cardEl.classList.remove('fade-in'), 420);
+    }, 260);
   } else { apply(); }
 }
-
 function goTo(i, animate=true){
+  const NEWS = signageOrder();
   if(NEWS.length === 0) return;
   idx = (i + NEWS.length) % NEWS.length;
-  renderItem(idx, animate);
+  renderSignageItem(idx, animate);
   startTime = performance.now();
 }
 function next(){ goTo(idx+1); }
 function prev(){ goTo(idx-1); }
-
 function tickProgress(){
-  const bar = progressWrap();
-  if(playing && startTime !== null && bar){
+  const bar = document.getElementById('progressBar');
+  if(mode === "signage" && playing && startTime !== null && bar){
     const elapsed = performance.now() - startTime;
     bar.style.width = Math.min(100, (elapsed / INTERVAL_MS) * 100) + "%";
   }
@@ -189,36 +343,113 @@ document.getElementById('playBtn').addEventListener('click', (e)=>{
 });
 
 function buildTicker(){
+  const NEWS = signageOrder();
   const track = document.getElementById('tickerTrack');
-  const text = NEWS.map(n => `【${n.date.slice(5).replace('-','/')}】${n.title}`);
+  const text = NEWS.map(n => `${n.date.slice(5).replace('-','/')}　${n.title}`);
   const doubled = text.concat(text);
   track.innerHTML = doubled.map(t => `<span>${t}</span>`).join('');
 }
 
+/* ---------- 一覧モード（自分のペースで見る） ---------- */
+function renderList(){
+  const listContent = document.getElementById('listContent');
+  const items = RAW_ITEMS.slice().sort((a,b) => b.date.localeCompare(a.date));
+  const filtered = currentFilter === "all" ? items : items.filter(it => it.category === currentFilter);
+
+  if(filtered.length === 0){
+    listContent.innerHTML = `<p class="state-msg">この分類のお知らせは、直近7日間には見つかりませんでした。</p>`;
+    return;
+  }
+
+  let html = "";
+  let currentDate = null;
+  filtered.forEach(it => {
+    if(it.date !== currentDate){
+      if(currentDate !== null) html += `</ul>`;
+      currentDate = it.date;
+      html += `<h3 class="day-heading">${formatDateShort(it.date)}</h3><ul class="news-list">`;
+    }
+    html += `
+      <li class="news-item">
+        <div class="row-top"><span class="cat-tag" data-cat="${it.category}">${it.category}</span></div>
+        <h3>${it.title}</h3>
+        <p class="summary">${it.summary || ""}</p>
+        <a class="detail-link" href="${it.url}" target="_blank" rel="noopener">今治市サイトでくわしく見る →</a>
+        ${officialNoteHTML(it)}
+      </li>`;
+  });
+  html += `</ul>`;
+  listContent.innerHTML = html;
+}
+
+document.getElementById('filterBar').addEventListener('click', (e) => {
+  const btn = e.target.closest('.filter-chip');
+  if(!btn) return;
+  currentFilter = btn.dataset.cat;
+  document.querySelectorAll('.filter-chip').forEach(b => b.setAttribute('aria-pressed', b === btn ? "true" : "false"));
+  renderList();
+});
+
+/* ---------- モード切り替え ---------- */
+function setMode(newMode){
+  mode = newMode;
+  stageEl.classList.toggle('list-mode', mode === "list");
+  const btn = document.getElementById('modeBtn');
+  if(mode === "list"){
+    btn.textContent = "サイネージ表示に戻る";
+    stopAutoplay();
+    renderList();
+  } else {
+    btn.textContent = "一覧でゆっくり見る";
+    if(playing) startAutoplay();
+  }
+}
+document.getElementById('modeBtn').addEventListener('click', () => {
+  setMode(mode === "signage" ? "list" : "signage");
+});
+
+/* ---------- 文字サイズ ---------- */
+function setupTextSize(){
+  const btn = document.getElementById('textSizeBtn');
+  const KEY = "imabari-news-text-lg";
+  const apply = (on) => {
+    document.documentElement.classList.toggle('text-lg', on);
+    btn.setAttribute('aria-pressed', on ? "true" : "false");
+    btn.textContent = on ? "文字をもとに戻す" : "文字を大きく";
+  };
+  let saved = false;
+  try { saved = localStorage.getItem(KEY) === "1"; } catch (e) {}
+  apply(saved);
+  btn.addEventListener('click', () => {
+    const now = document.documentElement.classList.contains('text-lg');
+    apply(!now);
+    try { localStorage.setItem(KEY, !now ? "1" : "0"); } catch (e) {}
+  });
+}
+
+/* ---------- データ取得 ---------- */
 async function loadNews(){
   try{
     const res = await fetch(NEWS_JSON_URL, {cache:"no-store"});
     if(!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
-    NEWS = data.items || [];
-    document.getElementById('syncLine').textContent =
-      NEWS.length ? `最終更新: ${data.generated_at}` : "直近7日分のお知らせはありません";
-    if(NEWS.length === 0){
+    RAW_ITEMS = data.items || [];
+    if(RAW_ITEMS.length === 0){
       cardBody.innerHTML = '<p class="state-msg">直近7日間の更新情報はまだありません。</p>';
+      document.getElementById('listContent').innerHTML = '<p class="state-msg">直近7日間の更新情報はまだありません。</p>';
       return;
     }
     document.getElementById('controls').style.visibility = "visible";
     buildTicker();
-    renderItem(0, false);
-    startAutoplay();
+    const total = signageOrder().length;
+    const keepIdx = Math.min(idx, total - 1);
+    renderSignageItem(keepIdx, false);
+    if(mode === "signage"){ startAutoplay(); } else { renderList(); }
   }catch(err){
-    document.getElementById('syncLine').textContent = "news.json を読み込めませんでした";
-    cardBody.innerHTML = `<p class="state-msg">news.json の読み込みに失敗しました（${err.message}）。<br>
-      GitHub Actions が正常に動いているか、docs/news.json が存在するかご確認ください。</p>`;
+    cardBody.innerHTML = `<p class="state-msg">news.json を読み込めませんでした（${err.message}）。</p>`;
   }
 }
 
-// 時計
 function updateClock(){
   const now = new Date();
   const pad = n => String(n).padStart(2,'0');
@@ -227,10 +458,9 @@ function updateClock(){
 }
 updateClock();
 setInterval(updateClock, 1000);
-
-// 定期的に news.json の再取得を試みる（バッチ更新を自動反映）
 setInterval(loadNews, RELOAD_CHECK_MS);
 
+setupTextSize();
 loadNews();
 requestAnimationFrame(tickProgress);
 </script>
