@@ -2,8 +2,11 @@ name: 今治市お知らせを毎日更新
 
 on:
   schedule:
-    # 毎日 JST 07:30 に実行（UTC 22:30 = JST 07:30 の前日）
-    - cron: "30 22 * * *"
+    # 1日4回・日本時間（JST = UTC+9）で実行
+    - cron: "30 22 * * *"   # 朝  07:30 JST（UTC 22:30 の前日）
+    - cron: "30 3 * * *"    # 昼  12:30 JST（UTC 03:30）
+    - cron: "30 9 * * *"    # 夕方 18:30 JST（UTC 09:30）
+    - cron: "30 14 * * *"   # 夜中 23:30 JST（UTC 14:30）
   workflow_dispatch: {}   # 手動実行ボタン用
 
 permissions:
