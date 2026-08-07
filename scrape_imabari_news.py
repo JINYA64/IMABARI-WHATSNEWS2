@@ -51,12 +51,19 @@ DAYS_TO_KEEP = 7
 MAX_SUMMARY_CHARS = 160
 
 # --- Google AI Studio / Gemini API（無料枠。クレジットカード不要・期限なし） ---
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
-GEMINI_MODEL = "gemini-3.6-flash"
-GEMINI_URL = (
-    f"https://generativelanguage.googleapis.com/v1beta/models/"
-    f"{GEMINI_MODEL}:generateContent"
-)
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip().strip('"').strip("'")
+# モデル名はGoogle側の変更で通らなくなることがあるため、上から順に試す。
+GEMINI_MODEL_CANDIDATES = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.0-flash"]
+GEMINI_URL_TMPL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+# 実行中に一度成功したモデル名はここにキャッシュして、以降はそれだけを使う
+_GEMINI_WORKING_MODEL = None
+
+# 無料枠の「1分あたりのリクエスト数(RPM)」制限に当たらないよう、
+# Gemini呼び出しの間隔をこれ以上空ける（安全側に余裕を持たせた値）。
+GEMINI_MIN_INTERVAL_SEC = 4.5
+_gemini_last_call_at = 0.0
+# 429（レート制限）が出た場合、これだけ待って1回だけ再試行する
+GEMINI_RETRY_WAIT_SEC = 20
 
 CATEGORY_RULES = [
     ("交通・航路", ["航路", "運航", "交通規制", "運休", "フェリー", "渡船"]),
@@ -204,12 +211,78 @@ def extract_structured_summary(main) -> str | None:
     return "　".join(f"{k}：{v}" for k, v in found.items())
 
 
+def _wait_for_gemini_rate_limit():
+    """前回のGemini呼び出しから GEMINI_MIN_INTERVAL_SEC 秒は空ける。"""
+    global _gemini_last_call_at
+    elapsed = time.monotonic() - _gemini_last_call_at
+    remaining = GEMINI_MIN_INTERVAL_SEC - elapsed
+    if remaining > 0:
+        time.sleep(remaining)
+
+
+def _call_gemini_once(model: str, prompt: str):
+    """Gemini APIを1回呼び出す。成功時は (title, summary)、404時は 'not_found'、
+    429時は '429'、その他失敗時は None を返す。"""
+    global _gemini_last_call_at
+
+    _wait_for_gemini_rate_limit()
+    url = GEMINI_URL_TMPL.format(model=model)
+    try:
+        resp = requests.post(
+            url,
+            params={"key": GEMINI_API_KEY},
+            headers={"Content-Type": "application/json"},
+            json={
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {
+                    "temperature": 0.3,
+                    "responseMimeType": "application/json",
+                },
+            },
+            timeout=30,
+        )
+        _gemini_last_call_at = time.monotonic()
+
+        if resp.status_code == 404:
+            print(f"[WARN] モデル '{model}' が404。詳細: {resp.text[:300]}", file=sys.stderr)
+            return "not_found"
+        if resp.status_code == 429:
+            print(f"[WARN] モデル '{model}' が429（レート制限）。詳細: {resp.text[:300]}", file=sys.stderr)
+            return "rate_limited"
+
+        resp.raise_for_status()
+        data = resp.json()
+        content = data["candidates"][0]["content"]["parts"][0]["text"].strip()
+        parsed = json.loads(content)
+        plain_title = parsed.get("title", "").strip()
+        plain_summary = parsed.get("summary", "").strip()
+        if plain_title and plain_summary:
+            return (plain_title, plain_summary)
+        return None
+    except requests.exceptions.HTTPError as e:
+        _gemini_last_call_at = time.monotonic()
+        body = e.response.text[:300] if e.response is not None else ""
+        print(f"[WARN] Gemini呼び出しに失敗（モデル: {model}）: {e}\n  詳細: {body}", file=sys.stderr)
+        return None
+    except Exception as e:  # noqa: BLE001
+        _gemini_last_call_at = time.monotonic()
+        print(f"[WARN] Gemini呼び出しに失敗（モデル: {model}）: {e}", file=sys.stderr)
+        return None
+
+
 def rewrite_with_gemini(title: str, lead_text: str):
     """
     Google AI Studio（Gemini API・無料枠）で、タイトルと要約をまとめて
     やさしい日本語に言い換える。GEMINI_API_KEY未設定や失敗時は None を
     返す（呼び出し側でルールベースにフォールバックする）。
+
+    - モデル名は GEMINI_MODEL_CANDIDATES を順番に試し、最初に成功した
+      モデル名を以降の呼び出しでも使い回す（毎回全部試すと遅くなるため）。
+    - 呼び出し間隔は GEMINI_MIN_INTERVAL_SEC 以上空け、429（レート制限）が
+      出た場合は GEMINI_RETRY_WAIT_SEC 秒待って1回だけ再試行する。
     """
+    global _GEMINI_WORKING_MODEL
+
     if not GEMINI_API_KEY or not lead_text:
         return None
 
@@ -225,32 +298,30 @@ def rewrite_with_gemini(title: str, lead_text: str):
         '"summary": "やさしい要約（2文以内・120字程度）"}'
     )
 
-    try:
-        resp = requests.post(
-            GEMINI_URL,
-            params={"key": GEMINI_API_KEY},
-            headers={"Content-Type": "application/json"},
-            json={
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {
-                    "temperature": 0.3,
-                    "responseMimeType": "application/json",
-                },
-            },
-            timeout=30,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        content = data["candidates"][0]["content"]["parts"][0]["text"].strip()
-        parsed = json.loads(content)
-        plain_title = parsed.get("title", "").strip()
-        plain_summary = parsed.get("summary", "").strip()
-        if plain_title and plain_summary:
-            return plain_title, plain_summary
+    candidates = [_GEMINI_WORKING_MODEL] if _GEMINI_WORKING_MODEL else GEMINI_MODEL_CANDIDATES
+
+    for model in candidates:
+        result = _call_gemini_once(model, prompt)
+
+        if result == "not_found":
+            continue  # 次のモデル候補へ
+
+        if result == "rate_limited":
+            print(f"[INFO] {GEMINI_RETRY_WAIT_SEC}秒待って1回だけ再試行します。", file=sys.stderr)
+            time.sleep(GEMINI_RETRY_WAIT_SEC)
+            result = _call_gemini_once(model, prompt)
+            if result in ("not_found", "rate_limited", None):
+                print("[WARN] 再試行も失敗。この件はルールベースにフォールバックします。", file=sys.stderr)
+                return None
+
+        if isinstance(result, tuple):
+            _GEMINI_WORKING_MODEL = model
+            return result
+
         return None
-    except Exception as e:  # noqa: BLE001
-        print(f"[WARN] Gemini呼び出しに失敗（ルールベースを使用します）: {e}", file=sys.stderr)
-        return None
+
+    print("[WARN] 候補モデルすべてで404。ルールベースを使用します。", file=sys.stderr)
+    return None
 
 
 def rewrite_detail_page(url: str, official_title: str):
