@@ -68,7 +68,7 @@ _GEMINI_WORKING_MODEL = None
 GEMINI_MIN_INTERVAL_SEC = 4.5
 _gemini_last_call_at = 0.0
 # 429（レート制限）が出た場合、これだけ待って1回だけ再試行する
-GEMINI_RETRY_WAIT_SEC = 20
+GEMINI_RETRY_WAIT_SEC = 60
 
 CATEGORY_RULES = [
     ("交通・航路", ["航路", "運航", "交通規制", "運休", "フェリー", "渡船"]),
