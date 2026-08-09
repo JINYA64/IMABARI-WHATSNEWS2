@@ -17,8 +17,13 @@ docs/news.json として書き出す。
      （レート制限・一時的な障害など）は、ルールベースの言い換えに
      自動的にフォールバックする（こちらは完全無料・登録不要）
 
-GitHub Actions などから毎日1回実行することを想定している。
-実行のたびに全件を作り直すので、当日分・翌日分の反映も自動で行われる。
+一度AIでの言い換えに成功した項目は、前回の docs/news.json に
+"ai_rewritten": true として保存され、以降の実行では再取得・再要約を
+行わずそのまま使い回す（load_previous_ai_results()）。ルールベースの
+ままだった項目・新規に追加された項目だけを毎回あらためて処理する。
+掲載から7日を過ぎた項目は、これまで通り一覧から自動的に外れる。
+
+GitHub Actions などから1日に複数回実行することを想定している。
 
 依存: requests, beautifulsoup4
     pip install requests beautifulsoup4
@@ -53,7 +58,7 @@ MAX_SUMMARY_CHARS = 160
 # --- Google AI Studio / Gemini API（無料枠。クレジットカード不要・期限なし） ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip().strip('"').strip("'")
 # モデル名はGoogle側の変更で通らなくなることがあるため、上から順に試す。
-GEMINI_MODEL_CANDIDATES = ["gemini-3.6-flash", "gemini-2.5-flash", "gemini-flash-latest", "gemini-2.0-flash"]
+GEMINI_MODEL_CANDIDATES = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.0-flash"]
 GEMINI_URL_TMPL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 # 実行中に一度成功したモデル名はここにキャッシュして、以降はそれだけを使う
 _GEMINI_WORKING_MODEL = None
@@ -63,7 +68,7 @@ _GEMINI_WORKING_MODEL = None
 GEMINI_MIN_INTERVAL_SEC = 4.5
 _gemini_last_call_at = 0.0
 # 429（レート制限）が出た場合、これだけ待って1回だけ再試行する
-GEMINI_RETRY_WAIT_SEC = 60
+GEMINI_RETRY_WAIT_SEC = 20
 
 CATEGORY_RULES = [
     ("交通・航路", ["航路", "運航", "交通規制", "運休", "フェリー", "渡船"]),
@@ -326,18 +331,18 @@ def rewrite_with_gemini(title: str, lead_text: str):
 
 def rewrite_detail_page(url: str, official_title: str):
     """
-    詳細ページを取得し、(表示用タイトル, 要約) を返す。
+    詳細ページを取得し、(表示用タイトル, 要約, AIで言い換えたか) を返す。
     PDFや外部サイトは本文取得をスキップする。
     """
     if url.lower().endswith(".pdf"):
-        return simplify_title_rule_based(official_title), "（PDF資料）詳細は今治市サイトのPDFをご確認ください。"
+        return simplify_title_rule_based(official_title), "（PDF資料）詳細は今治市サイトのPDFをご確認ください。", False
     if "city.imabari.ehime.jp" not in url:
-        return simplify_title_rule_based(official_title), "（外部サイトの情報です）詳細はリンク先をご確認ください。"
+        return simplify_title_rule_based(official_title), "（外部サイトの情報です）詳細はリンク先をご確認ください。", False
 
     try:
         soup = fetch(url)
     except Exception as e:  # noqa: BLE001
-        return simplify_title_rule_based(official_title), f"（本文の取得に失敗しました: {e}）"
+        return simplify_title_rule_based(official_title), f"（本文の取得に失敗しました: {e}）", False
 
     main = soup.find(id="main_container") or soup
     lead_text = extract_lead_text(main)
@@ -345,7 +350,7 @@ def rewrite_detail_page(url: str, official_title: str):
     # 1. Geminiが使えれば、タイトル・要約をまとめてAIで言い換え
     ai_result = rewrite_with_gemini(official_title, lead_text)
     if ai_result:
-        return ai_result
+        return ai_result[0], ai_result[1], True
 
     # 2. フォールバック：ルールベースの言い換え
     plain_title = simplify_title_rule_based(official_title)
@@ -358,7 +363,29 @@ def rewrite_detail_page(url: str, official_title: str):
         summary = "本文の要約を作成できませんでした。詳細はリンク先をご確認ください。"
     if len(summary) > MAX_SUMMARY_CHARS:
         summary = summary[:MAX_SUMMARY_CHARS] + "…"
-    return plain_title, summary
+    return plain_title, summary, False
+
+
+def load_previous_ai_results():
+    """
+    前回書き出した docs/news.json のうち、AIでの言い換えに成功していた
+    項目だけを url をキーにした辞書で返す。ファイルが無い・壊れている
+    場合は空の辞書を返す（初回実行などは通常のフローになる）。
+    """
+    if not OUTPUT_PATH.exists():
+        return {}
+    try:
+        data = json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+    except Exception as e:  # noqa: BLE001
+        print(f"[WARN] 前回の news.json の読み込みに失敗（無視して続行）: {e}", file=sys.stderr)
+        return {}
+
+    cache = {}
+    for it in data.get("items", []):
+        if it.get("ai_rewritten") and it.get("url"):
+            cache[it["url"]] = it
+    print(f"[INFO] 前回AI言い換え済みの項目: {len(cache)}件をキャッシュとして利用します。", file=sys.stderr)
+    return cache
 
 
 def main():
@@ -370,18 +397,38 @@ def main():
     else:
         print("[INFO] GEMINI_API_KEY 未設定。ルールベースの言い換えのみ使用します。", file=sys.stderr)
 
+    ai_cache = load_previous_ai_results()
+
     print(f"[INFO] fetching {BASE_URL}", file=sys.stderr)
     soup = fetch(BASE_URL)
     all_items = parse_whatsnew(soup)
     print(f"[INFO] parsed {len(all_items)} items total", file=sys.stderr)
 
+    # 掲載から7日を過ぎたものはここで除外される（=これまで通り自動的に消える）
     recent = [it for it in all_items if datetime.date.fromisoformat(it["date"]) >= cutoff]
     print(f"[INFO] {len(recent)} items within last {DAYS_TO_KEEP} days", file=sys.stderr)
 
     results = []
+    reused, freshly_processed = 0, 0
     for it in recent:
+        cached = ai_cache.get(it["url"])
+        if cached:
+            # 既にAIで言い換え済み：再取得・再要約はせず、前回の内容をそのまま使う
+            print(f"[INFO] キャッシュ利用（AI言い換え済み）: {it['title'][:40]}", file=sys.stderr)
+            results.append({
+                "date": it["date"],
+                "category": cached.get("category", guess_category(it["title"])),
+                "title": cached["title"],
+                "official_title": it["title"],
+                "summary": cached["summary"],
+                "url": it["url"],
+                "ai_rewritten": True,
+            })
+            reused += 1
+            continue
+
         print(f"[INFO] summarizing: {it['title'][:40]}", file=sys.stderr)
-        plain_title, summary = rewrite_detail_page(it["url"], it["title"])
+        plain_title, summary, ai_rewritten = rewrite_detail_page(it["url"], it["title"])
         results.append({
             "date": it["date"],
             "category": guess_category(it["title"]),
@@ -389,8 +436,12 @@ def main():
             "official_title": it["title"],
             "summary": summary,
             "url": it["url"],
+            "ai_rewritten": ai_rewritten,
         })
+        freshly_processed += 1
         time.sleep(REQUEST_DELAY_SEC)
+
+    print(f"[INFO] キャッシュ再利用: {reused}件 / 新規処理: {freshly_processed}件", file=sys.stderr)
 
     payload = {
         "generated_at": datetime.datetime.now().isoformat(timespec="seconds"),
