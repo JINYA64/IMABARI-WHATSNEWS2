@@ -58,7 +58,7 @@ MAX_SUMMARY_CHARS = 160
 # --- Google AI Studio / Gemini API（無料枠。クレジットカード不要・期限なし） ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip().strip('"').strip("'")
 # モデル名はGoogle側の変更で通らなくなることがあるため、上から順に試す。
-GEMINI_MODEL_CANDIDATES = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.0-flash"]
+GEMINI_MODEL_CANDIDATES = ["gemini-3.6-flash", "gemini-flash-latest", "gemini-2.0-flash"]
 GEMINI_URL_TMPL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 # 実行中に一度成功したモデル名はここにキャッシュして、以降はそれだけを使う
 _GEMINI_WORKING_MODEL = None
@@ -68,7 +68,7 @@ _GEMINI_WORKING_MODEL = None
 GEMINI_MIN_INTERVAL_SEC = 4.5
 _gemini_last_call_at = 0.0
 # 429（レート制限）が出た場合、これだけ待って1回だけ再試行する
-GEMINI_RETRY_WAIT_SEC = 20
+GEMINI_RETRY_WAIT_SEC = 60
 
 CATEGORY_RULES = [
     ("交通・航路", ["航路", "運航", "交通規制", "運休", "フェリー", "渡船"]),
