@@ -456,9 +456,29 @@ function updateClock(){
   document.getElementById('clock').textContent = `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
   document.getElementById('today').textContent = formatDate(now.toISOString().slice(0,10));
 }
+
+/* ---------- 毎日深夜に自動で画面全体をリロード（長時間表示の保険） ----------
+   何週間もつけっぱなしにするサイネージ利用を想定し、ブラウザの長時間稼働に
+   よる不安定化を防ぐため、負荷の少ない時間帯（午前4:00〜4:01の間）に
+   1回だけページ全体を再読み込みする。 */
+const DAILY_RELOAD_HOUR = 4;
+let _dailyReloadArmed = true; // その日のうちに1回だけ実行するためのフラグ
+function checkDailyReload(){
+  const now = new Date();
+  if(now.getHours() === DAILY_RELOAD_HOUR){
+    if(_dailyReloadArmed){
+      _dailyReloadArmed = false;
+      location.reload();
+    }
+  } else {
+    _dailyReloadArmed = true; // 時間帯を過ぎたら次の日のために再アーム
+  }
+}
+
 updateClock();
 setInterval(updateClock, 1000);
 setInterval(loadNews, RELOAD_CHECK_MS);
+setInterval(checkDailyReload, 30 * 1000);
 
 setupTextSize();
 loadNews();
