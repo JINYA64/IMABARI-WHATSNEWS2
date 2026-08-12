@@ -58,7 +58,7 @@ MAX_SUMMARY_CHARS = 160
 # --- Google AI Studio / Gemini API（無料枠。クレジットカード不要・期限なし） ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip().strip('"').strip("'")
 # モデル名はGoogle側の変更で通らなくなることがあるため、上から順に試す。
-GEMINI_MODEL_CANDIDATES = ["gemini-3.6-flash", "gemini-flash-latest", "gemini-2.0-flash"]
+GEMINI_MODEL_CANDIDATES = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.0-flash"]
 GEMINI_URL_TMPL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 # 実行中に一度成功したモデル名はここにキャッシュして、以降はそれだけを使う
 _GEMINI_WORKING_MODEL = None
@@ -68,7 +68,7 @@ _GEMINI_WORKING_MODEL = None
 GEMINI_MIN_INTERVAL_SEC = 4.5
 _gemini_last_call_at = 0.0
 # 429（レート制限）が出た場合、これだけ待って1回だけ再試行する
-GEMINI_RETRY_WAIT_SEC = 60
+GEMINI_RETRY_WAIT_SEC = 20
 
 CATEGORY_RULES = [
     ("交通・航路", ["航路", "運航", "交通規制", "運休", "フェリー", "渡船"]),
@@ -227,7 +227,7 @@ def _wait_for_gemini_rate_limit():
 
 def _call_gemini_once(model: str, prompt: str):
     """Gemini APIを1回呼び出す。成功時は (title, summary)、404時は 'not_found'、
-    429時は '429'、その他失敗時は None を返す。"""
+    429（レート制限）や503等の一時的な障害時は 'retryable'、その他失敗時は None を返す。"""
     global _gemini_last_call_at
 
     _wait_for_gemini_rate_limit()
@@ -253,7 +253,10 @@ def _call_gemini_once(model: str, prompt: str):
             return "not_found"
         if resp.status_code == 429:
             print(f"[WARN] モデル '{model}' が429（レート制限）。詳細: {resp.text[:300]}", file=sys.stderr)
-            return "rate_limited"
+            return "retryable"
+        if resp.status_code in (503, 500, 502, 504):
+            print(f"[WARN] モデル '{model}' が{resp.status_code}（一時的な混雑・障害）。詳細: {resp.text[:300]}", file=sys.stderr)
+            return "retryable"
 
         resp.raise_for_status()
         data = resp.json()
@@ -283,8 +286,9 @@ def rewrite_with_gemini(title: str, lead_text: str):
 
     - モデル名は GEMINI_MODEL_CANDIDATES を順番に試し、最初に成功した
       モデル名を以降の呼び出しでも使い回す（毎回全部試すと遅くなるため）。
-    - 呼び出し間隔は GEMINI_MIN_INTERVAL_SEC 以上空け、429（レート制限）が
-      出た場合は GEMINI_RETRY_WAIT_SEC 秒待って1回だけ再試行する。
+    - 呼び出し間隔は GEMINI_MIN_INTERVAL_SEC 以上空け、429（レート制限）や
+      503（一時的な混雑）が出た場合は GEMINI_RETRY_WAIT_SEC 秒待って
+      1回だけ再試行する。
     """
     global _GEMINI_WORKING_MODEL
 
@@ -311,11 +315,11 @@ def rewrite_with_gemini(title: str, lead_text: str):
         if result == "not_found":
             continue  # 次のモデル候補へ
 
-        if result == "rate_limited":
+        if result == "rate_limited" or result == "retryable":
             print(f"[INFO] {GEMINI_RETRY_WAIT_SEC}秒待って1回だけ再試行します。", file=sys.stderr)
             time.sleep(GEMINI_RETRY_WAIT_SEC)
             result = _call_gemini_once(model, prompt)
-            if result in ("not_found", "rate_limited", None):
+            if result in ("not_found", "rate_limited", "retryable", None):
                 print("[WARN] 再試行も失敗。この件はルールベースにフォールバックします。", file=sys.stderr)
                 return None
 
