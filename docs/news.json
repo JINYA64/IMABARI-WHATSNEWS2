@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-16T22:59:09",
+  "generated_at": "2026-08-17T05:22:51",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-08-17",
+      "category": "補助金・支援",
+      "title": "養護老人ホームの運営を応援！食費などの値上がり分を補助します",
+      "official_title": "今治市福祉施設等物価高騰対策応援金について（養護老人ホーム）",
+      "summary": "食材費の値上がりが続くなかでも、サービスを維持しながら運営を続ける市内の養護老人ホームを支援するため、応援金を支給します。物価高による事業者の負担を軽減し、利用者がこれまで通り安心して過ごせる環境を守ります。",
+      "url": "https://www.city.imabari.ehime.jp/fukusis/info/004/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-08-17",
+      "category": "募集・イベント",
+      "title": "10月18日開催！パナソニックの子ども工作教室に参加しませんか",
+      "official_title": "パナソニックの子ども工作教室　参加者の募集について（10月18日開催）",
+      "summary": "環境や緑の体験イベント「いまばり環境緑化フェスティバル2026」の中で、10月18日にパナソニックの子ども工作教室を行います。楽しみながら身近な環境や緑について学べますので、ぜひご参加ください。",
+      "url": "https://www.city.imabari.ehime.jp/recycle/kankyou-fes/2026/#kousaku",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-08-12",
       "category": "補助金・支援",
@@ -9,33 +27,6 @@
       "official_title": "今治市福祉施設等物価高騰対策応援金について（高齢者福祉施設・事業所等）",
       "summary": "食材費の値上がりが続く中でも、サービスを維持して運営を続けている高齢者福祉施設や事業所などを支援するため、市から応援金を支給します。対象となる施設の関係者の方はぜひ詳細をご確認ください。",
       "url": "https://www.city.imabari.ehime.jp/kaigo/info/014/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-10",
-      "category": "お知らせ",
-      "title": "滋賀県甲賀市の土砂崩れ被害を支える募金にご協力ください",
-      "official_title": "「令和8年7月滋賀県甲賀市の土砂崩れ災害義援金」の受付について",
-      "summary": "令和8年7月の土砂崩れで被害を受けた滋賀県甲賀市を支援するため、市役所本館1階や各支所に募金箱を設置しています。令和8年8月10日（月）から令和9年1月28日（木）までの平日に、皆様の温かいご協力をお願いします。",
-      "url": "https://www.city.imabari.ehime.jp/fukusis/gienkin/R8-koka.html",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-10",
-      "category": "お知らせ",
-      "title": "マイナンバーカードで所得証明書がコンビニで取れます",
-      "official_title": "所得（課税）証明書のコンビニ交付について",
-      "summary": "令和8年8月10日から、マイナンバーカードを使ってコンビニのマルチコピー機で所得（課税）証明書が取れるようになりました。具体的な操作方法はコンビニ交付のホームページをご覧ください。",
-      "url": "https://www.city.imabari.ehime.jp/siminzei/syoumei/konbini.html",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-10",
-      "category": "お知らせ",
-      "title": "令和8年8月7日より熊本地震の被災地・益城町への支援寄附を受け付けます",
-      "official_title": "令和8年熊本地震の被災地を支援するため、令和8年8月7日より熊本県益城町のふるさと納税代理寄附受付を開始しました。",
-      "summary": "今治市では、令和8年熊本地震で被災した熊本県益城町が復旧作業に専念できるよう、事務手続きを代行する支援を令和8年8月7日から始めました。被災地へのふるさと納税は、指定の2つのウェブサイトから寄附することができます。",
-      "url": "https://www.city.imabari.ehime.jp/iiimabari/info/017/",
       "ai_rewritten": true
     }
   ]
