@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T05:05:34",
+  "generated_at": "2026-08-18T10:57:22",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
@@ -10,6 +10,15 @@
       "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
       "url": "https://public-connect.jp/employer/102412/news/list",
       "ai_rewritten": false
+    },
+    {
+      "date": "2026-08-18",
+      "category": "補助金・支援",
+      "title": "【令和8年度】電気自動車（EV）を買う費用を補助します",
+      "official_title": "ＥＶ（電気自動車等）の購入補助金の令和8年度の申請について",
+      "summary": "環境に優しい電気自動車（EV）を自宅用に購入した市民の皆さんに、今治市が購入費用の一部を補助します。令和8年度の申請方法や提出書類についてご案内していますので、EVの購入をご検討中の方はぜひご覧ください。",
+      "url": "https://www.city.imabari.ehime.jp/kankyou/EV/",
+      "ai_rewritten": true
     },
     {
       "date": "2026-08-17",
