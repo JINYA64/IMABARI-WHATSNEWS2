@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T23:35:44",
+  "generated_at": "2026-08-19T05:06:16",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
@@ -9,6 +9,15 @@
       "official_title": "「食育の日」簡単レシピ8月「かぼちゃのスパイシーサラダ」を掲載しました。",
       "summary": "旬の食材は安くて栄養たっぷり！毎日の献立に悩んだときに役立つ簡単レシピを紹介しています。8月の「かぼちゃのスパイシーサラダ」のほか、令和8年4月や5月のレシピも掲載中ですので、ぜひご活用ください。",
       "url": "https://www.city.imabari.ehime.jp/kenkou/shokuiku_recipe/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-08-19",
+      "category": "募集・イベント",
+      "title": "給食室のウラ側を探検！親子で楽しむ調理体験＆試食ツアー",
+      "official_title": "夢づくり調理場探検ツアーを開催しました。",
+      "summary": "令和8年8月2日（日）9時30分〜13時に、市内の小学生と保護者を対象とした「夢づくり調理場探検ツアー」を開催します。普段は入れない学校給食の調理場を探検し、調理体験や試食を通して給食づくりの裏側を楽しく学べるイベントです。",
+      "url": "https://www.city.imabari.ehime.jp/kyushoku/project/R08/001/",
       "ai_rewritten": true
     },
     {
@@ -81,15 +90,6 @@
       "official_title": "パナソニックの子ども工作教室　参加者の募集について（10月18日開催）",
       "summary": "環境や緑の体験イベント「いまばり環境緑化フェスティバル2026」の中で、10月18日にパナソニックの子ども工作教室を行います。楽しみながら身近な環境や緑について学べますので、ぜひご参加ください。",
       "url": "https://www.city.imabari.ehime.jp/recycle/kankyou-fes/2026/#kousaku",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-12",
-      "category": "補助金・支援",
-      "title": "食材費高騰の中でがんばる高齢者施設などに応援金を支給します",
-      "official_title": "今治市福祉施設等物価高騰対策応援金について（高齢者福祉施設・事業所等）",
-      "summary": "食材費の値上がりが続く中でも、サービスを維持して運営を続けている高齢者福祉施設や事業所などを支援するため、市から応援金を支給します。対象となる施設の関係者の方はぜひ詳細をご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/kaigo/info/014/",
       "ai_rewritten": true
     }
   ]
