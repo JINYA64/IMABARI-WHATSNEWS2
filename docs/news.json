@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-20T05:11:11",
+  "generated_at": "2026-08-20T11:00:54",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
       "date": "2026-08-20",
       "category": "募集・イベント",
-      "title": "「令和8年度 今治市都市再生協議会 第1回会合」を開催します",
+      "title": "今治のまちづくりを語り合う会議を開催！当日先着で傍聴可能",
       "official_title": "「令和8年度 今治市都市再生協議会 第1回会合」の開催について",
-      "summary": "期間・日程：2026年8月25日（火曜日）13時30分　問い合わせ：電話番号：0898-36-1508 メール： miryokutosi@imabari-ci…",
+      "summary": "2026年8月25日（火曜日）13時30分から、中心市街地や広小路の再整備などを話し合う会議を開きます。当日は先着順でどなたでも見学できますので、会場受付で住所と氏名をご記入のうえご参加ください。",
       "url": "https://www.city.imabari.ehime.jp/miryokutosi/tosisaisei/R8/001/",
-      "ai_rewritten": false
+      "ai_rewritten": true
     },
     {
       "date": "2026-08-20",
@@ -23,20 +23,38 @@
     {
       "date": "2026-08-20",
       "category": "お知らせ",
-      "title": "外国人相談窓口の職員・相談員を名乗る詐欺にご注意ください。",
-      "official_title": "外国人相談窓口の職員・相談員を名乗る詐欺にご注意ください。",
-      "summary": "このたび、国内で、外国人住民の方が、外国人相談窓口の相談員を名乗る者から、SNSを通じて金品を騙し取られるという事案があったことについて、出入国在留管理庁から情報提供がありました。 今治市外国人相談窓口での相談は無料です。 相談員が金品を要求することはありませんので、メール、SNS等でそのような連絡が来た場合はご注意く…",
-      "url": "https://www.city.imabari.ehime.jp/siminsankaku/info/010/",
-      "ai_rewritten": false
+      "title": "今治のキャラクター「タイ長」のオリジナルグッズを販売中！",
+      "official_title": "村上海賊PRキャラクター「タイ長」オリジナルグッズを販売中！",
+      "summary": "今治市のキャラクター「タイ長」のグッズを「Pacific Parlor」で販売しています。サウナハットやスウェットなど記念商品がそろっており、店内で実際に手に取ってご覧いただけます。",
+      "url": "https://www.city.imabari.ehime.jp/bunka/info/027/",
+      "ai_rewritten": true
     },
     {
       "date": "2026-08-20",
       "category": "お知らせ",
-      "title": "8月の定例教育委員会のお知らせ",
+      "title": "外国人相談窓口を名乗る詐欺に注意！相談は無料です",
+      "official_title": "外国人相談窓口の職員・相談員を名乗る詐欺にご注意ください。",
+      "summary": "全国で、外国人相談窓口の担当者を名乗る人からSNSでお金をだまし取られる被害が発生しています。今治市の外国人相談窓口の相談は無料ですので、職員がお金を請求するメールやSNSが届いても絶対に支払わないでください。",
+      "url": "https://www.city.imabari.ehime.jp/siminsankaku/info/010/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-08-20",
+      "category": "補助金・支援",
+      "title": "飼い主のいない猫の手術費用を補助します（メス1万円・オス5千円）",
+      "official_title": "飼い主のいない猫の不妊去勢手術費用の補助（にゃんこも真ん中プロジェクト）",
+      "summary": "今治市は、地域の快適な生活環境を守るため、飼い主のいない猫の不妊・去勢手術費用の一部（メス10,000円、オス5,000円）を補助します。「にゃんこも真ん中プロジェクト」として、野良猫の増えすぎを防ぐ取り組みを応援します。",
+      "url": "https://www.city.imabari.ehime.jp/kankyou/inuneko/kyosei_neko/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-08-20",
+      "category": "お知らせ",
+      "title": "8月の教育委員会（教育についての話し合い）を見学してみませんか",
       "official_title": "8月の定例教育委員会について",
-      "summary": "期間・日程：令和8年8月26日（水曜日）午後2時00分　問い合わせ：※日程、内容等が変更になる場合があります。その際は今治市ホームページへ掲載します。詳細につ…",
+      "summary": "8月に開催される今治市の教育委員会の会議（話し合い）は見学することができます。会議の内容によっては非公開になる場合もありますので、詳細は教育大綱推進課までお気軽にお問い合わせください。",
       "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai",
-      "ai_rewritten": false
+      "ai_rewritten": true
     },
     {
       "date": "2026-08-19",
