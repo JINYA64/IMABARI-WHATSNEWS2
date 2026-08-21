@@ -1,15 +1,24 @@
 {
-  "generated_at": "2026-08-21T05:08:32",
+  "generated_at": "2026-08-21T11:00:14",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
       "date": "2026-08-21",
       "category": "お知らせ",
-      "title": "「令和8年8月千葉豪雨災害義援金」の受付のお知らせ",
+      "title": "「令和8年8月千葉豪雨」被災者への募金（義援金）を受け付けています",
       "official_title": "「令和8年8月千葉豪雨災害義援金」の受付について",
-      "summary": "期間・日程：令和8年8月21日（金曜日）から令和8年11月27日（金曜日）まで （土・日・祝を除く）月…　問い合わせ：電話番号：0898-36-1525 メール： fukusis@imabari-city.j…",
+      "summary": "今治市役所本館1階や各支所に、千葉豪雨の被災者を支援する募金箱を設置しています。令和8年8月21日（金）から11月27日（金）までの平日執務時間内に受付中で、集まった義援金は日本赤十字社を通じて全額被災地の生活支援に役立てられます。",
       "url": "https://www.city.imabari.ehime.jp/fukusis/gienkin/R8-chiba.html",
-      "ai_rewritten": false
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-08-21",
+      "category": "お知らせ",
+      "title": "「おこめ券」の受け取りと利用は9月30日まで！不達の方は市役所へ",
+      "official_title": "「おこめ券」の受取・利用期限は9月30日です！",
+      "summary": "令和7年11月30日時点で今治市に住民登録がある世帯にお送りした「おこめ券」が届いていない場合、市民参画課で保管しています。受取・利用期限は9月30日ですので、身分証明書（代理人は委任状も）をお持ちのうえ市民参画課でお早めにお受け取りください。",
+      "url": "https://www.city.imabari.ehime.jp/siminsankaku/info/kome/",
+      "ai_rewritten": true
     },
     {
       "date": "2026-08-20",
