@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-23T23:01:19",
+  "generated_at": "2026-08-24T01:14:06",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-08-24",
+      "category": "募集・イベント",
+      "title": "「空調設備整備事業」に係るサウンディング型市場調査（意見募集）について（第1回）",
+      "official_title": "「空調設備整備事業」に係るサウンディング型市場調査（意見募集）について（第1回）",
+      "summary": "申込方法：アンケート回答フォーム（Microsoft Forms）よりご回答ください。　問い合わせ：電話番号：0898-36-1611 メール： kyouikut@imabari-city.…",
+      "url": "https://www.city.imabari.ehime.jp/kyouikut/ikenboshu/ks01/",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-08-24",
+      "category": "募集・イベント",
+      "title": "らんま先生のわくわくサイエンスショー　参加者の募集について（10月18日開催）",
+      "official_title": "らんま先生のわくわくサイエンスショー　参加者の募集について（10月18日開催）",
+      "summary": "期間・日程：令和8年10月18日（日曜日）10時～15時　対象：昨年ご好評いただいた、パナソニックの子ども工作教室「手作りLEDランタンをつくろう！」を今…　申込方法：各回定員（20人限定：計40人）になり次第締め切らせていただきます。 予めご了承ください。　問い合わせ：電話番号：0898-47-5374 FAX番号：…",
+      "url": "https://www.city.imabari.ehime.jp/recycle/kankyou-fes/2026/#ranma",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-08-21",
       "category": "お知らせ",
@@ -108,60 +126,6 @@
       "official_title": "ＥＶ（電気自動車等）の購入補助金の令和8年度の申請について",
       "summary": "環境に優しい電気自動車（EV）を自宅用に購入した市民の皆さんに、今治市が購入費用の一部を補助します。令和8年度の申請方法や提出書類についてご案内していますので、EVの購入をご検討中の方はぜひご覧ください。",
       "url": "https://www.city.imabari.ehime.jp/kankyou/EV/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-17",
-      "category": "お知らせ",
-      "title": "サンライズ糸山周辺の開発を担当する民間事業者が決定しました",
-      "official_title": "（進捗状況）サンライズ糸山及び周辺市有地活用促進事業について",
-      "summary": "しまなみ海道の起点であるサンライズ糸山周辺に、国内外から人を呼び込む宿泊施設などを整備するため民間事業者を募集し、令和7年度の公募で事業者が決定しました。民間企業のアイデアを生かした新しい魅力ある拠点づくりを進めていきます。",
-      "url": "https://www.city.imabari.ehime.jp/cyclecity/sunrise-itoyama/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-17",
-      "category": "補助金・支援",
-      "title": "養護老人ホームの運営を応援！食費などの値上がり分を補助します",
-      "official_title": "今治市福祉施設等物価高騰対策応援金について（養護老人ホーム）",
-      "summary": "食材費の値上がりが続くなかでも、サービスを維持しながら運営を続ける市内の養護老人ホームを支援するため、応援金を支給します。物価高による事業者の負担を軽減し、利用者がこれまで通り安心して過ごせる環境を守ります。",
-      "url": "https://www.city.imabari.ehime.jp/fukusis/info/004/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-17",
-      "category": "お知らせ",
-      "title": "お店や取引で使う「はかり」の定期検査（令和8年度）の日程です",
-      "official_title": "令和8年度　小型はかりの定期検査日程及び検査場所について",
-      "summary": "お店での売買や証明などに使う「はかり」は、2年に1度の定期検査を受ける義務があります。令和8年度の小型はかりの検査日程と場所が決まりましたので、対象となる方は確認のうえ検査を受けてください。",
-      "url": "https://www.city.imabari.ehime.jp/siminsankaku/keiryou/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-17",
-      "category": "補助金・支援",
-      "title": "【令和8年度】自宅への蓄電池や省エネ設備の設置費用を補助します",
-      "official_title": "住宅用新エネルギー等関連設備設置費補助金（燃料電池・蓄電池・ZEH・HEMS）の令和8年度の申請について",
-      "summary": "今治市では、地球にやさしい暮らしを応援するため、自宅に燃料電池や蓄電池などの省エネ設備を設置した方に費用の一部を補助します。温暖化対策や無駄なエネルギー削減につながる取り組みですので、対象となる方はぜひご申請ください。",
-      "url": "https://www.city.imabari.ehime.jp/kankyou/denchi/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-17",
-      "category": "入札・プロポーザル",
-      "title": "レンタサイクルを太陽光電力に！設置事業者を募集します",
-      "official_title": "「今治市内レンタサイクル施設への太陽光発電設備等導入事業」に係る公募型プロポーザルの実施について",
-      "summary": "2050年の温室効果ガスゼロを目指し、レンタサイクル施設に太陽光パネルと蓄電池を設置する事業者を募集します。しまなみ海道の電動自転車（E-バイク）を再生可能エネルギー100％で走らせ、今治市の環境への取り組みを国内外へ発信します。",
-      "url": "https://www.city.imabari.ehime.jp/kankyou/proposal/03/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-17",
-      "category": "募集・イベント",
-      "title": "10月18日開催！パナソニックの子ども工作教室に参加しませんか",
-      "official_title": "パナソニックの子ども工作教室　参加者の募集について（10月18日開催）",
-      "summary": "環境や緑の体験イベント「いまばり環境緑化フェスティバル2026」の中で、10月18日にパナソニックの子ども工作教室を行います。楽しみながら身近な環境や緑について学べますので、ぜひご参加ください。",
-      "url": "https://www.city.imabari.ehime.jp/recycle/kankyou-fes/2026/#kousaku",
       "ai_rewritten": true
     }
   ]
