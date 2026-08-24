@@ -430,7 +430,8 @@ function setupTextSize(){
 /* ---------- データ取得 ---------- */
 async function loadNews(){
   try{
-    const res = await fetch(NEWS_JSON_URL, {cache:"no-store"});
+    // ?t=... を毎回変えることで、GitHub PagesのCDNキャッシュも確実に回避する
+    const res = await fetch(`${NEWS_JSON_URL}?t=${Date.now()}`, {cache:"no-store"});
     if(!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
     RAW_ITEMS = data.items || [];
