@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-25T05:18:26",
+  "generated_at": "2026-08-25T11:02:32",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
       "date": "2026-08-25",
       "category": "お知らせ",
-      "title": "令和8年度　9月補正予算を公開しました",
+      "title": "令和8年度9月分の「市の予算と使い道」を公開しました",
       "official_title": "令和8年度　9月補正予算を掲載しました。",
-      "summary": "※容量が大きいため、読み込みにお時間がかかります。 令和8年度 当初予算（一般会計）（PDF 82.6MB） 令和8年度 当初予算（特別会計）（PDF 21.1MB）令和8年度 当初予算（説明資料）（PDF 27.3MB）令和8年度 当初予算（記者発表資料）（PDF 2.7MB）",
+      "summary": "令和8年度9月分として追加された、市の予算や使い道の詳しい資料を公開しました。最大82.6MBとファイルの容量が大きいため、スマートフォン等で確認する際はダウンロード時の通信量や読み込み時間にご注意ください。",
       "url": "https://www.city.imabari.ehime.jp/zaisei/yosan/",
-      "ai_rewritten": false
+      "ai_rewritten": true
     },
     {
       "date": "2026-08-25",
@@ -18,6 +18,15 @@
       "official_title": "「2026年コロンビア地震救援金」の募金受付について",
       "summary": "今治市役所本館1階ロビーと各支所に、コロンビア地震の被災者を支援する募金箱を設置しました。令和8年8月25日（火）から11月27日（金）の平日の開庁時間内にお寄せいただいたお金は、日本赤十字社を通じて現地での救援活動に役立てられます。",
       "url": "https://www.city.imabari.ehime.jp/fukusis/gienkin/2026colombia.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-08-25",
+      "category": "募集・イベント",
+      "title": "大人から赤ちゃんまでの命を救う応急手当を学ぼう！上級救命講習",
+      "official_title": "上級救命講習の開催について",
+      "summary": "2026年9月18日（金）9時〜16時に、赤ちゃんから大人までの心肺蘇生やケガの手当などを学ぶ講習を開催します。事前にWEB講習を受ける必要があり、当日は筆記・実技試験を行いますので、詳細はホームページをご覧ください。",
+      "url": "https://www.city.imabari.ehime.jp/shoubou/info/018/",
       "ai_rewritten": true
     },
     {
