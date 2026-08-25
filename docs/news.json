@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-24T23:34:06",
+  "generated_at": "2026-08-25T05:18:26",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-08-25",
+      "category": "お知らせ",
+      "title": "令和8年度　9月補正予算を公開しました",
+      "official_title": "令和8年度　9月補正予算を掲載しました。",
+      "summary": "※容量が大きいため、読み込みにお時間がかかります。 令和8年度 当初予算（一般会計）（PDF 82.6MB） 令和8年度 当初予算（特別会計）（PDF 21.1MB）令和8年度 当初予算（説明資料）（PDF 27.3MB）令和8年度 当初予算（記者発表資料）（PDF 2.7MB）",
+      "url": "https://www.city.imabari.ehime.jp/zaisei/yosan/",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-08-25",
+      "category": "お知らせ",
+      "title": "コロンビア地震の被災者を助ける募金にご協力ください",
+      "official_title": "「2026年コロンビア地震救援金」の募金受付について",
+      "summary": "今治市役所本館1階ロビーと各支所に、コロンビア地震の被災者を支援する募金箱を設置しました。令和8年8月25日（火）から11月27日（金）の平日の開庁時間内にお寄せいただいたお金は、日本赤十字社を通じて現地での救援活動に役立てられます。",
+      "url": "https://www.city.imabari.ehime.jp/fukusis/gienkin/2026colombia.html",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-08-24",
       "category": "募集・イベント",
@@ -108,24 +126,6 @@
       "official_title": "夢づくり調理場探検ツアーを開催しました。",
       "summary": "令和8年8月2日（日）9時30分〜13時に、市内の小学生と保護者を対象とした「夢づくり調理場探検ツアー」を開催します。普段は入れない学校給食の調理場を探検し、調理体験や試食を通して給食づくりの裏側を楽しく学べるイベントです。",
       "url": "https://www.city.imabari.ehime.jp/kyushoku/project/R08/001/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-18",
-      "category": "お知らせ",
-      "title": "令和8年度　今治市職員採用試験B日程の第2次試験合格発表について（今治市採用情報サイト）",
-      "official_title": "令和8年度　今治市職員採用試験B日程の第2次試験合格発表について（今治市採用情報サイト）",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://public-connect.jp/employer/102412/news/list",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-08-18",
-      "category": "補助金・支援",
-      "title": "【令和8年度】電気自動車（EV）を買う費用を補助します",
-      "official_title": "ＥＶ（電気自動車等）の購入補助金の令和8年度の申請について",
-      "summary": "環境に優しい電気自動車（EV）を自宅用に購入した市民の皆さんに、今治市が購入費用の一部を補助します。令和8年度の申請方法や提出書類についてご案内していますので、EVの購入をご検討中の方はぜひご覧ください。",
-      "url": "https://www.city.imabari.ehime.jp/kankyou/EV/",
       "ai_rewritten": true
     }
   ]
