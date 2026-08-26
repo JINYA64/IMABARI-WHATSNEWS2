@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-26T05:20:25",
+  "generated_at": "2026-08-26T11:05:15",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
       "date": "2026-08-26",
       "category": "募集・イベント",
-      "title": "令和8年度後期　今治市中央公民館主催講座受講生の参加者を募集します",
+      "title": "令和8年秋スタート！今治市中央公民館の講座受講生を募集します",
       "official_title": "令和8年度後期　今治市中央公民館主催講座受講生の募集について",
-      "summary": "期間・日程：令和8年9月15日（火曜日）～9月24日（木曜日） ※申込期間に定員に満たなかった講座は、…　申込方法：今治てのひら市役所 、または中央公民館事務所　問い合わせ：電話番号：0898-32-2892 メール： chuok@imabari-city.jp …",
+      "summary": "申込期間は令和8年9月15日（火曜日）～9月24日（木曜日）で、今治てのひら市役所や中央公民館で受け付けます（小学生絵画教室はてのひら市役所のみ）。定員に達していない講座は、期間終了後も中央公民館事務所で先着順で受け付けます。",
       "url": "https://www.city.imabari.ehime.jp/sgakusyuu/kouza/",
-      "ai_rewritten": false
+      "ai_rewritten": true
     },
     {
       "date": "2026-08-26",
@@ -32,11 +32,11 @@
     {
       "date": "2026-08-26",
       "category": "募集・イベント",
-      "title": "スマホ活用講座（スマホ教室）のご案内【10月開催講座】",
+      "title": "【10月開催】操作が不安な方も安心！はじめてのスマホ教室",
       "official_title": "スマホ活用講座（スマホ教室）のご案内【10月開催講座】",
-      "summary": "対象：市内在住の方で、　申込方法：各開催日の1週間前までに申込フォームまたは未来デジタル課へ直接お電話にてお申込みください。　問い合わせ：電話番号：0898-36-1509 メール： mirai@imabari-city.jp …",
+      "summary": "今治市では、スマホやタブレットの操作に不安がある方や、もっと便利に使いたい方向けに10月のスマホ教室を開催します。初心者や高齢者の方が安心して体験できる内容ですので、ぜひお気軽にご参加ください。",
       "url": "https://www.city.imabari.ehime.jp/mirai/sp_workshop/",
-      "ai_rewritten": false
+      "ai_rewritten": true
     },
     {
       "date": "2026-08-26",
@@ -46,6 +46,15 @@
       "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
       "url": "https://kenzotange-imabari.jp/%e4%b8%b9%e4%b8%8b%e5%bb%ba%e7%af%89-%e5%ad%90%e3%81%a9%e3%82%82%e3%83%af%e3%83%bc%e3%82%af%e3%82%b7%e3%83%a7%e3%83%83%e3%83%97%ef%bc%86%e4%b8%80%e8%88%ac%e8%a6%8b%e5%ad%a6%e4%bc%9a/",
       "ai_rewritten": false
+    },
+    {
+      "date": "2026-08-26",
+      "category": "お知らせ",
+      "title": "詐欺や契約トラブルにご注意！最新の被害事例と対策を公開中",
+      "official_title": "消費者トラブルに関する最新の情報を更新しました。",
+      "summary": "専門の相談員が、買い物や契約トラブルの解決に向けてアドバイスや事業者との話し合いをお手伝いします。被害を防ぐための最新情報も公開していますので、お困りの際は一人で悩まずご相談ください。",
+      "url": "https://www.city.imabari.ehime.jp/siminsankaku/shohiseikatu/",
+      "ai_rewritten": true
     },
     {
       "date": "2026-08-25",
@@ -153,15 +162,6 @@
       "official_title": "飼い主のいない猫の不妊去勢手術費用の補助（にゃんこも真ん中プロジェクト）",
       "summary": "今治市は、地域の快適な生活環境を守るため、飼い主のいない猫の不妊・去勢手術費用の一部（メス10,000円、オス5,000円）を補助します。「にゃんこも真ん中プロジェクト」として、野良猫の増えすぎを防ぐ取り組みを応援します。",
       "url": "https://www.city.imabari.ehime.jp/kankyou/inuneko/kyosei_neko/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-20",
-      "category": "お知らせ",
-      "title": "8月の教育委員会（教育についての話し合い）を見学してみませんか",
-      "official_title": "8月の定例教育委員会について",
-      "summary": "8月に開催される今治市の教育委員会の会議（話し合い）は見学することができます。会議の内容によっては非公開になる場合もありますので、詳細は教育大綱推進課までお気軽にお問い合わせください。",
-      "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai",
       "ai_rewritten": true
     }
   ]
