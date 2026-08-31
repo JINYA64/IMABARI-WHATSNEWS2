@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-08-31T14:38:35",
+  "generated_at": "2026-08-31T22:35:58",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-01",
+      "category": "交通・航路",
+      "title": "【大谷墓地・大谷墓園】9月19日～27日は車が一方通行になります",
+      "official_title": "大谷墓地・大谷墓園墓地の交通規制について",
+      "summary": "令和8年9月19日（土曜日）～27日（日曜日）の6時～18時は、お墓参りの混雑のため周辺の車が一方通行になります。車でお越しの際は、指定の駐車場をご利用ください。",
+      "url": "https://www.city.imabari.ehime.jp/kankyou/info/kotukisei/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-01",
+      "category": "お知らせ",
+      "title": "しまなみ海道「大島北IC～大島南IC」通行止めのお知らせ",
+      "official_title": "しまなみ海道「大島北IC～大島南IC」通行止めのお知らせ",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.skr.mlit.go.jp/matsuyam/pres/pres2026/pres/260821.pdf",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-08-31",
       "category": "お知らせ",
