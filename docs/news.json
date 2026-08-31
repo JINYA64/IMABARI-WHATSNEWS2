@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-08-30T22:35:33",
+  "generated_at": "2026-08-31T03:38:51",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-08-31",
+      "category": "お知らせ",
+      "title": "認知症への理解を深めよう！今治市の応援キャンペーン",
+      "official_title": "認知症を知るキャンペーンの実施について",
+      "summary": "認知症になっても住み慣れた地域で自分らしく暮らすには、周りの理解が大切です。今治市では、認知症について知り、誰もが安心して暮らせる街をつくるための様々な取り組みを行っています。",
+      "url": "https://www.city.imabari.ehime.jp/kaigo/ninchisho-CP/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-08-31",
+      "category": "お知らせ",
+      "title": "9月は「食生活改善普及運動月間」です。",
+      "official_title": "9月は「食生活改善普及運動月間」です。",
+      "summary": "令和8年9月1日（火曜日）から9月30日（水曜日）までの1か月間、全国的に食生活改善普及運動が実施されます。 「まずは毎日、あと一皿ずつ野菜と果物をプラス」を重点テーマとし、「バランスの良い食事を摂っている者の増加」、「野菜摂取量の増加」、「果物摂取量の改善」、「食塩摂取量の減少」を目標としています。 この月間を機に食…",
+      "url": "https://www.city.imabari.ehime.jp/kenkou/shokuseikatu/",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-08-31",
+      "category": "お知らせ",
+      "title": "みなと交流センター駐輪場に放置された自転車等の撤去のお知らせ",
+      "official_title": "みなと交流センター駐輪場に放置された自転車等の撤去について",
+      "summary": "港湾施設内に放置された自転車等について、港湾施設の適正な利用及び安全な利用環境を確保するため、関係条例に基づき、警告、撤去・保管等の対応を行っています。 港湾施設を利用される皆さまにおかれましては、自転車等を放置することのないよう、ご理解とご協力をお願いします。",
+      "url": "https://www.city.imabari.ehime.jp/kouwan/jitensha-tekkyo/",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-08-27",
       "category": "募集・イベント",
@@ -90,24 +117,6 @@
       "official_title": "上級救命講習の開催について",
       "summary": "2026年9月18日（金）9時〜16時に、赤ちゃんから大人までの心肺蘇生やケガの手当などを学ぶ講習を開催します。事前にWEB講習を受ける必要があり、当日は筆記・実技試験を行いますので、詳細はホームページをご覧ください。",
       "url": "https://www.city.imabari.ehime.jp/shoubou/info/018/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-24",
-      "category": "募集・イベント",
-      "title": "運動施設へのエアコン設置へ！事業者のご意見を募集",
-      "official_title": "「空調設備整備事業」に係るサウンディング型市場調査（意見募集）について（第1回）",
-      "summary": "今治市では、熱中症対策や災害時の避難所機能強化のため、運動施設へのエアコン設置を進めています。事業化に向け、参入意欲や応募条件について事業者の皆様からのご意見を募集します。",
-      "url": "https://www.city.imabari.ehime.jp/kyouikut/ikenboshu/ks01/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-08-24",
-      "category": "募集・イベント",
-      "title": "10月18日開催！らんま先生のわくわくサイエンスショー参加者募集",
-      "official_title": "らんま先生のわくわくサイエンスショー　参加者の募集について（10月18日開催）",
-      "summary": "環境や緑について楽しく学べる「いまばり環境緑化フェスティバル」で、体験イベントや展示を行います。10月18日には「らんま先生のわくわくサイエンスショー」も開催しますので、ぜひご家族でお越しください。",
-      "url": "https://www.city.imabari.ehime.jp/recycle/kankyou-fes/2026/#ranma",
       "ai_rewritten": true
     }
   ]
