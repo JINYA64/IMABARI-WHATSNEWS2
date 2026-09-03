@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-03T07:01:11",
+  "generated_at": "2026-09-03T09:43:26",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-03",
+      "category": "お知らせ",
+      "title": "今治市立図書館全館休館のお知らせ（PDF 347KB）",
+      "official_title": "今治市立図書館全館休館のお知らせ（PDF 347KB）",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/sgakusyuu/info/012.pdf",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-09-03",
       "category": "お知らせ",
@@ -37,6 +46,15 @@
       "summary": "村上海賊ミュージアムと今治市民会館で、瀬戸内『し・ま・の・音楽祭』のメンバーによる弦楽四重奏の特別公演を9月22日に開催します。海を望むミュージアムと丹下健三設計の建築空間という特別な場所で、豊かな音色をお楽しみください。",
       "url": "https://www.city.imabari.ehime.jp/bunka/info/028/",
       "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-03",
+      "category": "募集・イベント",
+      "title": "「ひめじょのネットワーク形成交流会 ひめラボ　in東予」受講生募集（10月6日・11月27日・1月19日開催）（外部サイト）",
+      "official_title": "「ひめじょのネットワーク形成交流会 ひめラボ　in東予」受講生募集（10月6日・11月27日・1月19日開催）（外部サイト）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://www.ehime-joseizaidan.com/soshiki/0/5rider.html",
+      "ai_rewritten": false
     },
     {
       "date": "2026-09-02",
