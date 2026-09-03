@@ -58,7 +58,7 @@ MAX_SUMMARY_CHARS = 160
 # --- Google AI Studio / Gemini API（無料枠。クレジットカード不要・期限なし） ---
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip().strip('"').strip("'")
 # モデル名はGoogle側の変更で通らなくなることがあるため、上から順に試す。
-GEMINI_MODEL_CANDIDATES = ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-3.7-flash"]
+GEMINI_MODEL_CANDIDATES = ["gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-3.7-flash"]
 GEMINI_URL_TMPL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 # 実行中に一度成功したモデル名はここにキャッシュして、以降はそれだけを使う
 _GEMINI_WORKING_MODEL = None
