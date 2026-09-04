@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T03:40:46",
+  "generated_at": "2026-09-04T09:44:09",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
@@ -23,10 +23,37 @@
     {
       "date": "2026-09-04",
       "category": "お知らせ",
+      "title": "ネパール洪水救援金の募金箱を設置しています",
+      "official_title": "「2026年ネパール洪水救援金」の募金受付について",
+      "summary": "今治市役所本館1階ロビーと各支所に募金箱を設置しています。集まった救援金は、日本赤十字社を通じて被災地の支援活動に届けられます。期間は令和8年9月4日（金曜日）から11月27日（金曜日）までの平日です。",
+      "url": "https://www.city.imabari.ehime.jp/fukusis/gienkin/2026nepal.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-04",
+      "category": "募集・イベント",
+      "title": "【10月3日】親子で楽しくお菓子作り！カジダン応援講座",
+      "official_title": "【参加者募集】男女共同参画講座「カジダン応援講座」（10月3日開催）",
+      "summary": "親子で協力しておいしいお菓子を作り、会場で一緒に試食しませんか？参加者を募集していますので、ぜひご応募ください。",
+      "url": "https://www.city.imabari.ehime.jp/jinken/danjyo/kouza/R8/001/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-04",
+      "category": "お知らせ",
       "title": "クリーンセンターの電気の権利を売る入札をします",
       "official_title": "令和11年度分（2029年度分）今治市クリーンセンター余剰電力（非FIT分）の容量価値売却について",
       "summary": "2029年度分の今治市クリーンセンターの余剰電力にある容量価値を売却するため、一般競争入札を行います。詳しい条件や資料は、入札説明書と仕様書をご確認ください。",
       "url": "https://www.city.imabari.ehime.jp/kankyous/yojo-denryoku/R11/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-04",
+      "category": "募集・イベント",
+      "title": "【9月24日締切】野菜作りを体験しよう！市民農園の利用者を追加募集",
+      "official_title": "いまばり市民農園　利用者の追加募集について（9月24日締切）",
+      "summary": "無農薬で安全な野菜作りを楽しめる「いまばり市民農園」の利用者を追加募集します。初心者の方でも、土に触れながら旬の野菜栽培を体験できますので、ぜひご応募ください。",
+      "url": "https://www.city.imabari.ehime.jp/nourin/siminnouen/",
       "ai_rewritten": true
     },
     {
