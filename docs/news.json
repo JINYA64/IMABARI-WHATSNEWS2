@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-08T18:01:53",
+  "generated_at": "2026-09-09T00:26:26",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-09",
+      "category": "募集・イベント",
+      "title": "ホテルシェフに学ぶ学校給食レシピ講習会",
+      "official_title": "学校給食レシピ講習会を開催しました。",
+      "summary": "8月27日、市内の栄養士や調理員を対象に学校給食レシピ講習会を開催しました。今治国際ホテル「龍宮」のシェフを講師に迎え、今治の食材を使った「仙高ポークと今治野菜の黒醋ソース」などの調理実習を行い、このメニューは12月から1月頃に給食で提供される予定です。",
+      "url": "https://www.city.imabari.ehime.jp/kyushoku/project/R08/002/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-09-08",
       "category": "お知らせ",
@@ -95,11 +104,11 @@
     {
       "date": "2026-09-03",
       "category": "お知らせ",
-      "title": "今治市立図書館全館休館のお知らせ（PDF 347KB）",
-      "official_title": "今治市立図書館全館休館のお知らせ（PDF 347KB）",
-      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/sgakusyuu/info/012.pdf",
-      "ai_rewritten": false
+      "title": "図書館は8/31〜9/16に全館休館します（新HP公開は9/17）",
+      "official_title": "今治市立図書館全館休館のお知らせ",
+      "summary": "蔵書点検とシステム更新のため、8月31日から9月16日まで全館とサイトが休止します。新しいホームページは9月17日午前9時30分から利用できます。",
+      "url": "https://www.city.imabari.ehime.jp/sgakusyuu/tosho/",
+      "ai_rewritten": true
     },
     {
       "date": "2026-09-03",
@@ -145,33 +154,6 @@
       "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
       "url": "https://www.ehime-joseizaidan.com/soshiki/0/5rider.html",
       "ai_rewritten": false
-    },
-    {
-      "date": "2026-09-02",
-      "category": "募集・イベント",
-      "title": "避難所で役立つ知識を学ぼう！避難生活支援の研修を開催",
-      "official_title": "避難生活支援リーダー・サポーター研修の開催について",
-      "summary": "今治市では、災害時の避難所で生活を支え、運営を助ける人を育てる研修を新たに開催します。避難所の環境づくりに役立つ基本スキルが学べますので、興味のある方はぜひご参加ください。",
-      "url": "https://www.city.imabari.ehime.jp/bousai/info/006/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-02",
-      "category": "募集・イベント",
-      "title": "第14回今治タオルリレーマラソンを開催します（10月18日）",
-      "official_title": "第14回今治タオルリレーマラソンについて（10月18日開催）",
-      "summary": "令和8年10月18日（日）に、今治市営波方公園運動場多目的広場景でリレーマラソンを開催します。雨天時は中止（小雨決行）で、閉会式は11時頃から行います。",
-      "url": "https://www.city.imabari.ehime.jp/sports/towelmarathon/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-02",
-      "category": "お知らせ",
-      "title": "近くで市役所の手続きができる「移動市役所」の9月予定を公開",
-      "official_title": "移動市役所の9月のスケジュールを掲載しました。",
-      "summary": "「移動市役所」は、市役所や支所から遠い地域に車で出向き、各種手続きなどのサービスを身近な場所で提供する取り組みです。お近くに車が来る日や場所を確認できる、9月の運行スケジュールを掲載しました。",
-      "url": "https://www.city.imabari.ehime.jp/maas/",
-      "ai_rewritten": true
     }
   ]
 }
