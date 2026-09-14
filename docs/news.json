@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-14T00:20:49",
+  "generated_at": "2026-09-14T09:11:40",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-14",
+      "category": "お知らせ",
+      "title": "しまなみ海道 大島道路「大島北IC～大島南IC」通行止めのお知らせ",
+      "official_title": "しまなみ海道 大島道路「大島北IC～大島南IC」通行止めのお知らせ",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.skr.mlit.go.jp/matsuyam/pres/pres2026/pres/260911.pdf",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-09-14",
+      "category": "募集・イベント",
+      "title": "プログラミングコンテストに向けた作品づくり教室",
+      "official_title": "「いまばりKIDSプログラミングコンテストに向けたサポート教室」の開催について",
+      "summary": "プログラミングが初めてでも安心！9月30日の応募締切と11月3日のコンテスト出場を目指して作品を作ります。9月19日・20日または9月22日・23日の2日間、SUNABACO今治で開催します。",
+      "url": "https://www.city.imabari.ehime.jp/mirai/kidsprog/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-09-14",
       "category": "お知らせ",
