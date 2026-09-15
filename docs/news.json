@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-14T19:33:23",
+  "generated_at": "2026-09-15T00:47:27",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-15",
+      "category": "お知らせ",
+      "title": "来年度の高齢者インフルエンザ予防接種",
+      "official_title": "令和8年度　高齢者のインフルエンザ予防接種について",
+      "summary": "来年度の高齢者インフルエンザ予防接種についてのお知らせです。希望する方が対象で強制ではありませんが、今年は事前のはがき（接種券）の送付はありません。",
+      "url": "https://www.city.imabari.ehime.jp/kenkou/kourei_influenza/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-09-14",
       "category": "お知らせ",
@@ -108,24 +117,6 @@
       "official_title": "学校給食レシピ講習会を開催しました。",
       "summary": "8月27日、市内の栄養士や調理員を対象に学校給食レシピ講習会を開催しました。今治国際ホテル「龍宮」のシェフを講師に迎え、今治の食材を使った「仙高ポークと今治野菜の黒醋ソース」などの調理実習を行い、このメニューは12月から1月頃に給食で提供される予定です。",
       "url": "https://www.city.imabari.ehime.jp/kyushoku/project/R08/002/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-08",
-      "category": "お知らせ",
-      "title": "18歳以上のヤングケアラー向け相談窓口が開設されました",
-      "official_title": "愛媛県　18歳以上ヤングケアラー相談窓口について",
-      "summary": "愛媛県は令和8年9月1日から、18歳以上のヤングケアラーを対象とした相談窓口「えひめYCC18＋」を開設しました。専門のコーディネーターが相談にのるほか、当事者同士の交流の場も運営しています。",
-      "url": "https://www.city.imabari.ehime.jp/neuvola/ycc18plus/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-08",
-      "category": "お知らせ",
-      "title": "9月の教育委員会を傍聴してみませんか",
-      "official_title": "9月の定例教育委員会について",
-      "summary": "今治市の教育委員会を開きます。会議の様子を傍聴できますが、内容によっては非公開になる場合もあります。詳しくは教育大綱推進課までお問い合わせください。",
-      "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai",
       "ai_rewritten": true
     }
   ]
