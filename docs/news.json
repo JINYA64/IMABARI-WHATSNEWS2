@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-18T00:37:47",
+  "generated_at": "2026-09-18T08:26:22",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-18",
+      "category": "お知らせ",
+      "title": "FC今治の試合チケットを抽選でプレゼント！",
+      "official_title": "FC今治ホーム戦の観戦チケットを抽選でプレゼント！",
+      "summary": "プロスポーツを見る機会が少ない市民の皆さんを対象に、今治市で開催される公式戦の観戦チケットを抽選でプレゼントします。ぜひこの機会にご応募ください。",
+      "url": "https://www.city.imabari.ehime.jp/sports/info/030/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-09-18",
       "category": "お知らせ",
@@ -10,6 +19,15 @@
       "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
       "url": "https://public-connect.jp/employer/102412/news/list",
       "ai_rewritten": false
+    },
+    {
+      "date": "2026-09-18",
+      "category": "募集・イベント",
+      "title": "船に乗って村上海賊の島を冒険しよう！10月3日開催",
+      "official_title": "わくわく大冒険2026を開催します！（10月3日開催）",
+      "summary": "10月3日に船で来島や能島をめぐり、村上海賊の歴史を学びながらミッションに挑戦するイベントを開催します。家族や友達と一緒に、海からの景色や体験を楽しみませんか？",
+      "url": "https://www.city.imabari.ehime.jp/bunka/info/029/",
+      "ai_rewritten": true
     },
     {
       "date": "2026-09-17",
@@ -36,6 +54,15 @@
       "official_title": "しまなみアースランドの「ふわふわドーム」が修繕工事のため、利用できなくなります。※9月28日から10月10日（予定）",
       "summary": "修繕工事を行うため、しまなみアースランドの「ふわふわドーム」が利用できなくなります。期間は令和8年9月28日から10月10日（予定）までです。",
       "url": "https://www.city.imabari.ehime.jp/ijikanri/info/048/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-15",
+      "category": "お知らせ",
+      "title": "来年度も高齢者のコロナ予防接種を行います",
+      "official_title": "令和8年度　高齢者の新型コロナウイルス感染症予防接種について",
+      "summary": "来年度も希望する高齢者を対象に新型コロナの予防接種を行います。接種券の郵送はありませんので、希望される方はご注意ください。",
+      "url": "https://www.city.imabari.ehime.jp/2019-nCoV/wakuchin/info/kourei.html",
       "ai_rewritten": true
     },
     {
