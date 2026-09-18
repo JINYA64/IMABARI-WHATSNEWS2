@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-17T18:28:41",
+  "generated_at": "2026-09-18T00:37:47",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-18",
+      "category": "お知らせ",
+      "title": "令和8年度　今治市職員採用試験D日程の受験案内について（今治市採用情報サイト）",
+      "official_title": "令和8年度　今治市職員採用試験D日程の受験案内について（今治市採用情報サイト）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://public-connect.jp/employer/102412/news/list",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-09-17",
       "category": "お知らせ",
@@ -135,24 +144,6 @@
       "official_title": "サウンディング型市場調査開催のお知らせ～「はーばりー」1階及び4階テナントの民間活用可能性調査～",
       "summary": "みなと交流センター「はーばりー」の魅力を高めるため、民間事業者の皆様と使い方や運営方法についての対話（サウンディング）を行います。開催日時は2026年10月1日（木曜日）14時〜15時30分です。",
       "url": "https://www.city.imabari.ehime.jp/kouwan/sounding/01/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-11",
-      "category": "お知らせ",
-      "title": "令和8年度　今治市職員採用試験B日程の最終試験合格発表について（今治市採用情報サイト）",
-      "official_title": "令和8年度　今治市職員採用試験B日程の最終試験合格発表について（今治市採用情報サイト）",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://public-connect.jp/employer/102412/news/list",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-09-11",
-      "category": "募集・イベント",
-      "title": "【10月6日開催】無料DX勉強会で業務の悩みを解決しよう",
-      "official_title": "第3回今治市デジタル未来コンソーシアムDX勉強会のご案内（10月6日開催）",
-      "summary": "今治市内の企業の経営者や従業員の方向けに、DXの基礎知識から業務課題の解決までを学ぶ無料の勉強会を開催します。コンソーシアム未加入の方もご参加いただけます。",
-      "url": "https://www.city.imabari.ehime.jp/mirai/miraimabari/info001/",
       "ai_rewritten": true
     }
   ]
