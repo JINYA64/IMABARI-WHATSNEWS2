@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-23T18:33:46",
+  "generated_at": "2026-09-24T00:43:25",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-24",
+      "category": "お知らせ",
+      "title": "令和8年度 高齢者インフルエンザ予防接種の開始が早まります",
+      "official_title": "令和8年度　高齢者のインフルエンザ予防接種の開始時期の前倒しのお知らせ",
+      "summary": "希望する高齢者を対象としたインフルエンザ予防接種の開始時期を前倒しします。接種券（はがき）の送付はありませんので、ご注意ください。",
+      "url": "https://www.city.imabari.ehime.jp/kenkou/kourei_influenza/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-09-19",
       "category": "お知らせ",
@@ -36,24 +45,6 @@
       "official_title": "わくわく大冒険2026を開催します！（10月3日開催）",
       "summary": "10月3日に船で来島や能島をめぐり、村上海賊の歴史を学びながらミッションに挑戦するイベントを開催します。家族や友達と一緒に、海からの景色や体験を楽しみませんか？",
       "url": "https://www.city.imabari.ehime.jp/bunka/info/029/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-17",
-      "category": "お知らせ",
-      "title": "【大三島】シルバーウィークの渋滞を避けてスムーズに",
-      "official_title": "【大三島】シルバーウィーク期間中の迂回路利用による渋滞緩和にご協力ください。",
-      "summary": "連休中は大山祇神社周辺の混雑が予想されます。今治市大三島支所の臨時駐車場や迂回路を使って、渋滞緩和にご協力ください。",
-      "url": "https://www.city.imabari.ehime.jp/shimanamis/info/omishima/SW.html",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-17",
-      "category": "募集・イベント",
-      "title": "運動施設のエアコン設置に向けた事業者アンケートの期間延長",
-      "official_title": "「空調設備整備事業」に係るサウンディング型市場調査（意見募集）の期間延長について（第1回）",
-      "summary": "避難所でもある市の運動施設にエアコンを導入するため、事業者の皆様からのご意見を募集するアンケートの期間を延長しました。参入意欲や条件についてお聞かせください。",
-      "url": "https://www.city.imabari.ehime.jp/kyouikut/ikenboshu/ks01/",
       "ai_rewritten": true
     }
   ]
