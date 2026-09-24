@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-24T00:43:25",
+  "generated_at": "2026-09-24T08:41:05",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-24",
+      "category": "補助金・支援",
+      "title": "令和8年度　子どもを守るインフルエンザ予防接種助成の開始時期前倒しのお知らせ",
+      "official_title": "令和8年度　子どもを守るインフルエンザ予防接種助成の開始時期前倒しのお知らせ",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://imakoso-imabari.jp/service/kodomo-influenza/",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-09-24",
       "category": "お知らせ",
@@ -9,6 +18,15 @@
       "official_title": "令和8年度　高齢者のインフルエンザ予防接種の開始時期の前倒しのお知らせ",
       "summary": "希望する高齢者を対象としたインフルエンザ予防接種の開始時期を前倒しします。接種券（はがき）の送付はありませんので、ご注意ください。",
       "url": "https://www.city.imabari.ehime.jp/kenkou/kourei_influenza/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-24",
+      "category": "お知らせ",
+      "title": "高校生の映画『汝、星のごとく』鑑賞を支援します",
+      "official_title": "今治市　映画『汝、星のごとく』高校生鑑賞支援事業について",
+      "summary": "今治市が舞台の映画『汝、星のごとく』が10月9日（金曜日）に公開されます。市内の高校生を対象に、地元への愛着を深めてもらうための映画鑑賞支援事業を実施します。",
+      "url": "https://www.city.imabari.ehime.jp/kankou/info/nanji/001/",
       "ai_rewritten": true
     },
     {
