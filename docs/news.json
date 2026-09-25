@@ -1,7 +1,52 @@
 {
-  "generated_at": "2026-09-24T18:37:02",
+  "generated_at": "2026-09-25T00:40:46",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-25",
+      "category": "お知らせ",
+      "title": "広報いまばり10月号公開！映画「汝、星のごとく」特集",
+      "official_title": "広報いまばり（10月号）を掲載しました。",
+      "summary": "今治市が舞台の映画『汝、星のごとく』を大特集した広報いまばり10月号を掲載しました。全ページがPDFでダウンロードできるほか、郵送での受け取りもお申し込みいただけます。",
+      "url": "https://www.city.imabari.ehime.jp/kouhou/koho/202610/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-25",
+      "category": "お知らせ",
+      "title": "映画『汝、星のごとく』特集！広報いまばり10月号を郵送します",
+      "official_title": "【今治市外にお住まいの方へ】広報いまばり10月号（映画『汝、星のごとく』特集号）の郵送方法",
+      "summary": "10月9日公開の映画『汝、星のごとく』を大特集した広報いまばり10月号を、今治市外にお住まいの方のご自宅へ郵送します。お一人様1冊までお申し込みいただけますので、ぜひお手元にお迎えください。",
+      "url": "https://www.city.imabari.ehime.jp/kouhou/info/003/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-25",
+      "category": "募集・イベント",
+      "title": "受賞した給食を食べよう！試食会を開催します",
+      "official_title": "「日本一おいしい給食」メニュー試食会を開催します。",
+      "summary": "全国大会で賞を受賞した今治の給食を味わってみませんか？給食を通じて、地元の食材や食の大切さを楽しく知る機会です。参加費は1人300円です。",
+      "url": "https://www.city.imabari.ehime.jp/kyushoku/project/R08/003/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-25",
+      "category": "お知らせ",
+      "title": "10月の「移動市役所」の巡回スケジュール",
+      "official_title": "移動市役所の10月のスケジュールを掲載しました。",
+      "summary": "市役所が遠くて不便な地域へ、専用の車で行政スタッフが伺います。10月の訪問スケジュールと場所を掲載しましたので、ぜひご利用ください。",
+      "url": "https://www.city.imabari.ehime.jp/maas/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-25",
+      "category": "お知らせ",
+      "title": "悪質商法や詐欺に要注意！最新の消費者トラブル情報",
+      "official_title": "消費者トラブルに関する最新の情報を更新しました。",
+      "summary": "今治市では、消費者トラブルの相談や解決のアドバイスを行っています。被害を防ぐための最新情報も随時更新していますので、お困りの際はご相談ください。",
+      "url": "https://www.city.imabari.ehime.jp/siminsankaku/shohiseikatu/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-09-24",
       "category": "募集・イベント",
@@ -54,33 +99,6 @@
       "official_title": "「食育の日」簡単レシピ9月「れんこんのごまごまサラダ」を掲載しました。",
       "summary": "あと一品ほしいときにぴったりの、安くておいしい旬の食材を使った簡単レシピを紹介しています。毎日の献立づくりにぜひご活用ください。",
       "url": "https://www.city.imabari.ehime.jp/kenkou/shokuiku_recipe/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-18",
-      "category": "お知らせ",
-      "title": "FC今治の試合チケットを抽選でプレゼント！",
-      "official_title": "FC今治ホーム戦の観戦チケットを抽選でプレゼント！",
-      "summary": "プロスポーツを見る機会が少ない市民の皆さんを対象に、今治市で開催される公式戦の観戦チケットを抽選でプレゼントします。ぜひこの機会にご応募ください。",
-      "url": "https://www.city.imabari.ehime.jp/sports/info/030/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-18",
-      "category": "お知らせ",
-      "title": "令和8年度　今治市職員採用試験D日程の受験案内について（今治市採用情報サイト）",
-      "official_title": "令和8年度　今治市職員採用試験D日程の受験案内について（今治市採用情報サイト）",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://public-connect.jp/employer/102412/news/list",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-09-18",
-      "category": "募集・イベント",
-      "title": "船に乗って村上海賊の島を冒険しよう！10月3日開催",
-      "official_title": "わくわく大冒険2026を開催します！（10月3日開催）",
-      "summary": "10月3日に船で来島や能島をめぐり、村上海賊の歴史を学びながらミッションに挑戦するイベントを開催します。家族や友達と一緒に、海からの景色や体験を楽しみませんか？",
-      "url": "https://www.city.imabari.ehime.jp/bunka/info/029/",
       "ai_rewritten": true
     }
   ]
