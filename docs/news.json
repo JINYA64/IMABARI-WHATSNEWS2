@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T00:40:46",
+  "generated_at": "2026-09-25T09:01:55",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
@@ -18,6 +18,15 @@
       "official_title": "【今治市外にお住まいの方へ】広報いまばり10月号（映画『汝、星のごとく』特集号）の郵送方法",
       "summary": "10月9日公開の映画『汝、星のごとく』を大特集した広報いまばり10月号を、今治市外にお住まいの方のご自宅へ郵送します。お一人様1冊までお申し込みいただけますので、ぜひお手元にお迎えください。",
       "url": "https://www.city.imabari.ehime.jp/kouhou/info/003/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-25",
+      "category": "お知らせ",
+      "title": "スマホの使い方を個別で相談できる教室を開催",
+      "official_title": "令和8年度　スマホ個別相談について",
+      "summary": "スマホやタブレットの操作に不安がある方や、もっと便利に使いたい方を対象にした個別相談会を開催します。初心者や高齢者の方もお気軽にご参加ください。",
+      "url": "https://www.city.imabari.ehime.jp/mirai/sp_workshop/#sp-soudan",
       "ai_rewritten": true
     },
     {
@@ -45,6 +54,24 @@
       "official_title": "消費者トラブルに関する最新の情報を更新しました。",
       "summary": "今治市では、消費者トラブルの相談や解決のアドバイスを行っています。被害を防ぐための最新情報も随時更新していますので、お困りの際はご相談ください。",
       "url": "https://www.city.imabari.ehime.jp/siminsankaku/shohiseikatu/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-25",
+      "category": "募集・イベント",
+      "title": "市営住宅の空き家を事業用に貸し出します",
+      "official_title": "市営住宅空き住戸の活用希望者の募集（地域対応活用）について",
+      "summary": "地域の課題解決に取り組む市内事業者を対象に、市営住宅の空き住戸の活用希望者を募集しています。住宅確保にお困りの団体や事業主の方はぜひご応募ください。",
+      "url": "https://www.city.imabari.ehime.jp/jutaku/info/013/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-25",
+      "category": "お知らせ",
+      "title": "10月の教育委員会を傍聴してみませんか",
+      "official_title": "10月の定例教育委員会について",
+      "summary": "教育委員会の会議を公開していますので、ぜひ傍聴にお越しください。内容により非公開となる場合があるため、詳しくは教育大綱推進課にお問い合わせください。",
+      "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai",
       "ai_rewritten": true
     },
     {
@@ -90,6 +117,15 @@
       "official_title": "今治市　映画『汝、星のごとく』高校生鑑賞支援事業について",
       "summary": "今治市が舞台の映画『汝、星のごとく』が10月9日（金曜日）に公開されます。市内の高校生を対象に、地元への愛着を深めてもらうための映画鑑賞支援事業を実施します。",
       "url": "https://www.city.imabari.ehime.jp/kankou/info/nanji/001/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-24",
+      "category": "募集・イベント",
+      "title": "家のごみを減らそう！食品ロスダイアリー参加者募集",
+      "official_title": "食品ロスダイアリー　参加者大募集！",
+      "summary": "今治市の燃やせるごみの約46％が生ごみです。毎日の食事作りや食べ方を見直して、食品ロスを減らす取り組みに参加しませんか？家庭から出るごみを減らすために、ぜひご協力ください。",
+      "url": "https://www.city.imabari.ehime.jp/recycle/tabekiri/3010/#FLD",
       "ai_rewritten": true
     },
     {
