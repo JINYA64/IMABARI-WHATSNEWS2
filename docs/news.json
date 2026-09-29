@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-28T20:41:42",
+  "generated_at": "2026-09-29T02:10:32",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-09-29",
+      "category": "補助金・支援",
+      "title": "理美容代を補助します（外出が難しい方へ）",
+      "official_title": "今治市在宅高齢者・身障者等理美容サービス支援補助金について（障がい福祉課）",
+      "summary": "外出が難しい要介護者やそのご家族が理美容サービスを利用する際、費用の一部を補助します。ぜひご利用ください。",
+      "url": "https://www.city.imabari.ehime.jp/syougaifukus/info/003/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-09-28",
       "category": "お知らせ",
@@ -24,7 +33,7 @@
       "date": "2026-09-28",
       "category": "補助金・支援",
       "title": "おうちで理美容サービスを使う費用を補助します",
-      "official_title": "今治市在宅高齢者・身障者等理美容サービス支援補助金について",
+      "official_title": "今治市在宅高齢者・身障者等理美容サービス支援補助金について（介護保険課）",
       "summary": "外出が難しい要介護者とご家族が、理美容サービスを利用する費用の一部を補助します。自宅にいながら散髪や美容院を利用したい方は、ぜひ詳細をご確認ください。",
       "url": "https://www.city.imabari.ehime.jp/kaigo/info/015/",
       "ai_rewritten": true
