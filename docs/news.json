@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-09-30T09:56:23",
+  "generated_at": "2026-09-30T16:02:42",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-01",
+      "category": "お知らせ",
+      "title": "今治市の職員数や給料の仕組みを公開します",
+      "official_title": "令和8年度　今治市人事行政の運営等の状況について",
+      "summary": "今治市で働く職員の人数や給料、給与の仕組みなどをまとめた「人事行政の運営等の状況」を公開しています。令和5年度から令和7年度までのデータをご確認いただけます。",
+      "url": "https://www.city.imabari.ehime.jp/jinji/jinji_gyosei/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-09-30",
       "category": "お知らせ",
