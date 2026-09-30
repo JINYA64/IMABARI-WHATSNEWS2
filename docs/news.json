@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:24:52",
+  "generated_at": "2026-09-30T09:56:23",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
@@ -13,12 +13,21 @@
     },
     {
       "date": "2026-09-30",
-      "category": "募集・イベント",
-      "title": "中央公民館　令和8年度後期　子育て世代のための実用ペン字講座（託児付き）について（PDF 86KB）",
-      "official_title": "中央公民館　令和8年度後期　子育て世代のための実用ペン字講座（託児付き）について（PDF 86KB）",
-      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/sgakusyuu/kouza/R8-kouki-pen.pdf",
-      "ai_rewritten": false
+      "category": "お知らせ",
+      "title": "10月の学校給食の献立表を公開しました",
+      "official_title": "10月の学校給食献立表",
+      "summary": "日吉・近見・立花・北郷中学校の給食センターが作る10月の献立表です。今晩の夕食のおかず選びにもぜひご活用ください。",
+      "url": "https://www.city.imabari.ehime.jp/kyushoku/kondate/202610/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-09-30",
+      "category": "お知らせ",
+      "title": "高齢者の見守りサービス導入に最大3万円を補助します",
+      "official_title": "今治市高齢者等ICT見守りサービス導入支援事業のご案内",
+      "summary": "ひとり暮らしの高齢者などが安心して暮らせるよう、ICT見守りサービスの初期費用の一部を最大3万円まで助成します。詳しくは市ホームページのチラシをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/fukusis/ICT/",
+      "ai_rewritten": true
     },
     {
       "date": "2026-09-29",
