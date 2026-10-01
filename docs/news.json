@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-09-30T19:35:02",
+  "generated_at": "2026-10-01T01:25:16",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-01",
+      "category": "お知らせ",
+      "title": "市有地や市有建物を買いたい方へ！第3回公売のお知らせ",
+      "official_title": "令和8年度第3回 市有財産の公売のお知らせ",
+      "summary": "令和8年10月1日（木）から10月30日（金）まで申し込みを受け付けます。入札は11月17日（火）午前10時から今治市役所で行われますので、ぜひご参加ください。",
+      "url": "https://www.city.imabari.ehime.jp/soumuk/bukken/koubai/R8-03/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-01",
+      "category": "お知らせ",
+      "title": "今治市の売却できる土地や建物の情報を更新しました",
+      "official_title": "売却可能財産情報を更新しました。",
+      "summary": "今治市が所有している売却可能な財産の情報を更新しました。一覧の詳細から場所や周辺地図を確認できますので、ぜひご覧ください。",
+      "url": "https://www.city.imabari.ehime.jp/soumuk/baikyaku/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-01",
       "category": "お知らせ",
@@ -9,6 +27,33 @@
       "official_title": "令和8年度　今治市人事行政の運営等の状況について",
       "summary": "今治市で働く職員の人数や給料、給与の仕組みなどをまとめた「人事行政の運営等の状況」を公開しています。令和5年度から令和7年度までのデータをご確認いただけます。",
       "url": "https://www.city.imabari.ehime.jp/jinji/jinji_gyosei/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-01",
+      "category": "入札・プロポーザル",
+      "title": "令和9・10年度の入札参加の申請受付を始めました",
+      "official_title": "令和9・10年度入札参加資格審査申請について掲載しました。",
+      "summary": "今治市の公共工事や物品調達などの入札に参加するための資格審査申請の受付を開始しました。対象となるのは、建設工事や測量、物品調達、業務委託などを希望する事業者です。",
+      "url": "https://www.city.imabari.ehime.jp/keiyaku/R0910_kouji/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-01",
+      "category": "募集・イベント",
+      "title": "今治市で起業する方へ！創業支援の補助金の申込期限を延長しました",
+      "official_title": "今治市スタートアップ創業支援補助金の募集期間を延長しました。",
+      "summary": "今治市で新しくお店や会社を始める方向けのスタートアップ創業支援補助金について、申込期限を令和8年12月28日（月曜日）まで延長しました。予算の上限に達するまで募集中ですので、これから起業を考えている方はぜひチェックしてください。",
+      "url": "https://www.city.imabari.ehime.jp/sangyou/startup/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-01",
+      "category": "募集・イベント",
+      "title": "10月に入居できる市営住宅の募集を始めます",
+      "official_title": "令和8年10月期 市営住宅の定期募集について",
+      "summary": "今治市営住宅の定期入居者の募集を行っています。申し込みを希望される方は、募集内容をご確認のうえお手続きください。",
+      "url": "https://www.city.imabari.ehime.jp/jutaku/info/boshu-teiki/",
       "ai_rewritten": true
     },
     {
@@ -171,60 +216,6 @@
       "official_title": "10月の定例教育委員会について",
       "summary": "教育委員会の会議を公開していますので、ぜひ傍聴にお越しください。内容により非公開となる場合があるため、詳しくは教育大綱推進課にお問い合わせください。",
       "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-24",
-      "category": "募集・イベント",
-      "title": "広小路の実験イベント！出店者を募集します",
-      "official_title": "広小路（今治港線）の再編に向けた社会実験への出店者等を募集します。",
-      "summary": "今治港と市庁舎をつなぐ広小路を歩いて楽しい空間に変えるため、令和7年に向けた社会実験を行います。この実験を一緒に盛り上げ、出店してくださる方を募集しています。",
-      "url": "https://www.city.imabari.ehime.jp/miryokutosi/hirokoji/004/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-24",
-      "category": "お知らせ",
-      "title": "広小路（今治港線）を歩いて楽しい空間へ！再整備の実験",
-      "official_title": "広小路（今治港線）再整備・社会実験について",
-      "summary": "今治市は、まちなかに賑わいを取り戻すため、港と市庁舎を結ぶ「広小路（今治港線）」を歩いて楽しい空間へ作り変える検討を進めています。令和7年に策定したグランドデザインの一環として、愛媛県と連携して取り組みます。",
-      "url": "https://www.city.imabari.ehime.jp/miryokutosi/hirokoji/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-24",
-      "category": "補助金・支援",
-      "title": "令和8年度　子どもを守るインフルエンザ予防接種助成の開始時期前倒しのお知らせ",
-      "official_title": "令和8年度　子どもを守るインフルエンザ予防接種助成の開始時期前倒しのお知らせ",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://imakoso-imabari.jp/service/kodomo-influenza/",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-09-24",
-      "category": "お知らせ",
-      "title": "令和8年度 高齢者インフルエンザ予防接種の開始が早まります",
-      "official_title": "令和8年度　高齢者のインフルエンザ予防接種の開始時期の前倒しのお知らせ",
-      "summary": "希望する高齢者を対象としたインフルエンザ予防接種の開始時期を前倒しします。接種券（はがき）の送付はありませんので、ご注意ください。",
-      "url": "https://www.city.imabari.ehime.jp/kenkou/kourei_influenza/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-24",
-      "category": "お知らせ",
-      "title": "高校生の映画『汝、星のごとく』鑑賞を支援します",
-      "official_title": "今治市　映画『汝、星のごとく』高校生鑑賞支援事業について",
-      "summary": "今治市が舞台の映画『汝、星のごとく』が10月9日（金曜日）に公開されます。市内の高校生を対象に、地元への愛着を深めてもらうための映画鑑賞支援事業を実施します。",
-      "url": "https://www.city.imabari.ehime.jp/kankou/info/nanji/001/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-24",
-      "category": "募集・イベント",
-      "title": "家のごみを減らそう！食品ロスダイアリー参加者募集",
-      "official_title": "食品ロスダイアリー　参加者大募集！",
-      "summary": "今治市の燃やせるごみの約46％が生ごみです。毎日の食事作りや食べ方を見直して、食品ロスを減らす取り組みに参加しませんか？家庭から出るごみを減らすために、ぜひご協力ください。",
-      "url": "https://www.city.imabari.ehime.jp/recycle/tabekiri/3010/#FLD",
       "ai_rewritten": true
     }
   ]
