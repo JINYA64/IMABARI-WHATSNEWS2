@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T01:25:16",
+  "generated_at": "2026-10-01T10:23:17",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
@@ -41,6 +41,24 @@
     {
       "date": "2026-10-01",
       "category": "募集・イベント",
+      "title": "小学生あつまれ！いろいろな武道を体験しよう（11/1開催）",
+      "official_title": "Fスポーツ体験会「いまばり武道フェスタ（小学生対象）」について（11月1日開催）",
+      "summary": "今治市では、小学1〜3年生を対象としたスポーツ体験会「いまばり武道フェスタ」を11月1日に開催します。さまざまな武道が楽しく体験できるイベントですので、ぜひご参加ください。",
+      "url": "https://www.city.imabari.ehime.jp/sports/fsports/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-01",
+      "category": "お知らせ",
+      "title": "【令和8年度】各地区の戦没者等追悼式のご案内",
+      "official_title": "令和8年度の各地区戦没者等追悼式について",
+      "summary": "今治市内の各地区で戦没者等追悼式を開催します。ご遺族や市民の皆様のご参列をお待ちしております。予定が変更になる場合もあるため、事前に福祉政策課または各支所住民サービス課へお問い合わせください。",
+      "url": "https://www.city.imabari.ehime.jp/fukusis/tuitou.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-01",
+      "category": "募集・イベント",
       "title": "今治市で起業する方へ！創業支援の補助金の申込期限を延長しました",
       "official_title": "今治市スタートアップ創業支援補助金の募集期間を延長しました。",
       "summary": "今治市で新しくお店や会社を始める方向けのスタートアップ創業支援補助金について、申込期限を令和8年12月28日（月曜日）まで延長しました。予算の上限に達するまで募集中ですので、これから起業を考えている方はぜひチェックしてください。",
@@ -54,6 +72,15 @@
       "official_title": "令和8年10月期 市営住宅の定期募集について",
       "summary": "今治市営住宅の定期入居者の募集を行っています。申し込みを希望される方は、募集内容をご確認のうえお手続きください。",
       "url": "https://www.city.imabari.ehime.jp/jutaku/info/boshu-teiki/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-01",
+      "category": "お知らせ",
+      "title": "市内の小中学校におけるインフルエンザの学級閉鎖状況",
+      "official_title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
+      "summary": "市内の小中学校でインフルエンザにより学級閉鎖となった学校やクラスの最新状況をお知らせします。お子さんの通う学校の状況をご確認いただけます。",
+      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/",
       "ai_rewritten": true
     },
     {
