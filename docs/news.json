@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T19:45:11",
+  "generated_at": "2026-10-02T01:45:38",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
@@ -162,87 +162,6 @@
       "official_title": "今治市奨学生を募集します。",
       "summary": "今治市に1年以上住んでいる方の子どもで、令和9年度に高校・高専・大学・専門学校へ進学し、成績が優秀な方を対象に奨学生を募集します。進学後の費用負担を軽くしたい方は、ぜひ詳細をご確認ください。",
       "url": "https://www.city.imabari.ehime.jp/kyouikut/shogakukin/imabari/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-25",
-      "category": "お知らせ",
-      "title": "広報いまばり10月号公開！映画「汝、星のごとく」特集",
-      "official_title": "広報いまばり（10月号）を掲載しました。",
-      "summary": "今治市が舞台の映画『汝、星のごとく』を大特集した広報いまばり10月号を掲載しました。全ページがPDFでダウンロードできるほか、郵送での受け取りもお申し込みいただけます。",
-      "url": "https://www.city.imabari.ehime.jp/kouhou/koho/202610/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-25",
-      "category": "お知らせ",
-      "title": "映画『汝、星のごとく』特集！広報いまばり10月号を郵送します",
-      "official_title": "【今治市外にお住まいの方へ】広報いまばり10月号（映画『汝、星のごとく』特集号）の郵送方法",
-      "summary": "10月9日公開の映画『汝、星のごとく』を大特集した広報いまばり10月号を、今治市外にお住まいの方のご自宅へ郵送します。お一人様1冊までお申し込みいただけますので、ぜひお手元にお迎えください。",
-      "url": "https://www.city.imabari.ehime.jp/kouhou/info/003/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-25",
-      "category": "お知らせ",
-      "title": "スマホの使い方を個別で相談できる教室を開催",
-      "official_title": "令和8年度　スマホ個別相談について",
-      "summary": "スマホやタブレットの操作に不安がある方や、もっと便利に使いたい方を対象にした個別相談会を開催します。初心者や高齢者の方もお気軽にご参加ください。",
-      "url": "https://www.city.imabari.ehime.jp/mirai/sp_workshop/#sp-soudan",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-25",
-      "category": "募集・イベント",
-      "title": "受賞した給食を食べよう！試食会を開催します",
-      "official_title": "「日本一おいしい給食」メニュー試食会を開催します。",
-      "summary": "全国大会で賞を受賞した今治の給食を味わってみませんか？給食を通じて、地元の食材や食の大切さを楽しく知る機会です。参加費は1人300円です。",
-      "url": "https://www.city.imabari.ehime.jp/kyushoku/project/R08/003/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-25",
-      "category": "お知らせ",
-      "title": "10月の「移動市役所」の巡回スケジュール",
-      "official_title": "移動市役所の10月のスケジュールを掲載しました。",
-      "summary": "市役所が遠くて不便な地域へ、専用の車で行政スタッフが伺います。10月の訪問スケジュールと場所を掲載しましたので、ぜひご利用ください。",
-      "url": "https://www.city.imabari.ehime.jp/maas/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-25",
-      "category": "お知らせ",
-      "title": "悪質商法や詐欺に要注意！最新の消費者トラブル情報",
-      "official_title": "消費者トラブルに関する最新の情報を更新しました。",
-      "summary": "今治市では、消費者トラブルの相談や解決のアドバイスを行っています。被害を防ぐための最新情報も随時更新していますので、お困りの際はご相談ください。",
-      "url": "https://www.city.imabari.ehime.jp/siminsankaku/shohiseikatu/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-25",
-      "category": "お知らせ",
-      "title": "鹿ノ子池公園・緑の相談所のいまの開花情報",
-      "official_title": "緑の相談所の開花情報",
-      "summary": "昭和56年の開設以来親しまれている緑の相談所から、季節の植物の開花情報をお届けします。土日には園芸講習会や体験学習会も開催していますので、ぜひ自然にふれあいにお越しください。",
-      "url": "https://www.city.imabari.ehime.jp/ijikanri/soudan/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-25",
-      "category": "募集・イベント",
-      "title": "市営住宅の空き家を事業用に貸し出します",
-      "official_title": "市営住宅空き住戸の活用希望者の募集（地域対応活用）について",
-      "summary": "地域の課題解決に取り組む市内事業者を対象に、市営住宅の空き住戸の活用希望者を募集しています。住宅確保にお困りの団体や事業主の方はぜひご応募ください。",
-      "url": "https://www.city.imabari.ehime.jp/jutaku/info/013/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-25",
-      "category": "お知らせ",
-      "title": "10月の教育委員会を傍聴してみませんか",
-      "official_title": "10月の定例教育委員会について",
-      "summary": "教育委員会の会議を公開していますので、ぜひ傍聴にお越しください。内容により非公開となる場合があるため、詳しくは教育大綱推進課にお問い合わせください。",
-      "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai",
       "ai_rewritten": true
     }
   ]
