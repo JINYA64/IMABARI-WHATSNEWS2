@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-05T01:07:43",
+  "generated_at": "2026-10-05T10:46:11",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-05",
+      "category": "お知らせ",
+      "title": "千葉県の台風災害義援金を受け付けています",
+      "official_title": "「令和8年台風第25号災害義援金（千葉県）」の受付について",
+      "summary": "今治市では、台風第25号で被災された方を支援するため義援金を募っています。市役所本館1階ロビーや各支所で、令和8年10月5日から令和9年3月30日まで受け付けています。",
+      "url": "https://www.city.imabari.ehime.jp/fukusis/gienkin/R8-chiba25.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-05",
+      "category": "募集・イベント",
+      "title": "こどもが真ん中フェスタの出展ブース一覧を公開しました。（10月11日開催）",
+      "official_title": "こどもが真ん中フェスタの出展ブース一覧を公開しました。（10月11日開催）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://imakoso-imabari.jp/20261011booth/",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-10-05",
       "category": "お知らせ",
@@ -9,6 +27,15 @@
       "official_title": "令和11年度分（2029年度分）今治市クリーンセンター余剰電力（非FIT分）の容量価値売却の質問回答書を掲載しました。",
       "summary": "今治市クリーンセンターで出る余った電気の売却について、寄せられた質問への回答を掲載しました。入札への参加を検討されている方は、詳細をご確認ください。",
       "url": "https://www.city.imabari.ehime.jp/kankyous/yojo-denryoku/R11/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-05",
+      "category": "募集・イベント",
+      "title": "新商品の開発・販路開拓を応援！補助金の申込期限を延長しました",
+      "official_title": "今治市技術開発・販路開拓事業費補助金のイノベーション推進枠の募集期間を延長しました。",
+      "summary": "デジタル技術を活用した新商品や新サービスの開発・販路開拓に取り組む市内企業を応援するため、補助金の募集期間を延長しました。新しい技術への挑戦や売上アップを目指す事業者の方は、ぜひ詳細をご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/sangyou/hojo/003/",
       "ai_rewritten": true
     },
     {
@@ -99,6 +126,15 @@
       "official_title": "令和8年度の各地区戦没者等追悼式について",
       "summary": "今治市内の各地区で戦没者等追悼式を開催します。ご遺族や市民の皆様のご参列をお待ちしております。予定が変更になる場合もあるため、事前に福祉政策課または各支所住民サービス課へお問い合わせください。",
       "url": "https://www.city.imabari.ehime.jp/fukusis/tuitou.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-01",
+      "category": "募集・イベント",
+      "title": "【事業者の皆様へ】省エネ・業務効率化の補助金の受付を延長しました",
+      "official_title": "今治市物価高騰対応ＤＸ・ＧＸ緊急対策事業補助金の募集期間を延長しました。",
+      "summary": "エネルギー高騰に負けないよう、業務効率化（DX）や省エネ（GX）を進める市内事業者向けの補助金について、募集期間を延長しました。対象となる設備投資をお考えの方は、ぜひご活用ください。",
+      "url": "https://www.city.imabari.ehime.jp/sangyou/hojo/005/",
       "ai_rewritten": true
     },
     {
