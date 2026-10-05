@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-04T18:18:11",
+  "generated_at": "2026-10-05T01:07:43",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-05",
+      "category": "お知らせ",
+      "title": "ごみ処理施設の電気の売却：質問の回答を公開",
+      "official_title": "令和11年度分（2029年度分）今治市クリーンセンター余剰電力（非FIT分）の容量価値売却の質問回答書を掲載しました。",
+      "summary": "今治市クリーンセンターで出る余った電気の売却について、寄せられた質問への回答を掲載しました。入札への参加を検討されている方は、詳細をご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/kankyous/yojo-denryoku/R11/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-05",
+      "category": "お知らせ",
+      "title": "しまなみ海道「大三島IC～伯方島IC間」片側交互通行規制（月・水・金）のお知らせ",
+      "official_title": "しまなみ海道「大三島IC～伯方島IC間」片側交互通行規制（月・水・金）のお知らせ",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.jb-honshi.co.jp/corp_index/news/pdf/2026/260924news-1.pdf",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-10-02",
       "category": "入札・プロポーザル",
@@ -135,51 +153,6 @@
       "official_title": "今治市在宅高齢者・身障者等理美容サービス支援補助金について（障がい福祉課）",
       "summary": "外出が難しい要介護者やそのご家族が理美容サービスを利用する際、費用の一部を補助します。ぜひご利用ください。",
       "url": "https://www.city.imabari.ehime.jp/syougaifukus/info/003/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-28",
-      "category": "お知らせ",
-      "title": "ローソンで無料のスマホ相談会を開催します",
-      "official_title": "ローソンで「スマホの悩み」を解決しませんか？（無料）",
-      "summary": "今治市とローソンが協力し、身近な店舗でスマホの使い方の悩みを無料で相談できるイベントを開催します。スマホ操作に不安がある方は、ぜひ気軽にご参加ください。",
-      "url": "https://www.city.imabari.ehime.jp/simingamannaka/minkan/lawson/#sp-nayami",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-28",
-      "category": "募集・イベント",
-      "title": "パナマ市との姉妹都市50周年！記念ロゴを募集します",
-      "official_title": "今治市・パナマ市姉妹都市提携50周年記念ロゴを募集します。",
-      "summary": "今治市とパナマ市の姉妹都市提携50周年を記念して、両市の友情や交流を象徴するロゴデザインを広く募集します。選ばれた最優秀作品は、今後の50周年を祝う様々な記念事業や取り組みで活用されます。",
-      "url": "https://www.city.imabari.ehime.jp/koryus/info/002/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-28",
-      "category": "補助金・支援",
-      "title": "おうちで理美容サービスを使う費用を補助します",
-      "official_title": "今治市在宅高齢者・身障者等理美容サービス支援補助金について（介護保険課）",
-      "summary": "外出が難しい要介護者とご家族が、理美容サービスを利用する費用の一部を補助します。自宅にいながら散髪や美容院を利用したい方は、ぜひ詳細をご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/kaigo/info/015/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-28",
-      "category": "補助金・支援",
-      "title": "みかん農家を応援！資材費用の補助金が出ます",
-      "official_title": "令和8年度　今治市柑橘等高品質生産強化事業費補助金について",
-      "summary": "資材の高騰に悩む農家の皆さんへ、柑橘の品質向上に必要な被覆資材などの購入費用を補助します。詳しくは農林水産課までお問い合わせください。",
-      "url": "https://www.city.imabari.ehime.jp/nourin/kankitsu/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-28",
-      "category": "募集・イベント",
-      "title": "高校・大学等に進む方へ！今治市奨学生の募集",
-      "official_title": "今治市奨学生を募集します。",
-      "summary": "今治市に1年以上住んでいる方の子どもで、令和9年度に高校・高専・大学・専門学校へ進学し、成績が優秀な方を対象に奨学生を募集します。進学後の費用負担を軽くしたい方は、ぜひ詳細をご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/kyouikut/shogakukin/imabari/",
       "ai_rewritten": true
     }
   ]
