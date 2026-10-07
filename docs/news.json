@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-06T19:45:42",
+  "generated_at": "2026-10-07T01:43:43",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-07",
+      "category": "募集・イベント",
+      "title": "仕事のデジタル化を学ぼう！第4回DX勉強会（11月11日）",
+      "official_title": "第4回今治市デジタル未来コンソーシアムDX勉強会のご案内（11月11日開催）",
+      "summary": "市のデジタル化を進めるため、基礎知識から業務課題の解決までを無料で学べる勉強会を開催します。今治市内に事業所がある企業の経営者や従業員の皆様なら、コンソーシアム未加入でもご参加いただけます。",
+      "url": "https://www.city.imabari.ehime.jp/mirai/miraimabari/info001/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-07",
+      "category": "お知らせ",
+      "title": "大浜沖で見つかったボートの持ち主を探しています",
+      "official_title": "漂流物（ボート）の拾得について【今治市大浜沖】",
+      "summary": "今治市大浜沖でボートの拾得物としての届け出がありました。お心当たりのある方は、今治市までご連絡ください。",
+      "url": "https://www.city.imabari.ehime.jp/kouwan/info/015/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-06",
       "category": "募集・イベント",
@@ -171,33 +189,6 @@
       "official_title": "令和8年10月期 市営住宅の定期募集について",
       "summary": "今治市営住宅の定期入居者の募集を行っています。申し込みを希望される方は、募集内容をご確認のうえお手続きください。",
       "url": "https://www.city.imabari.ehime.jp/jutaku/info/boshu-teiki/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-30",
-      "category": "お知らせ",
-      "title": "令和8年度　今治市職員採用試験C日程（民間企業等経験者枠）第1次試験合格発表について（今治市採用情報サイト）",
-      "official_title": "令和8年度　今治市職員採用試験C日程（民間企業等経験者枠）第1次試験合格発表について（今治市採用情報サイト）",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://public-connect.jp/employer/102412/news/list",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-09-30",
-      "category": "お知らせ",
-      "title": "10月の学校給食の献立表を公開しました",
-      "official_title": "10月の学校給食献立表",
-      "summary": "日吉・近見・立花・北郷中学校の給食センターが作る10月の献立表です。今晩の夕食のおかず選びにもぜひご活用ください。",
-      "url": "https://www.city.imabari.ehime.jp/kyushoku/kondate/202610/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-09-30",
-      "category": "お知らせ",
-      "title": "高齢者の見守りサービス導入に最大3万円を補助します",
-      "official_title": "今治市高齢者等ICT見守りサービス導入支援事業のご案内",
-      "summary": "ひとり暮らしの高齢者などが安心して暮らせるよう、ICT見守りサービスの初期費用の一部を最大3万円まで助成します。詳しくは市ホームページのチラシをご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/fukusis/ICT/",
       "ai_rewritten": true
     }
   ]
