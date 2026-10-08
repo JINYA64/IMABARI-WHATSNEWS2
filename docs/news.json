@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-07T20:05:59",
+  "generated_at": "2026-10-08T02:11:15",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-08",
+      "category": "お知らせ",
+      "title": "令和9年4月からの保育施設などの入所申し込み",
+      "official_title": "令和9年4月からの保育所（園）・認定こども園・幼稚園などの入所（園）申し込みについて",
+      "summary": "10月30日（金曜日）から各施設で申請書類の配布を始めます。詳しい内容や書類の様式は、10月下旬に市の子育て情報ポータルサイトに掲載します。",
+      "url": "https://www.city.imabari.ehime.jp/hoiku/#info",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-07",
       "category": "募集・イベント",
@@ -108,87 +117,6 @@
       "official_title": "「多肉植物を植えてみよう！」の募集期間を延長しました。（10月18日開催）",
       "summary": "いまばり環境緑化フェスティバル2026で行う「多肉植物を植えてみよう！」の参加者募集期間を延長しました。可愛い多肉植物の寄せ植えを体験できるチャンスですので、ぜひご参加ください。",
       "url": "https://www.city.imabari.ehime.jp/ijikanri/info/046/#kouen02",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-01",
-      "category": "お知らせ",
-      "title": "市有地や市有建物を買いたい方へ！第3回公売のお知らせ",
-      "official_title": "令和8年度第3回 市有財産の公売のお知らせ",
-      "summary": "令和8年10月1日（木）から10月30日（金）まで申し込みを受け付けます。入札は11月17日（火）午前10時から今治市役所で行われますので、ぜひご参加ください。",
-      "url": "https://www.city.imabari.ehime.jp/soumuk/bukken/koubai/R8-03/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-01",
-      "category": "お知らせ",
-      "title": "今治市の売却できる土地や建物の情報を更新しました",
-      "official_title": "売却可能財産情報を更新しました。",
-      "summary": "今治市が所有している売却可能な財産の情報を更新しました。一覧の詳細から場所や周辺地図を確認できますので、ぜひご覧ください。",
-      "url": "https://www.city.imabari.ehime.jp/soumuk/baikyaku/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-01",
-      "category": "お知らせ",
-      "title": "今治市の職員数や給料の仕組みを公開します",
-      "official_title": "令和8年度　今治市人事行政の運営等の状況について",
-      "summary": "今治市で働く職員の人数や給料、給与の仕組みなどをまとめた「人事行政の運営等の状況」を公開しています。令和5年度から令和7年度までのデータをご確認いただけます。",
-      "url": "https://www.city.imabari.ehime.jp/jinji/jinji_gyosei/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-01",
-      "category": "入札・プロポーザル",
-      "title": "令和9・10年度の入札参加の申請受付を始めました",
-      "official_title": "令和9・10年度入札参加資格審査申請について掲載しました。",
-      "summary": "今治市の公共工事や物品調達などの入札に参加するための資格審査申請の受付を開始しました。対象となるのは、建設工事や測量、物品調達、業務委託などを希望する事業者です。",
-      "url": "https://www.city.imabari.ehime.jp/keiyaku/R0910_kouji/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-01",
-      "category": "募集・イベント",
-      "title": "小学生あつまれ！いろいろな武道を体験しよう（11/1開催）",
-      "official_title": "Fスポーツ体験会「いまばり武道フェスタ（小学生対象）」について（11月1日開催）",
-      "summary": "今治市では、小学1〜3年生を対象としたスポーツ体験会「いまばり武道フェスタ」を11月1日に開催します。さまざまな武道が楽しく体験できるイベントですので、ぜひご参加ください。",
-      "url": "https://www.city.imabari.ehime.jp/sports/fsports/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-01",
-      "category": "お知らせ",
-      "title": "【令和8年度】各地区の戦没者等追悼式のご案内",
-      "official_title": "令和8年度の各地区戦没者等追悼式について",
-      "summary": "今治市内の各地区で戦没者等追悼式を開催します。ご遺族や市民の皆様のご参列をお待ちしております。予定が変更になる場合もあるため、事前に福祉政策課または各支所住民サービス課へお問い合わせください。",
-      "url": "https://www.city.imabari.ehime.jp/fukusis/tuitou.html",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-01",
-      "category": "募集・イベント",
-      "title": "【事業者の皆様へ】省エネ・業務効率化の補助金の受付を延長しました",
-      "official_title": "今治市物価高騰対応ＤＸ・ＧＸ緊急対策事業補助金の募集期間を延長しました。",
-      "summary": "エネルギー高騰に負けないよう、業務効率化（DX）や省エネ（GX）を進める市内事業者向けの補助金について、募集期間を延長しました。対象となる設備投資をお考えの方は、ぜひご活用ください。",
-      "url": "https://www.city.imabari.ehime.jp/sangyou/hojo/005/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-01",
-      "category": "募集・イベント",
-      "title": "今治市で起業する方へ！創業支援の補助金の申込期限を延長しました",
-      "official_title": "今治市スタートアップ創業支援補助金の募集期間を延長しました。",
-      "summary": "今治市で新しくお店や会社を始める方向けのスタートアップ創業支援補助金について、申込期限を令和8年12月28日（月曜日）まで延長しました。予算の上限に達するまで募集中ですので、これから起業を考えている方はぜひチェックしてください。",
-      "url": "https://www.city.imabari.ehime.jp/sangyou/startup/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-01",
-      "category": "募集・イベント",
-      "title": "10月に入居できる市営住宅の募集を始めます",
-      "official_title": "令和8年10月期 市営住宅の定期募集について",
-      "summary": "今治市営住宅の定期入居者の募集を行っています。申し込みを希望される方は、募集内容をご確認のうえお手続きください。",
-      "url": "https://www.city.imabari.ehime.jp/jutaku/info/boshu-teiki/",
       "ai_rewritten": true
     }
   ]
