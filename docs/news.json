@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-09T02:25:16",
+  "generated_at": "2026-10-09T10:50:02",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-09",
+      "category": "お知らせ",
+      "title": "令和8年度　今治市職員採用試験C日程（初級採用）第1次試験合格発表について（今治市採用情報サイト）",
+      "official_title": "令和8年度　今治市職員採用試験C日程（初級採用）第1次試験合格発表について（今治市採用情報サイト）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://public-connect.jp/employer/102412/news/list",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-10-09",
       "category": "入札・プロポーザル",
@@ -19,6 +28,15 @@
       "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
       "url": "https://imakoso-imabari.jp/event/20261122mfes/",
       "ai_rewritten": false
+    },
+    {
+      "date": "2026-10-09",
+      "category": "募集・イベント",
+      "title": "今治の魅力を活かした脱炭素のヒントを学ぶ講座（10月28日開催）",
+      "official_title": "今治市脱炭素カレッジ「まちの魅力は、足元にある。 ―見つける・伝える・巻き込む。地域からはじめる脱炭素のヒント」を開催します。（10月28日開催）",
+      "summary": "地域を元気にする脱炭素の取り組みについて、講師と一緒に楽しく学びませんか？企業や学生、市民の皆さんの参加をお待ちしています（10月28日開催）。",
+      "url": "https://www.city.imabari.ehime.jp/kankyou/BRGR/R8/02/",
+      "ai_rewritten": true
     },
     {
       "date": "2026-10-09",
