@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-10-08T20:03:13",
+  "generated_at": "2026-10-09T02:25:16",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-09",
+      "category": "入札・プロポーザル",
+      "title": "公用車管理システムの委託先を募集します",
+      "official_title": "「今治市公用車管理システム運営業務委託」に係る公募型プロポーザルの実施について",
+      "summary": "市役所の公用車を効率よく管理するため、予約や運行状況をまとめて管理するシステムの運営業者を広く募集します。応募に関する詳細は今治市ホームページをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/soumuk/proposal/06/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-09",
+      "category": "募集・イベント",
+      "title": "村上海賊フェスタを開催します！（11月22日開催）",
+      "official_title": "村上海賊フェスタを開催します！（11月22日開催）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://imakoso-imabari.jp/event/20261122mfes/",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-10-09",
+      "category": "お知らせ",
+      "title": "サイクリングしまなみ2026に伴う今治港第1駐車場の利用制限",
+      "official_title": "「サイクリングしまなみ2026」に伴う今治港第1駐車場利用制限について",
+      "summary": "10月23日21時から10月25日20時59分まで、イベント実施のため今治港第1駐車場がご利用いただけません。ご不便をおかけしますが、ご理解とご協力をよろしくお願いいたします。",
+      "url": "https://www.city.imabari.ehime.jp/kouwan/info/016/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-09",
+      "category": "お知らせ",
+      "title": "令和8年度全国学力・学習状況調査の結果について",
+      "official_title": "令和8年度全国学力・学習状況調査　今治市立小中学校の調査結果",
+      "summary": "今治市の小中学校で実施された全国学力・学習状況調査の結果をお知らせします。今後の教育指導の充実や学習環境の改善に役立ててまいります。",
+      "url": "https://www.city.imabari.ehime.jp/gakukyou/zenkoku/R8/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-08",
       "category": "お知らせ",
@@ -59,10 +95,10 @@
     {
       "date": "2026-10-05",
       "category": "お知らせ",
-      "title": "千葉県の台風災害義援金を受け付けています",
-      "official_title": "「令和8年台風第25号災害義援金（千葉県）」の受付について",
-      "summary": "今治市では、台風第25号で被災された方を支援するため義援金を募っています。市役所本館1階ロビーや各支所で、令和8年10月5日から令和9年3月30日まで受け付けています。",
-      "url": "https://www.city.imabari.ehime.jp/fukusis/gienkin/R8-chiba25.html",
+      "title": "台風25号の被災地へ義援金を届けませんか",
+      "official_title": "「令和8年台風第25号災害義援金」の受付について",
+      "summary": "千葉県や神奈川県などの被災された方々を支援するため、市役所本館1階ロビーや各支所に募金箱を設置しています。皆さまの温かいご支援をよろしくお願いいたします。期間は令和8年10月5日（月曜日）から令和9年3月30日（火曜日）までの平日です。",
+      "url": "https://www.city.imabari.ehime.jp/fukusis/gienkin/R8-taifu25.html",
       "ai_rewritten": true
     },
     {
@@ -100,33 +136,6 @@
       "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
       "url": "https://www.jb-honshi.co.jp/corp_index/news/pdf/2026/260924news-1.pdf",
       "ai_rewritten": false
-    },
-    {
-      "date": "2026-10-02",
-      "category": "入札・プロポーザル",
-      "title": "ネウボラ拠点施設の工事チェック業務を委託します",
-      "official_title": "「今治市ネウボラ拠点施設整備・運営事業　設計・建設モニタリング業務委託」に係る公募型プロポーザルの実施について",
-      "summary": "新しいネウボラ拠点施設の設計や建設工事が、計画通りに進むよう専門的な立場で確認・支援する事業者の公募を始めます。市の事業が安全かつ確実に進むようチェックを行う大切な業務です。",
-      "url": "https://www.city.imabari.ehime.jp/neuseibi/proposal/02/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-02",
-      "category": "募集・イベント",
-      "title": "手作りの木の名前プレート作り、参加者を募集中！",
-      "official_title": "「樹名板を作ろう！」の募集期間を延長しました。（10月18日開催）",
-      "summary": "10月18日に開催する「いまばり環境緑化フェスティバル2026」にあわせ、樹名板づくりの参加受付期間を延長しました。家族や友人と一緒に、世界にひとつだけのプレートを作ってみませんか？",
-      "url": "https://www.city.imabari.ehime.jp/ijikanri/info/046/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-02",
-      "category": "募集・イベント",
-      "title": "多肉植物づくり教室の申込を延長！10月18日開催",
-      "official_title": "「多肉植物を植えてみよう！」の募集期間を延長しました。（10月18日開催）",
-      "summary": "いまばり環境緑化フェスティバル2026で行う「多肉植物を植えてみよう！」の参加者募集期間を延長しました。可愛い多肉植物の寄せ植えを体験できるチャンスですので、ぜひご参加ください。",
-      "url": "https://www.city.imabari.ehime.jp/ijikanri/info/046/#kouen02",
-      "ai_rewritten": true
     }
   ]
 }
