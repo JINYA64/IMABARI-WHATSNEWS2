@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-13T10:56:03",
+  "generated_at": "2026-10-13T17:06:34",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-13",
+      "category": "お知らせ",
+      "title": "情報配信システムの不正アクセスと個人情報漏えいの可能性",
+      "official_title": "今治市が利用する情報配信システム運営事業者への不正アクセスによる個人情報漏えいの可能性について",
+      "summary": "今治市が使う情報配信システムの運営会社で不正アクセスがあり、個人情報が漏れた可能性があります。現在、会社が原因や影響を調べており、新しい情報が分かり次第お知らせします。",
+      "url": "https://www.city.imabari.ehime.jp/kouhou/info/004/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-13",
       "category": "お知らせ",
