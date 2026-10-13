@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-13T03:06:40",
+  "generated_at": "2026-10-13T10:56:03",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-13",
+      "category": "お知らせ",
+      "title": "トヨタ財団と連携！安全で快適な自転車のまちへ",
+      "official_title": "一般財団法人トヨタ・モビリティ基金との「自転車新文化の更なる拡大・深化に向けた連携協定」について",
+      "summary": "2026年5月28日、愛媛県や今治市などはトヨタ・モビリティ基金と自転車の活用やまちづくりに関する協定を結びました。今後は外国人観光客なども日本の交通ルールを直感的に理解し、安全に走行できる環境づくりを進めます。",
+      "url": "https://www.city.imabari.ehime.jp/cyclecity/info/003/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-13",
       "category": "お知らせ",
@@ -9,6 +18,15 @@
       "official_title": "映画『汝、星のごとく』星をたどって、今治へ。聖地巡礼ガイドブックについて",
       "summary": "瀬戸内が舞台の映画「汝、星のごとく」がいよいよ公開されます！映画のロケ地をめぐる聖地巡礼ガイドブックができましたので、ぜひ今治でのロケ地めぐりにお役立てください。",
       "url": "https://www.city.imabari.ehime.jp/kankou/info/nanji/#guidebook",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-13",
+      "category": "募集・イベント",
+      "title": "介護の悩みを話してみませんか？「在宅介護者のつどい」参加者募集",
+      "official_title": "家族介護者交流事業　令和8年度講座『在宅介護者のつどい』について",
+      "summary": "日頃の介護の疲れを癒やし、同じ立場の方と交流できる「在宅介護者のつどい」を開催します。参加を希望される方は、市役所介護保険課または各支所の高齢福祉担当窓口までお問い合わせください。",
+      "url": "https://www.city.imabari.ehime.jp/kaigo/kazokukaigo/#koryu",
       "ai_rewritten": true
     },
     {
