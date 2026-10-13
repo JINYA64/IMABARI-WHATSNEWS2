@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-12T22:12:34",
+  "generated_at": "2026-10-13T03:06:40",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-13",
+      "category": "お知らせ",
+      "title": "映画「汝、星のごとく」公開！聖地巡礼ガイドブックができました",
+      "official_title": "映画『汝、星のごとく』星をたどって、今治へ。聖地巡礼ガイドブックについて",
+      "summary": "瀬戸内が舞台の映画「汝、星のごとく」がいよいよ公開されます！映画のロケ地をめぐる聖地巡礼ガイドブックができましたので、ぜひ今治でのロケ地めぐりにお役立てください。",
+      "url": "https://www.city.imabari.ehime.jp/kankou/info/nanji/#guidebook",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-09",
       "category": "お知らせ",
@@ -90,24 +99,6 @@
       "official_title": "漂流物（ボート）の拾得について【今治市大浜沖】",
       "summary": "今治市大浜沖でボートの拾得物としての届け出がありました。お心当たりのある方は、今治市までご連絡ください。",
       "url": "https://www.city.imabari.ehime.jp/kouwan/info/015/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-06",
-      "category": "募集・イベント",
-      "title": "日本一おいしい給食を決めるコンテストを開催！",
-      "official_title": "令和8年度　⽇本⼀おいしい給⾷レシピコンテストを開催しました。",
-      "summary": "2026年9月19日（土）に今治明徳短期大学で「日本一おいしい給食レシピコンテスト」を開催しました。学校給食のアイデアを競い合う楽しいイベントの様子をご紹介します。",
-      "url": "https://www.city.imabari.ehime.jp/kyushoku/project/R08/004/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-06",
-      "category": "募集・イベント",
-      "title": "鵜島で島めぐり＆ごみ拾い！秋のビーチクリーン（11/1）",
-      "official_title": "秋のビーチクリーン（鵜島）の開催について（11月1日開催）",
-      "summary": "宮窪町鵜島で、島を散策しながら海岸のごみを拾うイベントを11月1日に開催します。楽しみながら海洋ごみを減らす活動に、ぜひ気軽にご参加ください！",
-      "url": "https://www.city.imabari.ehime.jp/kankyou/info/011/",
       "ai_rewritten": true
     }
   ]
