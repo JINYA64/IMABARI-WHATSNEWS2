@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-13T20:19:23",
+  "generated_at": "2026-10-14T01:19:25",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-14",
+      "category": "お知らせ",
+      "title": "FC今治のホーム戦チケットを抽選でプレゼント！",
+      "official_title": "FC今治ホーム戦の観戦チケットを抽選でプレゼント！（第2弾）",
+      "summary": "普段プロスポーツを見る機会が少ない市民の皆さんを対象に、今治市で開催されるFC今治の公式戦チケットを抽選でプレゼントします。ぜひこの機会にご応募ください。",
+      "url": "https://www.city.imabari.ehime.jp/sports/info/031/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-14",
+      "category": "募集・イベント",
+      "title": "末長 真　写真撮影ワークショップを開催します！（11月3日開催）（PDF 3.9MB）",
+      "official_title": "末長 真　写真撮影ワークショップを開催します！（11月3日開催）（PDF 3.9MB）",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/bunka/info/030/siryo.pdf",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-10-14",
+      "category": "お知らせ",
+      "title": "10月16日・17日 コンビニでの証明書発行が休止に",
+      "official_title": "証明書コンビニ交付サービスの一時利用停止について（令和8年10月17日）",
+      "summary": "システムメンテナンスのため、マイナンバーカードを使った住民票や印鑑証明などのコンビニ交付サービスが一時利用できなくなります。停止期間は令和8年10月16日（金）午後11時から10月17日（土）午後7時までです。",
+      "url": "https://www.city.imabari.ehime.jp/siminka/konbini/info.html",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-13",
       "category": "お知らせ",
@@ -108,24 +135,6 @@
       "official_title": "朝倉B＆G海洋センター　プール使用中止のお知らせ（10月9日〜10月20日）",
       "summary": "清掃と修繕のため、10月9日（金曜日）から10月20日（火曜日）まで朝倉B&G海洋センタープールの利用ができません。なお、第一・第二体育館は通常通りご利用いただけます。",
       "url": "https://www.city.imabari.ehime.jp/sports/shisetsu/asakura_bg/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-07",
-      "category": "募集・イベント",
-      "title": "仕事のデジタル化を学ぼう！第4回DX勉強会（11月11日）",
-      "official_title": "第4回今治市デジタル未来コンソーシアムDX勉強会のご案内（11月11日開催）",
-      "summary": "市のデジタル化を進めるため、基礎知識から業務課題の解決までを無料で学べる勉強会を開催します。今治市内に事業所がある企業の経営者や従業員の皆様なら、コンソーシアム未加入でもご参加いただけます。",
-      "url": "https://www.city.imabari.ehime.jp/mirai/miraimabari/info001/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-07",
-      "category": "お知らせ",
-      "title": "大浜沖で見つかったボートの持ち主を探しています",
-      "official_title": "漂流物（ボート）の拾得について【今治市大浜沖】",
-      "summary": "今治市大浜沖でボートの拾得物としての届け出がありました。お心当たりのある方は、今治市までご連絡ください。",
-      "url": "https://www.city.imabari.ehime.jp/kouwan/info/015/",
       "ai_rewritten": true
     }
   ]
