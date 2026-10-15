@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-14T18:49:19",
+  "generated_at": "2026-10-15T00:43:35",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-15",
+      "category": "募集・イベント",
+      "title": "日本語を勉強したい方へ！市内4地区で日本語教室を開催",
+      "official_title": "外国人のための日本語教室（北郷・大西・吉海・伯方）の開催について",
+      "summary": "北郷・大西・吉海・伯方で外国人のための日本語教室を開きます。場所や時間、内容は地区ごとに違うので、参加したい方は今治市国際交流協会へ申し込んでください。",
+      "url": "https://www.city.imabari.ehime.jp/siminsankaku/gaikokujin/japanese-class/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-14",
       "category": "募集・イベント",
@@ -126,24 +135,6 @@
       "official_title": "令和8年度全国学力・学習状況調査　今治市立小中学校の調査結果",
       "summary": "今治市の小中学校で実施された全国学力・学習状況調査の結果をお知らせします。今後の教育指導の充実や学習環境の改善に役立ててまいります。",
       "url": "https://www.city.imabari.ehime.jp/gakukyou/zenkoku/R8/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-08",
-      "category": "お知らせ",
-      "title": "令和9年4月からの保育施設などの入所申し込み",
-      "official_title": "令和9年4月からの保育所（園）・認定こども園・幼稚園などの入所（園）申し込みについて",
-      "summary": "10月30日（金曜日）から各施設で申請書類の配布を始めます。詳しい内容や書類の様式は、10月下旬に市の子育て情報ポータルサイトに掲載します。",
-      "url": "https://www.city.imabari.ehime.jp/hoiku/#info",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-08",
-      "category": "お知らせ",
-      "title": "朝倉B&G海洋センタープール 10月9日〜20日休止のお知らせ",
-      "official_title": "朝倉B＆G海洋センター　プール使用中止のお知らせ（10月9日〜10月20日）",
-      "summary": "清掃と修繕のため、10月9日（金曜日）から10月20日（火曜日）まで朝倉B&G海洋センタープールの利用ができません。なお、第一・第二体育館は通常通りご利用いただけます。",
-      "url": "https://www.city.imabari.ehime.jp/sports/shisetsu/asakura_bg/",
       "ai_rewritten": true
     }
   ]
