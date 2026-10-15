@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T00:43:35",
+  "generated_at": "2026-10-15T08:33:00",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
@@ -9,6 +9,33 @@
       "official_title": "外国人のための日本語教室（北郷・大西・吉海・伯方）の開催について",
       "summary": "北郷・大西・吉海・伯方で外国人のための日本語教室を開きます。場所や時間、内容は地区ごとに違うので、参加したい方は今治市国際交流協会へ申し込んでください。",
       "url": "https://www.city.imabari.ehime.jp/siminsankaku/gaikokujin/japanese-class/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-15",
+      "category": "入札・プロポーザル",
+      "title": "クリーンセンターの電力売却の入札結果を公表",
+      "official_title": "令和11年度分（2029年度分）今治市クリーンセンター余剰電力（非FIT分）の余剰電力（非FIT分）の容量価値売却の入札結果を公表しました。",
+      "summary": "2029年度分の今治市クリーンセンター余剰電力（非FIT分）における容量価値売却の一般競争入札の結果を公表しました。詳細は公式サイトのPDFやExcel資料をご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/kankyous/yojo-denryoku/R11/#kekka",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-15",
+      "category": "お知らせ",
+      "title": "しまなみアースランドの「ふわふわドーム」で遊べるようになりました！",
+      "official_title": "しまなみアースランド「ふわふわドーム」の修繕工事が完了しました。",
+      "summary": "修繕工事が終わって、また遊べるようになりました！対象は12歳以下のお子さんです。大人は飛び跳ねないようにお願いします。",
+      "url": "https://www.city.imabari.ehime.jp/ijikanri/info/048/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-15",
+      "category": "入札・プロポーザル",
+      "title": "亀老山展望公園のキッチンカー業者を募集します",
+      "official_title": "「今治市亀老山展望公園キッチンカー等出店事業に係る調整運営業務委託」に係る公募型プロポーザルの実施について",
+      "summary": "亀老山展望公園でキッチンカーなどによる飲食物の販売を行い、来園者のおもてなしを充実させる事業者を公募型プロポーザルで募集します。公園の魅力を高めるアイデアをお持ちの事業者のご応募をお待ちしています。",
+      "url": "https://www.city.imabari.ehime.jp/ijikanri/proposal/01/",
       "ai_rewritten": true
     },
     {
@@ -52,8 +79,8 @@
       "category": "お知らせ",
       "title": "情報配信システムの不正アクセスと個人情報漏えいの可能性",
       "official_title": "今治市が利用する情報配信システム運営事業者への不正アクセスによる個人情報漏えいの可能性について",
-      "summary": "今治市が使う情報配信システムの運営会社で不正アクセスがあり、個人情報が漏れた可能性があります。現在、会社が原因や影響を調べており、新しい情報が分かり次第お知らせします。",
-      "url": "https://www.city.imabari.ehime.jp/kouhou/info/004/",
+      "summary": "市が利用する情報配信システムの運営会社で不正アクセスがあり、個人情報が漏えいした可能性があります。現在、会社側が原因や影響を調査中で、新しい情報が分かり次第お知らせします。",
+      "url": "https://www.city.imabari.ehime.jp/cisirt/",
       "ai_rewritten": true
     },
     {
