@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-15T18:33:24",
+  "generated_at": "2026-10-16T00:34:48",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-16",
+      "category": "募集・イベント",
+      "title": "市営住宅の空き住戸を貸し出します！民間事業者の募集",
+      "official_title": "市営住宅空き住戸の活用希望者の募集（地域対応活用）について",
+      "summary": "地域の課題解決や住宅確保に困っている市内の事業者・団体を対象に、市営住宅の空き住戸の活用希望者を募集しています。身近な地域活動や事業にぜひご利用ください。",
+      "url": "https://www.city.imabari.ehime.jp/jutaku/info/013/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-15",
       "category": "募集・イベント",
@@ -108,60 +117,6 @@
       "official_title": "家族介護者交流事業　令和8年度講座『在宅介護者のつどい』について",
       "summary": "日頃の介護の疲れを癒やし、同じ立場の方と交流できる「在宅介護者のつどい」を開催します。参加を希望される方は、市役所介護保険課または各支所の高齢福祉担当窓口までお問い合わせください。",
       "url": "https://www.city.imabari.ehime.jp/kaigo/kazokukaigo/#koryu",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-09",
-      "category": "お知らせ",
-      "title": "令和8年度　今治市職員採用試験C日程（初級採用）第1次試験合格発表について（今治市採用情報サイト）",
-      "official_title": "令和8年度　今治市職員採用試験C日程（初級採用）第1次試験合格発表について（今治市採用情報サイト）",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://public-connect.jp/employer/102412/news/list",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-10-09",
-      "category": "入札・プロポーザル",
-      "title": "公用車管理システムの委託先を募集します",
-      "official_title": "「今治市公用車管理システム運営業務委託」に係る公募型プロポーザルの実施について",
-      "summary": "市役所の公用車を効率よく管理するため、予約や運行状況をまとめて管理するシステムの運営業者を広く募集します。応募に関する詳細は今治市ホームページをご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/soumuk/proposal/06/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-09",
-      "category": "募集・イベント",
-      "title": "村上海賊フェスタを開催します！（11月22日開催）",
-      "official_title": "村上海賊フェスタを開催します！（11月22日開催）",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://imakoso-imabari.jp/event/20261122mfes/",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-10-09",
-      "category": "募集・イベント",
-      "title": "今治の魅力を活かした脱炭素のヒントを学ぶ講座（10月28日開催）",
-      "official_title": "今治市脱炭素カレッジ「まちの魅力は、足元にある。 ―見つける・伝える・巻き込む。地域からはじめる脱炭素のヒント」を開催します。（10月28日開催）",
-      "summary": "地域を元気にする脱炭素の取り組みについて、講師と一緒に楽しく学びませんか？企業や学生、市民の皆さんの参加をお待ちしています（10月28日開催）。",
-      "url": "https://www.city.imabari.ehime.jp/kankyou/BRGR/R8/02/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-09",
-      "category": "お知らせ",
-      "title": "サイクリングしまなみ2026に伴う今治港第1駐車場の利用制限",
-      "official_title": "「サイクリングしまなみ2026」に伴う今治港第1駐車場利用制限について",
-      "summary": "10月23日21時から10月25日20時59分まで、イベント実施のため今治港第1駐車場がご利用いただけません。ご不便をおかけしますが、ご理解とご協力をよろしくお願いいたします。",
-      "url": "https://www.city.imabari.ehime.jp/kouwan/info/016/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-09",
-      "category": "お知らせ",
-      "title": "令和8年度全国学力・学習状況調査の結果について",
-      "official_title": "令和8年度全国学力・学習状況調査　今治市立小中学校の調査結果",
-      "summary": "今治市の小中学校で実施された全国学力・学習状況調査の結果をお知らせします。今後の教育指導の充実や学習環境の改善に役立ててまいります。",
-      "url": "https://www.city.imabari.ehime.jp/gakukyou/zenkoku/R8/",
       "ai_rewritten": true
     }
   ]
