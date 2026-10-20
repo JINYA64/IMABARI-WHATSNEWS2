@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T01:08:59",
+  "generated_at": "2026-10-20T08:48:38",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
     {
@@ -13,11 +13,29 @@
     },
     {
       "date": "2026-10-20",
+      "category": "お知らせ",
+      "title": "11月15日は愛媛県知事選挙の投票日です",
+      "official_title": "令和8年11月15日（日曜日）は第21回愛媛県知事選挙の投票日です。",
+      "summary": "令和8年11月15日（日曜日）は、第21回愛媛県知事選挙の投票日です。忘れずに投票に行きましょう。",
+      "url": "https://www.city.imabari.ehime.jp/senkyo/#info",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-20",
       "category": "募集・イベント",
       "title": "パートタイム会計年度任用職員（事務補助）の募集（契約課）（PDF 166KB）",
       "official_title": "パートタイム会計年度任用職員（事務補助）の募集（契約課）（PDF 166KB）",
       "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
       "url": "https://www.city.imabari.ehime.jp/jinji/boshu_kaikeinendo/R8-011.pdf",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-10-20",
+      "category": "補助金・支援",
+      "title": "困難を抱える家庭の受験支援事業補助金のお知らせ",
+      "official_title": "困難を抱える家庭の受験支援事業補助金について",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://imakoso-imabari.jp/service/gakushushien/",
       "ai_rewritten": false
     },
     {
