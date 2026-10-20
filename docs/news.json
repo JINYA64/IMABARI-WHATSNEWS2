@@ -1,7 +1,25 @@
 {
-  "generated_at": "2026-10-19T20:07:09",
+  "generated_at": "2026-10-20T01:08:59",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-20",
+      "category": "お知らせ",
+      "title": "令和8年度　今治市職員採用試験C日程（民間企業等経験者枠）第2次試験合格発表について（今治市採用情報サイト）",
+      "official_title": "令和8年度　今治市職員採用試験C日程（民間企業等経験者枠）第2次試験合格発表について（今治市採用情報サイト）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://public-connect.jp/employer/102412/news/list",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-10-20",
+      "category": "募集・イベント",
+      "title": "パートタイム会計年度任用職員（事務補助）の募集（契約課）（PDF 166KB）",
+      "official_title": "パートタイム会計年度任用職員（事務補助）の募集（契約課）（PDF 166KB）",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/jinji/boshu_kaikeinendo/R8-011.pdf",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-10-19",
       "category": "お知らせ",
@@ -100,42 +118,6 @@
       "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
       "url": "https://www.city.imabari.ehime.jp/bunka/info/030/siryo.pdf",
       "ai_rewritten": false
-    },
-    {
-      "date": "2026-10-13",
-      "category": "お知らせ",
-      "title": "情報配信システムの不正アクセスと個人情報漏えいの可能性",
-      "official_title": "今治市が利用する情報配信システム運営事業者への不正アクセスによる個人情報漏えいの可能性について",
-      "summary": "市が利用する情報配信システムの運営会社で不正アクセスがあり、個人情報が漏えいした可能性があります。現在、会社側が原因や影響を調査中で、新しい情報が分かり次第お知らせします。",
-      "url": "https://www.city.imabari.ehime.jp/cisirt/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-13",
-      "category": "お知らせ",
-      "title": "トヨタ財団と連携！安全で快適な自転車のまちへ",
-      "official_title": "一般財団法人トヨタ・モビリティ基金との「自転車新文化の更なる拡大・深化に向けた連携協定」について",
-      "summary": "2026年5月28日、愛媛県や今治市などはトヨタ・モビリティ基金と自転車の活用やまちづくりに関する協定を結びました。今後は外国人観光客なども日本の交通ルールを直感的に理解し、安全に走行できる環境づくりを進めます。",
-      "url": "https://www.city.imabari.ehime.jp/cyclecity/info/003/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-13",
-      "category": "お知らせ",
-      "title": "映画「汝、星のごとく」公開！聖地巡礼ガイドブックができました",
-      "official_title": "映画『汝、星のごとく』星をたどって、今治へ。聖地巡礼ガイドブックについて",
-      "summary": "瀬戸内が舞台の映画「汝、星のごとく」がいよいよ公開されます！映画のロケ地をめぐる聖地巡礼ガイドブックができましたので、ぜひ今治でのロケ地めぐりにお役立てください。",
-      "url": "https://www.city.imabari.ehime.jp/kankou/info/nanji/#guidebook",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-13",
-      "category": "募集・イベント",
-      "title": "介護の悩みを話してみませんか？「在宅介護者のつどい」参加者募集",
-      "official_title": "家族介護者交流事業　令和8年度講座『在宅介護者のつどい』について",
-      "summary": "日頃の介護の疲れを癒やし、同じ立場の方と交流できる「在宅介護者のつどい」を開催します。参加を希望される方は、市役所介護保険課または各支所の高齢福祉担当窓口までお問い合わせください。",
-      "url": "https://www.city.imabari.ehime.jp/kaigo/kazokukaigo/#koryu",
-      "ai_rewritten": true
     }
   ]
 }
