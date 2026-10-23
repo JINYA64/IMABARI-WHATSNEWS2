@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-23T00:49:58",
+  "generated_at": "2026-10-23T08:46:41",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-23",
+      "category": "お知らせ",
+      "title": "ソフトバンク回線をお使いの方へ：防災情報の確認方法",
+      "official_title": "緊急速報メールの一部配信停止に伴う防災情報の確認について",
+      "summary": "10月26日頃までソフトバンクの緊急速報メールが一時停止します。避難情報は防災無線や今治市公式LINEなど複数の手段でお知らせしますのでご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/bousai/info/007/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-23",
+      "category": "お知らせ",
+      "title": "【はーばりー】施設予約システムが使えません",
+      "official_title": "【みなと交流センター　はーばりー】PHP脆弱性対応に係る公共施設予約システムの一時停止について",
+      "summary": "システムの緊急メンテナンスのため、現在ネットからの公共施設予約や確認ができません。お急ぎの方は、みなと交流センター3階の港湾漁港課（電話：0898-36-1545）までご連絡ください。",
+      "url": "https://www.city.imabari.ehime.jp/kouwan/info/017/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-23",
+      "category": "お知らせ",
+      "title": "市の土地や建物を先着順で売り出します",
+      "official_title": "市有財産の先着順による売払いについてを更新しました。",
+      "summary": "入札で売れ残った市有地などを、令和8年6月23日午前9時から令和9年2月26日午後5時15分まで先着順で販売します。購入を希望される方は、必要書類を揃えてお申し込みください。同時刻の申込みは抽選となります。",
+      "url": "https://www.city.imabari.ehime.jp/soumuk/bukken/uriharai/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-23",
       "category": "入札・プロポーザル",
