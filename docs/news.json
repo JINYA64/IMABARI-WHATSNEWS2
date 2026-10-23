@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-10-22T18:44:24",
+  "generated_at": "2026-10-23T00:49:58",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-23",
+      "category": "入札・プロポーザル",
+      "title": "公用車管理システムの委託先を募集します",
+      "official_title": "「今治市公用車管理システム運営業務委託」に係る公募型プロポーザルの実施について、質問及び回答を掲載しました。",
+      "summary": "市役所の車を効率よく管理・予約できる新システムの委託先を決めるため、企画提案を募集しています。寄せられた質問に対する回答を公式サイトに掲載しました。",
+      "url": "https://www.city.imabari.ehime.jp/soumuk/proposal/06/#kaitou",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-23",
+      "category": "募集・イベント",
+      "title": "認知症サポーターになりませんか？（11月27日開催）",
+      "official_title": "令和8年度　認知症サポーター養成講座について（11月27日開催）",
+      "summary": "認知症について正しく理解し、温かく見守るサポーターを養成する講座です。受講された方にはサポーター証をお渡しし、事業所の方にはステッカーをお配りします。",
+      "url": "https://www.city.imabari.ehime.jp/kaigo/ninchisho-support/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-23",
+      "category": "入札・プロポーザル",
+      "title": "小中学校のALT業務を受託する事業者を募集します",
+      "official_title": "小中学校外国語指導助手（ALT）受入支援業務及び管理業務」公募型プロポーザルの実施について",
+      "summary": "今治市では、グローバル教育の充実を図るため、小中学校に外国語指導助手（ALT）を派遣する事業などの委託先を公募型プロポーザル方式で募集します。詳細な応募方法やスケジュールは市のホームページをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/kyouikut/proposal/11/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-22",
       "category": "お知らせ",
@@ -99,33 +126,6 @@
       "official_title": "「食育の日」簡単レシピ10月「チンゲンサイの肉みそ豆乳煮」を掲載しました。",
       "summary": "栄養満点で家計にも優しい今が旬のチンゲンサイを使った、簡単レシピを公開しました。あと一品ほしいときや毎日の献立に、ぜひお役立てください。",
       "url": "https://www.city.imabari.ehime.jp/kenkou/shokuiku_recipe/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-16",
-      "category": "お知らせ",
-      "title": "採用試験を受ける方をセクハラから守ります",
-      "official_title": "求職者等に対するセクシュアルハラスメントの防止について",
-      "summary": "今治市では、求職者の方が安心して採用試験を受けられるよう、法律に基づきセクシュアルハラスメントの防止と公正な試験の実施に努めています。",
-      "url": "https://www.city.imabari.ehime.jp/jinji/kyushokusha_sekuhara_boushi/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-16",
-      "category": "お知らせ",
-      "title": "台風18号災害の義援金を受け付けています",
-      "official_title": "「令和8年台風第18号災害義援金」の受付について",
-      "summary": "今治市役所と各支所で、被災された方を支援するための募金を受け付けています。集まった義援金は全額、日本赤十字社を通じて被災地へ届けられますので、皆さまの温かいご支援をお願いします。",
-      "url": "https://www.city.imabari.ehime.jp/fukusis/gienkin/R8-taifu18.html",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-16",
-      "category": "募集・イベント",
-      "title": "市営住宅の空き住戸を貸し出します！民間事業者の募集",
-      "official_title": "市営住宅空き住戸の活用希望者の募集（地域対応活用）について",
-      "summary": "地域の課題解決や住宅確保に困っている市内の事業者・団体を対象に、市営住宅の空き住戸の活用希望者を募集しています。身近な地域活動や事業にぜひご利用ください。",
-      "url": "https://www.city.imabari.ehime.jp/jutaku/info/013/",
       "ai_rewritten": true
     }
   ]
