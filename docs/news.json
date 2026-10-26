@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-10-26T00:33:26",
+  "generated_at": "2026-10-26T09:16:57",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-26",
+      "category": "お知らせ",
+      "title": "【令和9年1月採用】今治市の任期付職員を募集します",
+      "official_title": "今治市任期付職員採用試験（令和9年1月採用）について",
+      "summary": "今治市で働く仲間を募集します。詳しい受験案内や先輩職員のインタビュー動画などは今治市採用専用サイトでご覧いただけます。",
+      "url": "https://www.city.imabari.ehime.jp/jinji/#ninki",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-26",
+      "category": "募集・イベント",
+      "title": "波方支所住民サービス課　パートタイム会計年度任用職員（作業員）の募集（PDF 197KB）",
+      "official_title": "波方支所住民サービス課　パートタイム会計年度任用職員（作業員）の募集（PDF 197KB）",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/jinji/boshu_kaikeinendo/R8-012.pdf",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-10-26",
+      "category": "募集・イベント",
+      "title": "広小路の再整備や今後の計画を話し合う会議を開催します",
+      "official_title": "「令和8年度 今治市都市再生協議会（公共空間再編専門部会）第2回会合」の開催について",
+      "summary": "2026年10月28日10時45分から、はーばりー1階みなとホールで令和8年度第2回今治市都市再生協議会を開催します。広小路の再整備や社会実験の結果、中心市街地のまちづくりについて意見を交わします。",
+      "url": "https://www.city.imabari.ehime.jp/miryokutosi/tosisaisei/R8/kk002/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-26",
+      "category": "募集・イベント",
+      "title": "11月28日開催！みんなで楽しく織田ヶ浜をごみにしよう",
+      "official_title": "海ごみ拾い織田ヶ浜CUPの開催について（11月28日開催）",
+      "summary": "11月28日に織田ヶ浜で、チームや1人で楽しくごみ拾いをするイベントを開催します！面白いごみを選ぶコンテストも行うので、気軽に参加して海をきれいにしましょう。",
+      "url": "https://www.city.imabari.ehime.jp/kankyou/info/012/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-23",
       "category": "お知らせ",
@@ -75,15 +111,6 @@
       "ai_rewritten": true
     },
     {
-      "date": "2026-10-22",
-      "category": "お知らせ",
-      "title": "小中学校のインフルエンザによる学級閉鎖の状況",
-      "official_title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
-      "summary": "市内のお子さんが通う小中学校で、インフルエンザによる学級閉鎖が起きている状況をお知らせします。詳しい学校名やクラスの閉鎖状況は、ページ内で随時更新しています。",
-      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/",
-      "ai_rewritten": true
-    },
-    {
       "date": "2026-10-21",
       "category": "入札・プロポーザル",
       "title": "ネウボラ施設整備の質問と回答を公開しました",
@@ -127,15 +154,6 @@
       "summary": "令和8年11月15日（日曜日）は、第21回愛媛県知事選挙の投票日です。忘れずに投票に行きましょう。",
       "url": "https://www.city.imabari.ehime.jp/senkyo/#info",
       "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-20",
-      "category": "募集・イベント",
-      "title": "パートタイム会計年度任用職員（事務補助）の募集（契約課）（PDF 166KB）",
-      "official_title": "パートタイム会計年度任用職員（事務補助）の募集（契約課）（PDF 166KB）",
-      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/jinji/boshu_kaikeinendo/R8-011.pdf",
-      "ai_rewritten": false
     },
     {
       "date": "2026-10-20",
