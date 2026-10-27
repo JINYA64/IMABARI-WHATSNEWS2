@@ -1,7 +1,70 @@
 {
-  "generated_at": "2026-10-27T01:34:21",
+  "generated_at": "2026-10-27T09:16:22",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-27",
+      "category": "お知らせ",
+      "title": "広小路の社会実験に向けた事前の交通調査結果をお知らせします",
+      "official_title": "広小路社会実験における検証項目の詳細・調査手法等について",
+      "summary": "10月1日の交通量データをもとにシミュレーションを実施した結果、一部の交差点で車が少し並ぶものの、周辺道路の交通や所要時間に大きな影響はないことが分からました。Uターン路の設置による大きな遅れも生じない見込みです。",
+      "url": "https://www.city.imabari.ehime.jp/miryokutosi/hirokoji/008/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-27",
+      "category": "お知らせ",
+      "title": "広報いまばり11月号！星の聖地ガイドや未来のまちづくり実験をご紹介",
+      "official_title": "広報いまばり（11月号）を掲載しました。",
+      "summary": "広報いまばり2026年11月号を掲載しました。大人気小説「汝、星のごとく」の聖地巡礼ガイドや、広小路の未来を考える社会実験など注目情報が盛りだくさんです。ぜひご覧ください。",
+      "url": "https://www.city.imabari.ehime.jp/kouhou/koho/202611/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-27",
+      "category": "募集・イベント",
+      "title": "若い世代のアイデア募集！イマバリ未来デザインアワード",
+      "official_title": "イマバリ未来デザインアワード　若い世代の政策アイデアを募集します。",
+      "summary": "今治市の未来をより良くするための政策アイデアを募集します。「こんなまちにしたい」「挑戦したい」という若い世代の皆さんの熱い思いをお待ちしています！",
+      "url": "https://www.city.imabari.ehime.jp/simingamannaka/miraidesign-award/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-27",
+      "category": "募集・イベント",
+      "title": "大島で健康ウォーキング！親子やシニアも参加者募集",
+      "official_title": "しまなみ健康塾 in大島「健康ウォーキング」（12月5日開催）",
+      "summary": "12月5日（土）9時30分から村上海賊ミュージアム発着で開催します。今治市にお住まいで、5キロ以上歩ける小学生以上の親子や60歳までの方が対象で、定員は先着15名程度です。",
+      "url": "https://www.city.imabari.ehime.jp/shimanamis/shimanami-kenkoujyuku/R8/02/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-27",
+      "category": "募集・イベント",
+      "title": "人権について楽しく考えるフェスティバルを開催します",
+      "official_title": "いまばり人権啓発フェスティバル2026を開催します。",
+      "summary": "今治市は「人権の日」の記念行事として、講演会やパネル展などを組み合わせた人権啓発フェスティバルを開催します。日々の生活の中で、人権について改めて考えるきっかけにぜひご参加ください。",
+      "url": "https://www.city.imabari.ehime.jp/event/?a=387",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-27",
+      "category": "募集・イベント",
+      "title": "第13回今治ふしぎ発見！ゼミ 「朝倉・笠松山」 参加者募集（11月28日開催）",
+      "official_title": "第13回今治ふしぎ発見！ゼミ 「朝倉・笠松山」 参加者募集（11月28日開催）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://apply.e-tumo.jp/city-imabari-ehime-u/offer/offerList_detail?tempSeq=12975",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-10-27",
+      "category": "募集・イベント",
+      "title": "親子Xmasリース作り教室 参加者募集（11月23日開催）",
+      "official_title": "親子Xmasリース作り教室 参加者募集（11月23日開催）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://apply.e-tumo.jp/city-imabari-ehime-u/offer/offerList_detail?tempSeq=12976",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-10-26",
       "category": "お知らせ",
@@ -36,15 +99,6 @@
       "official_title": "海ごみ拾い織田ヶ浜CUPの開催について（11月28日開催）",
       "summary": "11月28日に織田ヶ浜で、チームや1人で楽しくごみ拾いをするイベントを開催します！面白いごみを選ぶコンテストも行うので、気軽に参加して海をきれいにしましょう。",
       "url": "https://www.city.imabari.ehime.jp/kankyou/info/012/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-23",
-      "category": "お知らせ",
-      "title": "ソフトバンク回線をお使いの方へ：防災情報の確認方法",
-      "official_title": "緊急速報メールの一部配信停止に伴う防災情報の確認について",
-      "summary": "10月26日頃までソフトバンクの緊急速報メールが一時停止します。避難情報は防災無線や今治市公式LINEなど複数の手段でお知らせしますのでご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/bousai/info/007/",
       "ai_rewritten": true
     },
     {
