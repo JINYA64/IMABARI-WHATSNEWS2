@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-27T19:34:30",
+  "generated_at": "2026-10-28T01:32:51",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-10-28",
+      "category": "お知らせ",
+      "title": "サンライズ糸山周辺の宿泊施設づくりが進んでいます",
+      "official_title": "（進捗状況）サンライズ糸山及び周辺市有地活用促進事業について",
+      "summary": "しまなみ海道の四国側の起点であるサンライズ糸山周辺に、国内外から多くの人が集まる魅力的な宿泊施設をつくる事業です。民間事業者の自由なアイデアや資金を活かして開発を進めるため、令和7年度の公募で実施事業者を決定しました。",
+      "url": "https://www.city.imabari.ehime.jp/cyclecity/sunrise-itoyama/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-10-27",
       "category": "お知らせ",
@@ -45,6 +54,15 @@
       "official_title": "いまばり人権啓発フェスティバル2026を開催します。",
       "summary": "今治市は「人権の日」の記念行事として、講演会やパネル展などを組み合わせた人権啓発フェスティバルを開催します。日々の生活の中で、人権について改めて考えるきっかけにぜひご参加ください。",
       "url": "https://www.city.imabari.ehime.jp/event/?a=387",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-27",
+      "category": "お知らせ",
+      "title": "緑の相談所のいまの開花情報をお届けします",
+      "official_title": "緑の相談所の開花情報",
+      "summary": "昭和56年から親しまれている緑の相談所は、自然とふれあえる学習の場です。土日には園芸講習会や体験学習会を開催していますので、ぜひお気軽にお越しください。",
+      "url": "https://www.city.imabari.ehime.jp/ijikanri/soudan/#kaika",
       "ai_rewritten": true
     },
     {
@@ -162,33 +180,6 @@
       "official_title": "日本遺産 村上海賊周遊ツアー！（11月22日開催）",
       "summary": "11月22日に、チャーター船と貸切バスで日本遺産「村上海賊」ゆかりの地を巡る特別なツアーを開催します。ミュージアム見学や能島上陸、潮流体験、亀老山展望公園からの絶景を満喫できる内容です。",
       "url": "https://www.city.imabari.ehime.jp/event/?a=698",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-21",
-      "category": "入札・プロポーザル",
-      "title": "ネウボラ施設整備の質問と回答を公開しました",
-      "official_title": "「今治市ネウボラ拠点施設整備・運営事業　設計・建設モニタリング業務委託」に係る公募型プロポーザルの実施について、質問及び回答を掲載しました。",
-      "summary": "今治市ネウボラ拠点施設の設計・建設をチェックする業務のプロポーザルについて、寄せられた質問に対する回答を掲載しました。事業者の方はお知らせをご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/neuseibi/proposal/02/#kaitou",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-21",
-      "category": "お知らせ",
-      "title": "【事業者向け】今後の産業施策に関するアンケートご協力のお願い",
-      "official_title": "【事業者の皆さまへ】中小企業等経営環境調査（アンケート）へのご協力のお願い",
-      "summary": "市内事業者の現状を把握し、今後の産業振興策に活かすためのアンケート調査を実施します。回答時間の目安は約5〜10分ですので、率直なご意見をお聞かせください。",
-      "url": "https://www.city.imabari.ehime.jp/sangyou/info/001/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-21",
-      "category": "お知らせ",
-      "title": "ふるさとチョイスの不正アクセスと個人情報流出",
-      "official_title": "ふるさと納税ポータルサイト「ふるさとチョイス」における不正アクセス及び個人情報流出について",
-      "summary": "「ふるさとチョイス」で不正アクセスがあり、個人情報が流出しました。安全確保のため、2026年10月19日15時50分頃から関連サービスが停止しています。",
-      "url": "https://www.city.imabari.ehime.jp/iiimabari/info/018/",
       "ai_rewritten": true
     }
   ]
