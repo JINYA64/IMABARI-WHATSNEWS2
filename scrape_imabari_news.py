@@ -130,6 +130,49 @@ def fetch(url: str) -> BeautifulSoup:
     return BeautifulSoup(resp.text, "html.parser")
 
 
+# 今治市サイトが一時的に500などを返すことがあるため、更新情報ページの取得だけは
+# 間隔を空けて数回やり直す（合計で最大2分半ほど待つ）。
+WHATSNEW_RETRY_WAITS_SEC = [15, 45, 90]
+
+
+def fetch_with_retry(url: str) -> BeautifulSoup:
+    """5xx・タイムアウト・接続エラーのときは待ってから再試行する。
+    すべて失敗したら最後の例外をそのまま投げる。"""
+    last_err = None
+    for attempt in range(len(WHATSNEW_RETRY_WAITS_SEC) + 1):
+        try:
+            return fetch(url)
+        except requests.exceptions.HTTPError as e:
+            status = e.response.status_code if e.response is not None else None
+            if status is None or status < 500:
+                raise  # 404などはやり直しても直らないので即終了
+            last_err = e
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            last_err = e
+        if attempt < len(WHATSNEW_RETRY_WAITS_SEC):
+            wait = WHATSNEW_RETRY_WAITS_SEC[attempt]
+            print(f"[WARN] 取得失敗（{last_err}）。{wait}秒待って再試行します。", file=sys.stderr)
+            time.sleep(wait)
+    raise last_err
+
+
+def load_previous_payload() -> dict:
+    """前回の docs/news.json をそのまま読み込む（無ければ空）。"""
+    if not OUTPUT_PATH.exists():
+        return {}
+    try:
+        return json.loads(OUTPUT_PATH.read_text(encoding="utf-8"))
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+JST = datetime.timezone(datetime.timedelta(hours=9))
+
+
+def now_jst_iso() -> str:
+    return datetime.datetime.now(JST).isoformat(timespec="seconds")
+
+
 def parse_whatsnew(soup: BeautifulSoup):
     """
     更新情報ページから (date, title, url) のリストを抽出する。
@@ -392,8 +435,43 @@ def load_previous_ai_results():
     return cache
 
 
+def write_payload(payload: dict) -> None:
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_PATH.write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
+def keep_previous_on_failure(err: Exception, cutoff: datetime.date) -> None:
+    """
+    今治市サイトに接続できなかったときの処理。
+    前回の内容をそのまま残しつつ、7日を過ぎた項目だけは削除して書き出す。
+    掲示板は前回の情報で表示を続け、次回の実行で自動的に復帰する。
+    """
+    prev = load_previous_payload()
+    items = [
+        it for it in prev.get("items", [])
+        if it.get("date") and datetime.date.fromisoformat(it["date"]) >= cutoff
+    ]
+    last_ok = prev.get("last_success_at") or prev.get("generated_at")
+    # 旧形式（時差情報なし＝GitHub上ではUTC）の時刻にはUTCであることを明記する
+    if last_ok and not re.search(r"(Z|[+-]\d\d:\d\d)$", last_ok):
+        last_ok += "+00:00"
+    payload = {
+        "generated_at": now_jst_iso(),
+        "last_success_at": last_ok,
+        "fetch_status": "error",
+        "source": BASE_URL,
+        "items": items,
+    }
+    write_payload(payload)
+    # GitHub Actions の画面に黄色い警告として表示される（実行自体は成功扱い）
+    print(f"::warning::今治市サイトに接続できませんでした（{err}）。前回の情報（{len(items)}件）を表示し続けます。")
+
+
 def main():
-    today = datetime.date.today()
+    today = datetime.datetime.now(JST).date()
     cutoff = today - datetime.timedelta(days=DAYS_TO_KEEP - 1)
 
     if GEMINI_API_KEY:
@@ -404,7 +482,11 @@ def main():
     ai_cache = load_previous_ai_results()
 
     print(f"[INFO] fetching {BASE_URL}", file=sys.stderr)
-    soup = fetch(BASE_URL)
+    try:
+        soup = fetch_with_retry(BASE_URL)
+    except Exception as e:  # noqa: BLE001
+        keep_previous_on_failure(e, cutoff)
+        return
     all_items = parse_whatsnew(soup)
     print(f"[INFO] parsed {len(all_items)} items total", file=sys.stderr)
 
@@ -447,17 +529,15 @@ def main():
 
     print(f"[INFO] キャッシュ再利用: {reused}件 / 新規処理: {freshly_processed}件", file=sys.stderr)
 
+    now = now_jst_iso()
     payload = {
-        "generated_at": datetime.datetime.now().isoformat(timespec="seconds"),
+        "generated_at": now,
+        "last_success_at": now,
+        "fetch_status": "ok",
         "source": BASE_URL,
         "items": results,
     }
-
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    write_payload(payload)
     print(f"[INFO] wrote {len(results)} items to {OUTPUT_PATH}", file=sys.stderr)
 
 
