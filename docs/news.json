@@ -1,7 +1,108 @@
 {
-  "generated_at": "2026-10-29T01:54:14",
+  "generated_at": "2026-11-02T10:42:13+09:00",
+  "last_success_at": "2026-11-02T10:42:13+09:00",
+  "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-02",
+      "category": "募集・イベント",
+      "title": "市営墓地の新しい使用者を募集しています",
+      "official_title": "墓地使用の申込募集をしています。",
+      "summary": "市営墓地の利用者募集を行っています。申し込みに必要な案内書は各申込先でお渡ししていますので、条件などの詳細は直接お問い合わせください。",
+      "url": "https://www.city.imabari.ehime.jp/kankyou/bochi/boshu_202611.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-01",
+      "category": "募集・イベント",
+      "title": "高校や大学に通うための奨学生を募集します",
+      "official_title": "令和9年度奨学生を募集します。（河野育英会、檜垣育英会、加根又育英会）",
+      "summary": "経済的な理由で進学が難しい方を対象に、無利子で奨学金を貸し出します。河野・檜垣・加根又の各育英会で令和9年度の募集を行います。",
+      "url": "https://www.city.imabari.ehime.jp/kyouikut/shogakukin/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-30",
+      "category": "お知らせ",
+      "title": "12月分の施設予約受付方法について",
+      "official_title": "公共施設予約システム停止に伴う12月分施設予約のお知らせ",
+      "summary": "現在、予約システムのメンテナンスにより停止が続いています。そのため、12月利用分の施設の予約受付は、通常と異なる方法で対応いたしますので詳細をご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/sports/info/032/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-30",
+      "category": "お知らせ",
+      "title": "令和9年4月からの保育所（園）・認定こども園・幼稚園等の入所（園）申し込みのお知らせ",
+      "official_title": "令和9年4月からの保育所（園）・認定こども園・幼稚園等の入所（園）申し込みについて",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-10-30",
+      "category": "入札・プロポーザル",
+      "title": "小中学校のALT業務に関する質問の回答を公開しました",
+      "official_title": "小中学校外国語指導助手（ALT）受入支援業務及び管理業務」公募型プロポーザルの実施について「質問票に対する回答」を掲載しました。",
+      "summary": "小中学校の外国語指導助手（ALT）の受入支援と管理業務に関する公募型プロポーザルについて、寄せられた質問への回答をホームページに掲載しました。事業者の方はこちらから内容をご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/kyouikut/proposal/11/#kaitou",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-29",
+      "category": "お知らせ",
+      "title": "桜井総合公園：11月10日〜13日テニスコート等が休止",
+      "official_title": "【桜井総合公園】クアハウス今治の修繕休館に伴う一部公園施設等の対応について（11月10日〜13日）",
+      "summary": "クアハウス今治の修繕工事にともない、11月10日から11月13日まで桜井総合公園のテニスコートと球技場がご利用いただけません。ご不便をおかけしますが、ご理解とご協力をお願いいたします。",
+      "url": "https://www.city.imabari.ehime.jp/ijikanri/sakurai/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-29",
+      "category": "お知らせ",
+      "title": "よしうみバラ公園の開花情報",
+      "official_title": "よしうみバラ公園の開花情報",
+      "summary": "5月中旬から12月末まで、園内で400種3,500株の美しいバラが楽しめます。見ごろの時期には、毎年バラ祭りも開催され多くの人で賑わいます。",
+      "url": "https://www.city.imabari.ehime.jp/ijikanri/yosiumi/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-29",
+      "category": "入札・プロポーザル",
+      "title": "亀老山展望公園のキッチンカー募集、質問と回答を公開しました",
+      "official_title": "「今治市亀老山展望公園キッチンカー等出店事業に係る調整運営業務委託」に係る公募型プロポーザルの実施について、質問及び回答を掲載しました。",
+      "summary": "亀老山展望公園で飲食物を販売するキッチンカーの出店事業者を選ぶため、公募型プロポーザルを実施します。事業者からの質問に対する回答を掲載しましたのでご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/ijikanri/proposal/01/#kaitou",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-29",
+      "category": "お知らせ",
+      "title": "11月7日、港湾漁港課の電話とFAXが一時使えません",
+      "official_title": "【港湾漁港課】11月7日の電話回線移行工事に伴う電話・FAXの一時不通について",
+      "summary": "電話回線工事のため、令和8年11月7日（土）9時から13時（予定）の間、港湾漁港課の電話（0898-22-4120）とFAX（0898-22-4121）が一時的に不通となります。ご不便をおかけしますが、おかけ直しをお願いいたします。",
+      "url": "https://www.city.imabari.ehime.jp/kouwan/info/018/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-29",
+      "category": "お知らせ",
+      "title": "都市計画道路「高地線」の変更案をご覧いただけます",
+      "official_title": "都市計画の案がご覧になれます。（今治広域都市計画道路の変更について）",
+      "summary": "安全に歩ける歩道を確保するため、高地線の道路幅を現在の12mから14mに変更する計画案を公開しています。ご意見のある方はぜひ内容をご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/tosisei/info/0043/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-10-28",
+      "category": "お知らせ",
+      "title": "令和8年度　今治市職員採用試験C日程（初級採用）最終試験合格発表について（今治市採用情報サイト）",
+      "official_title": "令和8年度　今治市職員採用試験C日程（初級採用）最終試験合格発表について（今治市採用情報サイト）",
+      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
+      "url": "https://public-connect.jp/employer/102412/news/list",
+      "ai_rewritten": false
+    },
     {
       "date": "2026-10-28",
       "category": "お知らせ",
@@ -82,87 +183,6 @@
       "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
       "url": "https://apply.e-tumo.jp/city-imabari-ehime-u/offer/offerList_detail?tempSeq=12976",
       "ai_rewritten": false
-    },
-    {
-      "date": "2026-10-26",
-      "category": "お知らせ",
-      "title": "【令和9年1月採用】今治市の任期付職員を募集します",
-      "official_title": "今治市任期付職員採用試験（令和9年1月採用）について",
-      "summary": "今治市で働く仲間を募集します。詳しい受験案内や先輩職員のインタビュー動画などは今治市採用専用サイトでご覧いただけます。",
-      "url": "https://www.city.imabari.ehime.jp/jinji/#ninki",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-26",
-      "category": "募集・イベント",
-      "title": "波方支所住民サービス課　パートタイム会計年度任用職員（作業員）の募集（PDF 197KB）",
-      "official_title": "波方支所住民サービス課　パートタイム会計年度任用職員（作業員）の募集（PDF 197KB）",
-      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/jinji/boshu_kaikeinendo/R8-012.pdf",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-10-26",
-      "category": "募集・イベント",
-      "title": "広小路の再整備や今後の計画を話し合う会議を開催します",
-      "official_title": "「令和8年度 今治市都市再生協議会（公共空間再編専門部会）第2回会合」の開催について",
-      "summary": "2026年10月28日10時45分から、はーばりー1階みなとホールで令和8年度第2回今治市都市再生協議会を開催します。広小路の再整備や社会実験の結果、中心市街地のまちづくりについて意見を交わします。",
-      "url": "https://www.city.imabari.ehime.jp/miryokutosi/tosisaisei/R8/kk002/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-26",
-      "category": "募集・イベント",
-      "title": "11月28日開催！みんなで楽しく織田ヶ浜をごみにしよう",
-      "official_title": "海ごみ拾い織田ヶ浜CUPの開催について（11月28日開催）",
-      "summary": "11月28日に織田ヶ浜で、チームや1人で楽しくごみ拾いをするイベントを開催します！面白いごみを選ぶコンテストも行うので、気軽に参加して海をきれいにしましょう。",
-      "url": "https://www.city.imabari.ehime.jp/kankyou/info/012/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-23",
-      "category": "お知らせ",
-      "title": "【はーばりー】施設予約システムが使えません",
-      "official_title": "【みなと交流センター　はーばりー】PHP脆弱性対応に係る公共施設予約システムの一時停止について",
-      "summary": "システムの緊急メンテナンスのため、現在ネットからの公共施設予約や確認ができません。お急ぎの方は、みなと交流センター3階の港湾漁港課（電話：0898-36-1545）までご連絡ください。",
-      "url": "https://www.city.imabari.ehime.jp/kouwan/info/017/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-23",
-      "category": "お知らせ",
-      "title": "市の土地や建物を先着順で売り出します",
-      "official_title": "市有財産の先着順による売払いについてを更新しました。",
-      "summary": "入札で売れ残った市有地などを、令和8年6月23日午前9時から令和9年2月26日午後5時15分まで先着順で販売します。購入を希望される方は、必要書類を揃えてお申し込みください。同時刻の申込みは抽選となります。",
-      "url": "https://www.city.imabari.ehime.jp/soumuk/bukken/uriharai/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-23",
-      "category": "入札・プロポーザル",
-      "title": "公用車管理システムの委託先を募集します",
-      "official_title": "「今治市公用車管理システム運営業務委託」に係る公募型プロポーザルの実施について、質問及び回答を掲載しました。",
-      "summary": "市役所の車を効率よく管理・予約できる新システムの委託先を決めるため、企画提案を募集しています。寄せられた質問に対する回答を公式サイトに掲載しました。",
-      "url": "https://www.city.imabari.ehime.jp/soumuk/proposal/06/#kaitou",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-23",
-      "category": "募集・イベント",
-      "title": "認知症サポーターになりませんか？（11月27日開催）",
-      "official_title": "令和8年度　認知症サポーター養成講座について（11月27日開催）",
-      "summary": "認知症について正しく理解し、温かく見守るサポーターを養成する講座です。受講された方にはサポーター証をお渡しし、事業所の方にはステッカーをお配りします。",
-      "url": "https://www.city.imabari.ehime.jp/kaigo/ninchisho-support/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-23",
-      "category": "入札・プロポーザル",
-      "title": "小中学校のALT業務を受託する事業者を募集します",
-      "official_title": "小中学校外国語指導助手（ALT）受入支援業務及び管理業務」公募型プロポーザルの実施について",
-      "summary": "今治市では、グローバル教育の充実を図るため、小中学校に外国語指導助手（ALT）を派遣する事業などの委託先を公募型プロポーザル方式で募集します。詳細な応募方法やスケジュールは市のホームページをご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/kyouikut/proposal/11/",
-      "ai_rewritten": true
     }
   ]
 }
