@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T10:42:13+09:00",
-  "last_success_at": "2026-11-02T10:42:13+09:00",
+  "generated_at": "2026-11-02T20:35:48+09:00",
+  "last_success_at": "2026-11-02T20:35:48+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -11,6 +11,69 @@
       "official_title": "墓地使用の申込募集をしています。",
       "summary": "市営墓地の利用者募集を行っています。申し込みに必要な案内書は各申込先でお渡ししていますので、条件などの詳細は直接お問い合わせください。",
       "url": "https://www.city.imabari.ehime.jp/kankyou/bochi/boshu_202611.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "11月の学校給食の献立表を公開しました",
+      "official_title": "11月の学校給食献立表",
+      "summary": "今治市の日吉、近見、立花、北郷の中学校の11月の給食献立をご覧いただけます。今晩のおかず選びの参考にぜひご活用ください（材料の都合により変更する場合もあります）。",
+      "url": "https://www.city.imabari.ehime.jp/kyushoku/kondate/202611/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "11月の「移動市役所」の巡回スケジュール",
+      "official_title": "移動市役所の11月のスケジュールを掲載しました。",
+      "summary": "市役所が遠くてお困りの方のもとへ、専用車が行政サービスをお届けします。11月の訪問日程や場所を掲載しましたので、ぜひお近くの会場をご利用ください。",
+      "url": "https://www.city.imabari.ehime.jp/maas/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "悪質商法や詐欺などの最新トラブル情報を更新しました",
+      "official_title": "消費者トラブルに関する最新の情報を更新しました。",
+      "summary": "今治市では、消費者トラブルの相談受付や解決のアドバイスを行っています。被害を防ぐための最新情報も更新しましたので、不審な点があればお気軽にご相談ください。",
+      "url": "https://www.city.imabari.ehime.jp/siminsankaku/shohiseikatu/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-02",
+      "category": "募集・イベント",
+      "title": "C&Kライブに合わせて「IMABALINAフェア」を開催！（11月8日）",
+      "official_title": "C&K 2026全国ツアー今治公演　IMABALINAフェア（11月8日開催）",
+      "summary": "11月8日のC&K今治公演に合わせて、ファンや来場者をおもてなしする「IMABALINAフェア」を開催します！当日は今治港で「せとうちみなとマルシェ」も同時に楽しめますので、ぜひ遊びに来てくださいね。",
+      "url": "https://www.city.imabari.ehime.jp/iiimabari/info/019/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "地域ブランド調査2026結果～今治市の魅力度～が発表されました。（PDF 414KB）",
+      "official_title": "地域ブランド調査2026結果～今治市の魅力度～が発表されました。（PDF 414KB）",
+      "summary": "（PDF資料）詳細は今治市サイトのPDFをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/iiimabari/chousakekka/chousakekka2026.pdf",
+      "ai_rewritten": false
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "11月の教育委員会を傍聴してみませんか",
+      "official_title": "11月の定例教育委員会について",
+      "summary": "教育委員会の会議をどなたでも傍聴できます。非公開になる場合もあるため、詳しくは教育大綱推進課にお問い合わせください。",
+      "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-02",
+      "category": "お知らせ",
+      "title": "小中学校のインフルエンザによる学級閉鎖の状況",
+      "official_title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
+      "summary": "市内の小中学校における、インフルエンザや発熱などの症状による学級閉鎖などの発生状況をお知らせします。お子さんの通う学校の状況を確認し、手洗いやうがいなどで感染予防に努めましょう。",
+      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/",
       "ai_rewritten": true
     },
     {
