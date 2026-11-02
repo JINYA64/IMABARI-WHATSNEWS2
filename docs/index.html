@@ -79,6 +79,8 @@
     font-variant-numeric:tabular-nums;
   }
   .date-line{ font-size:12px; color:var(--ink-soft); margin-top:2px; }
+  .sync-line{ font-size:11.5px; color:var(--ink-soft); margin-top:2px; }
+  .sync-line.warn{ color:var(--mikan); font-weight:700; }
 
   .mode-btn, .textsize-btn{
     background:var(--card); border:1.5px solid var(--sea);
@@ -213,6 +215,7 @@
       <div class="clock-block">
         <div class="clock" id="clock">--:--:--</div>
         <div class="date-line" id="today">----年--月--日（-）</div>
+        <div class="sync-line" id="syncLine"></div>
       </div>
       <button class="textsize-btn" id="textSizeBtn" type="button" aria-pressed="false">文字を大きく</button>
       <button class="mode-btn" id="modeBtn" type="button">一覧でゆっくり見る</button>
@@ -427,6 +430,23 @@ function setupTextSize(){
   });
 }
 
+/* ---------- 最終取得時刻の表示 ---------- */
+function showSyncStatus(data){
+  const el = document.getElementById('syncLine');
+  const ts = data.last_success_at || data.generated_at;
+  if(!ts){ el.textContent = ""; return; }
+  const d = new Date(ts);
+  const pad = n => String(n).padStart(2,'0');
+  const label = isNaN(d) ? ts : `${d.getMonth()+1}月${d.getDate()}日 ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  if(data.fetch_status === "error"){
+    el.textContent = `市サイトに接続できず、${label} 時点の情報を表示中`;
+    el.classList.add('warn');
+  } else {
+    el.textContent = `${label} 更新`;
+    el.classList.remove('warn');
+  }
+}
+
 /* ---------- データ取得 ---------- */
 async function loadNews(){
   try{
@@ -434,6 +454,7 @@ async function loadNews(){
     const res = await fetch(`${NEWS_JSON_URL}?t=${Date.now()}`, {cache:"no-store"});
     if(!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
+    showSyncStatus(data);
     RAW_ITEMS = data.items || [];
     if(RAW_ITEMS.length === 0){
       cardBody.innerHTML = '<p class="state-msg">直近7日間の更新情報はまだありません。</p>';
