@@ -1,9 +1,45 @@
 {
-  "generated_at": "2026-11-04T05:35:30+09:00",
-  "last_success_at": "2026-11-04T05:35:30+09:00",
+  "generated_at": "2026-11-04T11:33:47+09:00",
+  "last_success_at": "2026-11-04T11:33:47+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-04",
+      "category": "お知らせ",
+      "title": "住民票の法人請求がオンラインで可能に",
+      "official_title": "住民票の法人請求オンラインサービスについて",
+      "summary": "事業者の方向けに住民票のオンライン請求サービスを試行します。窓口に行かずキャッシュレスで請求できるようになり業務の負担が軽減されますが、事前に富士フイルムシステムサービスでの手続きが必要です。",
+      "url": "https://www.city.imabari.ehime.jp/siminka/info/001/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-04",
+      "category": "募集・イベント",
+      "title": "【事業者向け】省エネ・業務効率化の補助金の受付を延長しました",
+      "official_title": "今治市物価高騰対応ＤＸ・ＧＸ緊急対策事業補助金の募集期間を延長しました。",
+      "summary": "電気代などの負担を減らすため、パソコンや省エネ設備の導入費用をサポートする補助金の募集期間を延ばしました。市内事業者の生産性向上を応援しますので、ぜひご活用ください。",
+      "url": "https://www.city.imabari.ehime.jp/sangyou/hojo/005/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-04",
+      "category": "募集・イベント",
+      "title": "企業のデジタル化を応援！補助金の申込期限を延ばしました",
+      "official_title": "今治市ＤＸ推進事業費補助金の募集期間を延長しました。",
+      "summary": "生成AIなどを使って業務効率化や生産性向上を目指す市内の企業等を対象に、費用の一部を支援する補助金の募集期間を延長しました。詳細や申請方法については今治市公式サイトをご確認ください。",
+      "url": "https://www.city.imabari.ehime.jp/sangyou/hojo/002/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-04",
+      "category": "募集・イベント",
+      "title": "新製品の開発や販路拡大を応援！補助金の申込締切を延ばしました",
+      "official_title": "今治市技術開発・販路開拓事業費補助金の研究開発枠の募集期間を延長しました。",
+      "summary": "市内企業のデジタル技術を活用した新製品・新サービスの開発や販路開拓にかかる費用を一部支援します。申請の締切を延長しましたので、ぜひご活用ください。",
+      "url": "https://www.city.imabari.ehime.jp/sangyou/hojo/003/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-11-02",
       "category": "募集・イベント",
