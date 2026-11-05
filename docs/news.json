@@ -1,9 +1,18 @@
 {
-  "generated_at": "2026-11-05T05:53:20+09:00",
-  "last_success_at": "2026-11-05T05:53:20+09:00",
+  "generated_at": "2026-11-05T11:40:13+09:00",
+  "last_success_at": "2026-11-05T11:40:13+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-05",
+      "category": "補助金・支援",
+      "title": "防災グッズを買う補助金、申請はお早めに！",
+      "official_title": "避難生活快適性向上支援事業補助金の申請はお早めにお手続きください。",
+      "summary": "避難生活を快適にする防災用品の購入費用を一部補助します。申請をご希望の方はお早めにお手続きください。",
+      "url": "https://www.city.imabari.ehime.jp/bousai/saigai-mochidashi-shien/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-11-04",
       "category": "お知らせ",
@@ -110,15 +119,6 @@
       "official_title": "11月の定例教育委員会について",
       "summary": "教育委員会の会議をどなたでも傍聴できます。非公開になる場合もあるため、詳しくは教育大綱推進課にお問い合わせください。",
       "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-02",
-      "category": "お知らせ",
-      "title": "小中学校のインフルエンザによる学級閉鎖の状況",
-      "official_title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
-      "summary": "市内の小中学校における、インフルエンザや発熱などの症状による学級閉鎖などの発生状況をお知らせします。お子さんの通う学校の状況を確認し、手洗いやうがいなどで感染予防に努めましょう。",
-      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/",
       "ai_rewritten": true
     },
     {
