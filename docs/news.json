@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T20:23:00+09:00",
-  "last_success_at": "2026-11-05T20:23:00+09:00",
+  "generated_at": "2026-11-06T02:35:22+09:00",
+  "last_success_at": "2026-11-06T02:35:22+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -128,33 +128,6 @@
       "official_title": "令和9年度奨学生を募集します。（河野育英会、檜垣育英会、加根又育英会）",
       "summary": "経済的な理由で進学が難しい方を対象に、無利子で奨学金を貸し出します。河野・檜垣・加根又の各育英会で令和9年度の募集を行います。",
       "url": "https://www.city.imabari.ehime.jp/kyouikut/shogakukin/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-30",
-      "category": "お知らせ",
-      "title": "12月分の施設予約受付方法について",
-      "official_title": "公共施設予約システム停止に伴う12月分施設予約のお知らせ",
-      "summary": "現在、予約システムのメンテナンスにより停止が続いています。そのため、12月利用分の施設の予約受付は、通常と異なる方法で対応いたしますので詳細をご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/sports/info/032/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-10-30",
-      "category": "お知らせ",
-      "title": "令和9年4月からの保育所（園）・認定こども園・幼稚園等の入所（園）申し込みのお知らせ",
-      "official_title": "令和9年4月からの保育所（園）・認定こども園・幼稚園等の入所（園）申し込みについて",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://imakoso-imabari.jp/service/hoiku-mosikomi/",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-10-30",
-      "category": "入札・プロポーザル",
-      "title": "小中学校のALT業務に関する質問の回答を公開しました",
-      "official_title": "小中学校外国語指導助手（ALT）受入支援業務及び管理業務」公募型プロポーザルの実施について「質問票に対する回答」を掲載しました。",
-      "summary": "小中学校の外国語指導助手（ALT）の受入支援と管理業務に関する公募型プロポーザルについて、寄せられた質問への回答をホームページに掲載しました。事業者の方はこちらから内容をご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/kyouikut/proposal/11/#kaitou",
       "ai_rewritten": true
     }
   ]
