@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T19:35:22+09:00",
-  "last_success_at": "2026-11-07T19:35:22+09:00",
+  "generated_at": "2026-11-08T00:51:52+09:00",
+  "last_success_at": "2026-11-08T00:51:52+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -137,15 +137,6 @@
       "official_title": "11月の定例教育委員会について",
       "summary": "教育委員会の会議をどなたでも傍聴できます。非公開になる場合もあるため、詳しくは教育大綱推進課にお問い合わせください。",
       "url": "https://www.city.imabari.ehime.jp/kyouikut/osirase.html#teireikai",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-01",
-      "category": "募集・イベント",
-      "title": "高校や大学に通うための奨学生を募集します",
-      "official_title": "令和9年度奨学生を募集します。（河野育英会、檜垣育英会、加根又育英会）",
-      "summary": "経済的な理由で進学が難しい方を対象に、無利子で奨学金を貸し出します。河野・檜垣・加根又の各育英会で令和9年度の募集を行います。",
-      "url": "https://www.city.imabari.ehime.jp/kyouikut/shogakukin/",
       "ai_rewritten": true
     }
   ]
