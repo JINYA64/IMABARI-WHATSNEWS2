@@ -1,9 +1,54 @@
 {
-  "generated_at": "2026-11-09T10:50:21+09:00",
-  "last_success_at": "2026-11-09T10:50:21+09:00",
+  "generated_at": "2026-11-09T20:58:37+09:00",
+  "last_success_at": "2026-11-09T20:58:37+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-09",
+      "category": "募集・イベント",
+      "title": "小学生向けソフトボール教室を開催します（12月19日）",
+      "official_title": "Fスポーツ体験会「ソフトボール教室（小学生対象）」について（12月19日開催）",
+      "summary": "今治市では、小学1〜3年生を対象としたスポーツ体験会を開催しています。12月19日にはソフトボール教室を行いますので、ぜひご参加ください。",
+      "url": "https://www.city.imabari.ehime.jp/sports/fsports/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-09",
+      "category": "お知らせ",
+      "title": "ねんりんピック出場者に表彰金を贈ります",
+      "official_title": "「ねんりんピック彩の国さいたま2026」出場表彰金について",
+      "summary": "今治市に住む高齢者の方が、埼玉県の全国大会「ねんりんピック2026」に愛媛県代表として出場される場合、その功績を称えて表彰金を差し上げます。詳しくは福祉政策課までお問い合わせください。",
+      "url": "https://www.city.imabari.ehime.jp/fukusis/nenrin/2026/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-09",
+      "category": "補助金・支援",
+      "title": "投票所の集会所にエアコンをつける費用を補助します",
+      "official_title": "選挙の投票所に指定されている集会所の空調設備整備費を補助します。",
+      "summary": "今治市では、選挙の投票所になっている集会所の大ホールにエアコンを設置・修理する費用を補助します。対象は自治会などが管理する集会所で、まだエアコンがない場合や故障して使えない場合です。",
+      "url": "https://www.city.imabari.ehime.jp/siminsankaku/hojo/002/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-09",
+      "category": "入札・プロポーザル",
+      "title": "市の森林のCO2吸収量を売買する計画を作る業者を募集",
+      "official_title": "「今治市市有林Ｊ－クレジットプロジェクト計画書作成業務」にかかる公募型プロポーザルの実施について",
+      "summary": "今治市は、市有林のCO2吸収量をクレジット化して林業を活性化させるため、令和9年度の登録に向けた計画書を作る事業者を選定するプロポーザルを実施します。専門的な調査や関係機関との調整を行う業務の委託先を広く募集しています。",
+      "url": "https://www.city.imabari.ehime.jp/nourin/proposal/06/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-09",
+      "category": "お知らせ",
+      "title": "小中学校のインフルエンザによる学級閉鎖の状況",
+      "official_title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
+      "summary": "市内のお子さんが通う小中学校で、インフルエンザによる学級閉鎖が起きている状況をお知らせします。詳しい学級閉鎖の状況は、ページ内の一覧からご確認いただけます。",
+      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-11-06",
       "category": "お知らせ",
