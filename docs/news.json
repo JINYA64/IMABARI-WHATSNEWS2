@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-11-10T08:31:08+09:00",
-  "last_success_at": "2026-11-10T08:31:08+09:00",
+  "generated_at": "2026-11-10T13:14:05+09:00",
+  "last_success_at": "2026-11-10T13:14:05+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-10",
+      "category": "補助金・支援",
+      "title": "省エネ家電のPayPayクーポン、期限は12月31日！",
+      "official_title": "省エネ家電補助金（デジタルクーポン）の利用期限が近づいています（令和8年12月31日まで）",
+      "summary": "補助金でもらったPayPayデジタルクーポンの利用期限が令和8年12月31日までと迫っています。期限を過ぎると残高が失効して使えなくなるため、アプリから残高と期限を確認し、早めにご利用ください。",
+      "url": "https://www.city.imabari.ehime.jp/kankyou/hojo/001/info.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-10",
+      "category": "お知らせ",
+      "title": "今治交通公園：自転車・ゴーカート一時中止のお知らせ",
+      "official_title": "今治交通公園の一部施設の利用中止について",
+      "summary": "行事実施のため、今治交通公園の自転車とゴーカートの利用を一時中止します。天候等により日程が変更になる場合がありますので、あらかじめご了承ください。",
+      "url": "https://www.city.imabari.ehime.jp/ijikanri/kotu/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-10",
+      "category": "お知らせ",
+      "title": "小中学校のインフルエンザによる学級閉鎖の状況",
+      "official_title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
+      "summary": "市内のお子さんが通う小中学校で、インフルエンザによる学級閉鎖が起きている状況をお知らせします。詳しい学級閉鎖の状況は、ページ内の一覧からご確認いただけます。",
+      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-11-09",
       "category": "募集・イベント",
@@ -41,15 +68,6 @@
       "ai_rewritten": true
     },
     {
-      "date": "2026-11-09",
-      "category": "お知らせ",
-      "title": "小中学校のインフルエンザによる学級閉鎖の状況",
-      "official_title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
-      "summary": "市内のお子さんが通う小中学校で、インフルエンザによる学級閉鎖が起きている状況をお知らせします。詳しい学級閉鎖の状況は、ページ内の一覧からご確認いただけます。",
-      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/",
-      "ai_rewritten": true
-    },
-    {
       "date": "2026-11-06",
       "category": "お知らせ",
       "title": "今治が舞台の映画『汝、星のごとく』が公開！",
@@ -74,15 +92,6 @@
       "official_title": "令和8年度　今治市地域特産物振興対策関係補助金の要望調査の実施について（第2回）",
       "summary": "野菜や果樹などの生産を増やすため、農業用ハウスや井戸づくりなどの費用を補助します。補助を希望する方は、期限までに必要書類を農林水産課へ提出してください。",
       "url": "https://www.city.imabari.ehime.jp/nourin/tokusan/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-04",
-      "category": "お知らせ",
-      "title": "今治交通公園：自転車・ゴーカート一時中止のお知らせ",
-      "official_title": "【今治交通公園】「こども用自転車」「おもしろ自転車」「ゴーカート」の使用を一時中止します。",
-      "summary": "行事実施のため、今治交通公園の自転車とゴーカートの利用を一時中止します。天候等により日程が変更になる場合がありますので、あらかじめご了承ください。",
-      "url": "https://www.city.imabari.ehime.jp/ijikanri/kotu/",
       "ai_rewritten": true
     },
     {
