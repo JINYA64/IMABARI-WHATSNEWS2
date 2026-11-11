@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T20:21:26+09:00",
-  "last_success_at": "2026-11-11T20:21:26+09:00",
+  "generated_at": "2026-11-12T02:22:40+09:00",
+  "last_success_at": "2026-11-12T02:22:40+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -92,24 +92,6 @@
       "official_title": "映画『汝、星のごとく』「第17回 ロケーションジャパン大賞」について",
       "summary": "瀬戸内が舞台となった映画『汝、星のごとく』が公開されます。みんなで応援している「ロケーションジャパン大賞」にもノミネートされています。",
       "url": "https://www.city.imabari.ehime.jp/kankou/info/nanji/#locationjapan",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-05",
-      "category": "補助金・支援",
-      "title": "防災グッズを買う補助金、申請はお早めに！",
-      "official_title": "避難生活快適性向上支援事業補助金の申請はお早めにお手続きください。",
-      "summary": "避難生活を快適にする防災用品の購入費用を一部補助します。申請をご希望の方はお早めにお手続きください。",
-      "url": "https://www.city.imabari.ehime.jp/bousai/saigai-mochidashi-shien/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-05",
-      "category": "補助金・支援",
-      "title": "特産物づくりのハウスや設備導入を補助します（第2回）",
-      "official_title": "令和8年度　今治市地域特産物振興対策関係補助金の要望調査の実施について（第2回）",
-      "summary": "野菜や果樹などの生産を増やすため、農業用ハウスや井戸づくりなどの費用を補助します。補助を希望する方は、期限までに必要書類を農林水産課へ提出してください。",
-      "url": "https://www.city.imabari.ehime.jp/nourin/tokusan/",
       "ai_rewritten": true
     }
   ]
