@@ -1,9 +1,27 @@
 {
-  "generated_at": "2026-11-12T06:30:17+09:00",
-  "last_success_at": "2026-11-12T06:30:17+09:00",
+  "generated_at": "2026-11-12T12:14:10+09:00",
+  "last_success_at": "2026-11-12T12:14:10+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-12",
+      "category": "お知らせ",
+      "title": "亀老山展望公園の休日・連休の混雑にご注意ください",
+      "official_title": "亀老山展望公園をご利用のみなさまへ",
+      "summary": "土日祝日や連休は駐車場が満車になり、入園までお待ちいただくことがあります。お時間に余裕をもってお越しいただき、園内の車の往来にも十分ご注意ください。",
+      "url": "https://www.city.imabari.ehime.jp/ijikanri/info/049/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-12",
+      "category": "お知らせ",
+      "title": "中学生の部活動はどう変わる？これまでの取組まとめ",
+      "official_title": "部活動の地域展開に関する取組について",
+      "summary": "今治市における部活動の地域移行に向けた取組について、これまでの経緯や剣道競技の状況などをまとめたお知らせを掲載しています。今後の方向性や詳細をPDFでご確認いただけます。",
+      "url": "https://www.city.imabari.ehime.jp/gakukyou/bukatsu/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-11-11",
       "category": "募集・イベント",
@@ -38,15 +56,6 @@
       "official_title": "今治交通公園の一部施設の利用中止について",
       "summary": "行事実施のため、今治交通公園の自転車とゴーカートの利用を一時中止します。天候等により日程が変更になる場合がありますので、あらかじめご了承ください。",
       "url": "https://www.city.imabari.ehime.jp/ijikanri/kotu/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-10",
-      "category": "お知らせ",
-      "title": "小中学校のインフルエンザによる学級閉鎖の状況",
-      "official_title": "インフルエンザによる学級閉鎖等の状況（市立小・中学校）について",
-      "summary": "市内のお子さんが通う小中学校で、インフルエンザによる学級閉鎖が起きている状況をお知らせします。詳しい学級閉鎖の状況は、ページ内の一覧からご確認いただけます。",
-      "url": "https://www.city.imabari.ehime.jp/gakukyou/info_influenza/",
       "ai_rewritten": true
     },
     {
