@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T20:41:06+09:00",
-  "last_success_at": "2026-11-12T20:41:06+09:00",
+  "generated_at": "2026-11-13T02:42:13+09:00",
+  "last_success_at": "2026-11-13T02:42:13+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -101,15 +101,6 @@
       "official_title": "「今治市市有林Ｊ－クレジットプロジェクト計画書作成業務」にかかる公募型プロポーザルの実施について",
       "summary": "今治市は、市有林のCO2吸収量をクレジット化して林業を活性化させるため、令和9年度の登録に向けた計画書を作る事業者を選定するプロポーザルを実施します。専門的な調査や関係機関との調整を行う業務の委託先を広く募集しています。",
       "url": "https://www.city.imabari.ehime.jp/nourin/proposal/06/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-06",
-      "category": "お知らせ",
-      "title": "今治が舞台の映画『汝、星のごとく』が公開！",
-      "official_title": "映画『汝、星のごとく』「第17回 ロケーションジャパン大賞」について",
-      "summary": "瀬戸内が舞台となった映画『汝、星のごとく』が公開されます。みんなで応援している「ロケーションジャパン大賞」にもノミネートされています。",
-      "url": "https://www.city.imabari.ehime.jp/kankou/info/nanji/#locationjapan",
       "ai_rewritten": true
     }
   ]
