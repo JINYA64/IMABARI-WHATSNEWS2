@@ -1,9 +1,18 @@
 {
-  "generated_at": "2026-11-12T12:14:10+09:00",
-  "last_success_at": "2026-11-12T12:14:10+09:00",
+  "generated_at": "2026-11-12T20:41:06+09:00",
+  "last_success_at": "2026-11-12T20:41:06+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-12",
+      "category": "お知らせ",
+      "title": "給料の報告書の電子提出、対象が30枚以上に拡大",
+      "official_title": "事業主の皆さまへ　給与支払報告書の電子提出義務化について",
+      "summary": "令和9年1月以降、税務署へ提出する源泉徴収票が「30枚以上」の事業者も、給与支払報告書のeLTAX（エルタックス）での提出が義務になります。対象外の事業者も業務効率化のため電子提出をご検討ください。",
+      "url": "https://www.city.imabari.ehime.jp/siminzei/kyuyosiharai/denshi_gimuka/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-11-12",
       "category": "お知らせ",
