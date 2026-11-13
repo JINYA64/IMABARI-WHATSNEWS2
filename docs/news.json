@@ -1,9 +1,18 @@
 {
-  "generated_at": "2026-11-13T06:32:56+09:00",
-  "last_success_at": "2026-11-13T06:32:56+09:00",
+  "generated_at": "2026-11-13T11:48:17+09:00",
+  "last_success_at": "2026-11-13T11:48:17+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-13",
+      "category": "お知らせ",
+      "title": "公共予約システムが11月16日から再開します",
+      "official_title": "今治市公共予約システムの利用再開について",
+      "summary": "停止していた公共予約システムのメンテナンスが終わり、11月16日午前9時からこれまで通り使えるようになります。11月15日までは各施設の窓口で直接ご予約ください。",
+      "url": "https://www.city.imabari.ehime.jp/sports/info/033/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-11-12",
       "category": "お知らせ",
