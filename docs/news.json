@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T20:55:26+09:00",
-  "last_success_at": "2026-11-16T20:55:26+09:00",
+  "generated_at": "2026-11-17T04:46:54+09:00",
+  "last_success_at": "2026-11-17T04:46:54+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -101,24 +101,6 @@
       "official_title": "令和8年10月期 市営住宅の随時募集について",
       "summary": "市営住宅の入居者を随時募集しています。定期募集とあわせ年2回実施していますので、ぜひご確認ください。",
       "url": "https://www.city.imabari.ehime.jp/jutaku/info/boshu-zuiji/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-10",
-      "category": "補助金・支援",
-      "title": "省エネ家電のPayPayクーポン、期限は12月31日！",
-      "official_title": "省エネ家電補助金（デジタルクーポン）の利用期限が近づいています（令和8年12月31日まで）",
-      "summary": "補助金でもらったPayPayデジタルクーポンの利用期限が令和8年12月31日までと迫っています。期限を過ぎると残高が失効して使えなくなるため、アプリから残高と期限を確認し、早めにご利用ください。",
-      "url": "https://www.city.imabari.ehime.jp/kankyou/hojo/001/info.html",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-10",
-      "category": "お知らせ",
-      "title": "今治交通公園：自転車・ゴーカート一時中止のお知らせ",
-      "official_title": "今治交通公園の一部施設の利用中止について",
-      "summary": "行事実施のため、今治交通公園の自転車とゴーカートの利用を一時中止します。天候等により日程が変更になる場合がありますので、あらかじめご了承ください。",
-      "url": "https://www.city.imabari.ehime.jp/ijikanri/kotu/",
       "ai_rewritten": true
     }
   ]
