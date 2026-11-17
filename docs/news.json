@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T21:18:43+09:00",
-  "last_success_at": "2026-11-17T21:18:43+09:00",
+  "generated_at": "2026-11-18T03:43:35+09:00",
+  "last_success_at": "2026-11-18T03:43:35+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -92,24 +92,6 @@
       "official_title": "部活動の地域展開に関する取組について",
       "summary": "今治市における部活動の地域移行に向けた取組について、これまでの経緯や剣道競技の状況などをまとめたお知らせを掲載しています。今後の方向性や詳細をPDFでご確認いただけます。",
       "url": "https://www.city.imabari.ehime.jp/gakukyou/bukatsu/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-11",
-      "category": "募集・イベント",
-      "title": "「第14回木育サミット in今治」を開催します",
-      "official_title": "「第14回木育サミット in今治」の開催について",
-      "summary": "2027年1月16日（土）に、今治市で初めて「木育サミット」を開催します。森と海と人をつなぐ持続可能な未来について、今治から全国へ発信します。",
-      "url": "https://www.city.imabari.ehime.jp/nourin/info/015/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-11",
-      "category": "募集・イベント",
-      "title": "10月に入居できる市営住宅を随時募集中です",
-      "official_title": "令和8年10月期 市営住宅の随時募集について",
-      "summary": "市営住宅の入居者を随時募集しています。定期募集とあわせ年2回実施していますので、ぜひご確認ください。",
-      "url": "https://www.city.imabari.ehime.jp/jutaku/info/boshu-zuiji/",
       "ai_rewritten": true
     }
   ]
