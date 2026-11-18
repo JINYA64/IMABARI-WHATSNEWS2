@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T21:05:16+09:00",
-  "last_success_at": "2026-11-18T21:05:16+09:00",
+  "generated_at": "2026-11-19T03:19:52+09:00",
+  "last_success_at": "2026-11-19T03:19:52+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -65,33 +65,6 @@
       "official_title": "今治市公共予約システムの利用再開について",
       "summary": "停止していた公共予約システムのメンテナンスが終わり、11月16日午前9時からこれまで通り使えるようになります。11月15日までは各施設の窓口で直接ご予約ください。",
       "url": "https://www.city.imabari.ehime.jp/sports/info/033/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-12",
-      "category": "お知らせ",
-      "title": "給料の報告書の電子提出、対象が30枚以上に拡大",
-      "official_title": "事業主の皆さまへ　給与支払報告書の電子提出義務化について",
-      "summary": "令和9年1月以降、税務署へ提出する源泉徴収票が「30枚以上」の事業者も、給与支払報告書のeLTAX（エルタックス）での提出が義務になります。対象外の事業者も業務効率化のため電子提出をご検討ください。",
-      "url": "https://www.city.imabari.ehime.jp/siminzei/kyuyosiharai/denshi_gimuka/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-12",
-      "category": "お知らせ",
-      "title": "亀老山展望公園の休日・連休の混雑にご注意ください",
-      "official_title": "亀老山展望公園をご利用のみなさまへ",
-      "summary": "土日祝日や連休は駐車場が満車になり、入園までお待ちいただくことがあります。お時間に余裕をもってお越しいただき、園内の車の往来にも十分ご注意ください。",
-      "url": "https://www.city.imabari.ehime.jp/ijikanri/info/049/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-12",
-      "category": "お知らせ",
-      "title": "中学生の部活動はどう変わる？これまでの取組まとめ",
-      "official_title": "部活動の地域展開に関する取組について",
-      "summary": "今治市における部活動の地域移行に向けた取組について、これまでの経緯や剣道競技の状況などをまとめたお知らせを掲載しています。今後の方向性や詳細をPDFでご確認いただけます。",
-      "url": "https://www.city.imabari.ehime.jp/gakukyou/bukatsu/",
       "ai_rewritten": true
     }
   ]
