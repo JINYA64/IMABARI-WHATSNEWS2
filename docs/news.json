@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T21:00:00+09:00",
-  "last_success_at": "2026-11-19T21:00:00+09:00",
+  "generated_at": "2026-11-20T03:34:27+09:00",
+  "last_success_at": "2026-11-20T03:34:27+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -83,15 +83,6 @@
       "official_title": "倉敷芸術科学大学による今治ミュージアムアートフェス2026を開催します！",
       "summary": "2026年12月12日から18日まで、今治オリジナルバルーンの展示を行います。また、2026年12月からAIを使った参加型アートやきのこをテーマにした展示も順次開催予定です。",
       "url": "https://www.city.imabari.ehime.jp/bunka/info/031/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-13",
-      "category": "お知らせ",
-      "title": "公共予約システムが11月16日から再開します",
-      "official_title": "今治市公共予約システムの利用再開について",
-      "summary": "停止していた公共予約システムのメンテナンスが終わり、11月16日午前9時からこれまで通り使えるようになります。11月15日までは各施設の窓口で直接ご予約ください。",
-      "url": "https://www.city.imabari.ehime.jp/sports/info/033/",
       "ai_rewritten": true
     }
   ]
