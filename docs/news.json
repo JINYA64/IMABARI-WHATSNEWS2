@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T20:50:10+09:00",
-  "last_success_at": "2026-11-22T20:50:10+09:00",
+  "generated_at": "2026-11-23T02:19:09+09:00",
+  "last_success_at": "2026-11-23T02:19:09+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -56,33 +56,6 @@
       "official_title": "第5回今治市デジタル未来コンソーシアムDX勉強会のご案内（1月13日開催）",
       "summary": "仕事のデジタル化や効率化の基本を学び、日々の業務課題の解決につなげる無料の勉強会を開催します。今治市内の企業の経営者や従業員なら、コンソーシアムに未加入でもご参加いただけます。",
       "url": "https://www.city.imabari.ehime.jp/mirai/miraimabari/info001/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-16",
-      "category": "お知らせ",
-      "title": "令和8年度　今治市職員採用試験D日程第１次試験合格発表について（今治市採用情報サイト）",
-      "official_title": "令和8年度　今治市職員採用試験D日程第１次試験合格発表について（今治市採用情報サイト）",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://public-connect.jp/employer/102412/news/list",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-11-16",
-      "category": "お知らせ",
-      "title": "令和8年度　今治市職員採用試験C日程（民間企業等経験者枠）最終試験合格発表について（今治市採用情報サイト）",
-      "official_title": "令和8年度　今治市職員採用試験C日程（民間企業等経験者枠）最終試験合格発表について（今治市採用情報サイト）",
-      "summary": "（外部サイトの情報です）詳細はリンク先をご確認ください。",
-      "url": "https://public-connect.jp/employer/102412/news/list",
-      "ai_rewritten": false
-    },
-    {
-      "date": "2026-11-16",
-      "category": "募集・イベント",
-      "title": "倉敷芸術科学大学の学生と楽しむアートフェス開催！",
-      "official_title": "倉敷芸術科学大学による今治ミュージアムアートフェス2026を開催します！",
-      "summary": "2026年12月12日から18日まで、今治オリジナルバルーンの展示を行います。また、2026年12月からAIを使った参加型アートやきのこをテーマにした展示も順次開催予定です。",
-      "url": "https://www.city.imabari.ehime.jp/bunka/info/031/",
       "ai_rewritten": true
     }
   ]
