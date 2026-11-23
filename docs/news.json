@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T22:29:45+09:00",
-  "last_success_at": "2026-11-23T22:29:45+09:00",
+  "generated_at": "2026-11-24T06:37:47+09:00",
+  "last_success_at": "2026-11-24T06:37:47+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -11,15 +11,6 @@
       "official_title": "事業主の皆さまへ　給与支払報告書（総括表・個人別明細書）の提出について",
       "summary": "令和8年中に給与を支払った事業主は、役員やアルバイトを含む全従業員の給与支払報告書を作成し提出してください。提出期限は令和9年2月1日（月）です。",
       "url": "https://www.city.imabari.ehime.jp/siminzei/kyuyosiharai/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-20",
-      "category": "お知らせ",
-      "title": "桜井総合公園のボブスレー休止と障害者手帳の割引",
-      "official_title": "【桜井総合公園】ボブスレー利用再開について",
-      "summary": "桜井総合公園のボブスレーは機械の故障により利用休止中です。利用再開は令和8年11月21日（土曜日）を予定しています。また、各種障害者手帳をお持ちの方は、球技場とテニスコートを65歳以上の方と同じ料金でご利用いただけます。",
-      "url": "https://www.city.imabari.ehime.jp/ijikanri/sakurai/",
       "ai_rewritten": true
     },
     {
@@ -47,15 +38,6 @@
       "official_title": "令和9年1月開催　成人式のお知らせ",
       "summary": "新しく20歳を迎える方を対象に、今治市成人式を開催します。対象の方には詳細が決まり次第ご案内をお送りしますので、ぜひご参加ください。",
       "url": "https://www.city.imabari.ehime.jp/sgakusyuu/seijinsiki/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-17",
-      "category": "募集・イベント",
-      "title": "【1月13日】無料のDX勉強会を開催！市内企業の参加者募集",
-      "official_title": "第5回今治市デジタル未来コンソーシアムDX勉強会のご案内（1月13日開催）",
-      "summary": "仕事のデジタル化や効率化の基本を学び、日々の業務課題の解決につなげる無料の勉強会を開催します。今治市内の企業の経営者や従業員なら、コンソーシアムに未加入でもご参加いただけます。",
-      "url": "https://www.city.imabari.ehime.jp/mirai/miraimabari/info001/",
       "ai_rewritten": true
     }
   ]
