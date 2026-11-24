@@ -1,9 +1,18 @@
 {
-  "generated_at": "2026-11-24T06:37:47+09:00",
-  "last_success_at": "2026-11-24T06:37:47+09:00",
+  "generated_at": "2026-11-24T10:50:14+09:00",
+  "last_success_at": "2026-11-24T10:50:14+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-24",
+      "category": "お知らせ",
+      "title": "市有地を先着順で売ります！申込みは令和8年6月から",
+      "official_title": "市有財産の先着順による売払いについてを更新しました。",
+      "summary": "入札で売れ残った市有地を、予定価格で先着順にて販売します。期間は令和8年6月23日午前9時から令和9年2月26日午後5時15分までです。書類に不備のない状態で先着順を判断し、同日時の場合は抽選となります。",
+      "url": "https://www.city.imabari.ehime.jp/soumuk/bukken/uriharai/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-11-20",
       "category": "お知らせ",
