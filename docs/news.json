@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T23:07:57+09:00",
-  "last_success_at": "2026-11-24T23:07:57+09:00",
+  "generated_at": "2026-11-25T05:18:18+09:00",
+  "last_success_at": "2026-11-25T05:18:18+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -38,15 +38,6 @@
       "official_title": "「はじめての終活講座」を開催します。※全3回",
       "summary": "もしもの時に備え、今からできる準備を始めませんか？今治市が、将来の不安をやわらげて安心して暮らせるよう終活をサポートする全3回の講座を開催します。",
       "url": "https://www.city.imabari.ehime.jp/fukusis/shukatsu/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-18",
-      "category": "募集・イベント",
-      "title": "令和9年1月開催 今治市成人式のご案内",
-      "official_title": "令和9年1月開催　成人式のお知らせ",
-      "summary": "新しく20歳を迎える方を対象に、今治市成人式を開催します。対象の方には詳細が決まり次第ご案内をお送りしますので、ぜひご参加ください。",
-      "url": "https://www.city.imabari.ehime.jp/sgakusyuu/seijinsiki/",
       "ai_rewritten": true
     }
   ]
