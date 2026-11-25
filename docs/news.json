@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T14:00:55+09:00",
-  "last_success_at": "2026-11-25T14:00:55+09:00",
+  "generated_at": "2026-11-25T22:21:04+09:00",
+  "last_success_at": "2026-11-25T22:21:04+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -47,6 +47,24 @@
       "official_title": "広報いまばり（12月号）を掲載しました。",
       "summary": "広報いまばり2026年12月号の全ページがダウンロードできるようになりました。今治が舞台の映画『汝、星のごとく』の感想や、サイクリングしなまみ2026の特集などを掲載しています。",
       "url": "https://www.city.imabari.ehime.jp/kouhou/koho/202612/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-25",
+      "category": "お知らせ",
+      "title": "65歳以上の一人暮らしの方へ：民生委員の見守り訪問",
+      "official_title": "民生委員による見守り活動のご案内",
+      "summary": "民生委員がご自宅を訪問し、生活の様子やお困りごと、緊急連絡先を確認して見守り台帳を作ります。いざという時の安心につながりますので、ぜひご活用ください。",
+      "url": "https://www.city.imabari.ehime.jp/fukusis/minsei/mimamori.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-25",
+      "category": "お知らせ",
+      "title": "悪質商法や詐欺の最新手口と相談窓口をお知らせします",
+      "official_title": "消費者トラブルに関する最新の情報を更新しました。",
+      "summary": "今治市では、消費者トラブルの最新情報を更新し、被害を防ぐための啓発を行っています。詐欺や悪質商法でお困りの際は、消費生活相談員がアドバイスや事業者との間に入った解決サポートを行います。",
+      "url": "https://www.city.imabari.ehime.jp/siminsankaku/shohiseikatu/",
       "ai_rewritten": true
     },
     {
