@@ -1,9 +1,54 @@
 {
-  "generated_at": "2026-11-25T08:36:15+09:00",
-  "last_success_at": "2026-11-25T08:36:15+09:00",
+  "generated_at": "2026-11-25T14:00:55+09:00",
+  "last_success_at": "2026-11-25T14:00:55+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-25",
+      "category": "入札・プロポーザル",
+      "title": "令和8年度からの市の施設を管理する団体が決まりました",
+      "official_title": "令和8年度「公の施設」の管理に係る指定予定者の選定結果（公募施設）について",
+      "summary": "令和8年度から今治市の公共施設を管理する予定の団体が決定しました。各施設の審査結果の詳細は、担当課にお問い合わせください。",
+      "url": "https://www.city.imabari.ehime.jp/gyousei/siteikanri/siteikanri-r08/kekka_koubo.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-25",
+      "category": "お知らせ",
+      "title": "福祉施設の管理者を決定しました（令和8年度）",
+      "official_title": "令和8年度「公の施設」の管理に係る指定予定者の選定結果（特命指定施設）について",
+      "summary": "令和8年度からの福祉施設の管理者について、今治市社会福祉協議会を選定しました。選定の理由や審査の詳細は、担当課までお問い合わせください。",
+      "url": "https://www.city.imabari.ehime.jp/gyousei/siteikanri/siteikanri-r08/kekka_tokumei.html",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-25",
+      "category": "募集・イベント",
+      "title": "【令和9年4月採用】事務補助のパート職員を募集します",
+      "official_title": "令和9年4月採用 パートタイム会計年度任用職員（事務補助）の募集について",
+      "summary": "パソコンでの資料作りやデータ入力、窓口対応などを行うパートタイムの職員を募集します。勤務時間は週30時間（1日6時間）が原則となりますので、ぜひご応募ください。",
+      "url": "https://www.city.imabari.ehime.jp/jinji/boshu_kaikeinendo/jimu/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-25",
+      "category": "お知らせ",
+      "title": "令和8年度の予算案が決まりました",
+      "official_title": "令和8年度　12月補正予算を掲載しました。",
+      "summary": "令和8年度の一般会計と特別会計の予算案を公開しました。ファイル容量が大きいため、ダウンロードに時間がかかる場合があります。",
+      "url": "https://www.city.imabari.ehime.jp/zaisei/yosan/",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-25",
+      "category": "お知らせ",
+      "title": "広報いまばり12月号公開！今治の魅力が満載",
+      "official_title": "広報いまばり（12月号）を掲載しました。",
+      "summary": "広報いまばり2026年12月号の全ページがダウンロードできるようになりました。今治が舞台の映画『汝、星のごとく』の感想や、サイクリングしなまみ2026の特集などを掲載しています。",
+      "url": "https://www.city.imabari.ehime.jp/kouhou/koho/202612/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-11-24",
       "category": "お知らせ",
