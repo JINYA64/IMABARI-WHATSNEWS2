@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T22:21:04+09:00",
-  "last_success_at": "2026-11-25T22:21:04+09:00",
+  "generated_at": "2026-11-26T04:31:43+09:00",
+  "last_success_at": "2026-11-26T04:31:43+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -83,24 +83,6 @@
       "official_title": "事業主の皆さまへ　給与支払報告書（総括表・個人別明細書）の提出について",
       "summary": "令和8年中に給与を支払った事業主は、役員やアルバイトを含む全従業員の給与支払報告書を作成し提出してください。提出期限は令和9年2月1日（月）です。",
       "url": "https://www.city.imabari.ehime.jp/siminzei/kyuyosiharai/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-19",
-      "category": "お知らせ",
-      "title": "今が旬！ほうれん草と桜エビの簡単レシピ公開",
-      "official_title": "「食育の日」簡単レシピ11月「ほうれん草と桜エビのペペロンチーノ風」を掲載しました。",
-      "summary": "今が旬でお手頃な食材を使った、あと一品にぴったりの簡単レシピをご紹介します。令和8年4月のごぼうとレタスのあおのり和え（PDF 287KB）、令和8年5月のきゅうりのツナぽんのせ（PDF 298KB）も公開中です。",
-      "url": "https://www.city.imabari.ehime.jp/kenkou/shokuiku_recipe/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-19",
-      "category": "募集・イベント",
-      "title": "全3回で安心！「はじめての終活講座」",
-      "official_title": "「はじめての終活講座」を開催します。※全3回",
-      "summary": "もしもの時に備え、今からできる準備を始めませんか？今治市が、将来の不安をやわらげて安心して暮らせるよう終活をサポートする全3回の講座を開催します。",
-      "url": "https://www.city.imabari.ehime.jp/fukusis/shukatsu/",
       "ai_rewritten": true
     }
   ]
