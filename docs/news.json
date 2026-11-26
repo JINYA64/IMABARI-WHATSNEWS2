@@ -1,9 +1,27 @@
 {
-  "generated_at": "2026-11-26T13:15:33+09:00",
-  "last_success_at": "2026-11-26T13:15:33+09:00",
+  "generated_at": "2026-11-26T22:00:06+09:00",
+  "last_success_at": "2026-11-26T22:00:06+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
+    {
+      "date": "2026-11-26",
+      "category": "入札・プロポーザル",
+      "title": "ネウボラ拠点施設の設計・建設モニタリング業務の選定結果",
+      "official_title": "「今治市ネウボラ拠点施設整備・運営事業　設計・建設モニタリング業務委託」に係る公募型プロポーザルの実施について、選定結果を掲載しました。",
+      "summary": "今治市ネウボラ拠点施設の設計や建設が正しく行われるよう専門的な視点で支援する業務について、受託事業者の選定結果を掲載しました。詳細は市のホームページをご覧ください。",
+      "url": "https://www.city.imabari.ehime.jp/neuseibi/proposal/02/#kekka",
+      "ai_rewritten": true
+    },
+    {
+      "date": "2026-11-26",
+      "category": "交通・航路",
+      "title": "フェリー「第二せきぜん」12月1日から全便通常運航へ",
+      "official_title": "フェリー「第二せきぜん」の運航について（令和8年12月1日（火曜日）から全便の通常運航を再開）",
+      "summary": "船員不足のため毎週月・木曜日に運休していたフェリー「第二せきぜん」は、令和8年12月1日（火曜日）から全便の通常運航を再開します。ご不便をおかけしましたが、今後は安全運行に一層努めてまいります。",
+      "url": "https://www.city.imabari.ehime.jp/kotsus/tosen/sekizen/",
+      "ai_rewritten": true
+    },
     {
       "date": "2026-11-25",
       "category": "入札・プロポーザル",
