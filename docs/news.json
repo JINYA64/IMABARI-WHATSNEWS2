@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T22:00:06+09:00",
-  "last_success_at": "2026-11-26T22:00:06+09:00",
+  "generated_at": "2026-11-27T04:14:21+09:00",
+  "last_success_at": "2026-11-27T04:14:21+09:00",
   "fetch_status": "ok",
   "source": "https://www.city.imabari.ehime.jp/whatsnew.html",
   "items": [
@@ -92,15 +92,6 @@
       "official_title": "市有財産の先着順による売払いについてを更新しました。",
       "summary": "入札で売れ残った市有地を、予定価格で先着順にて販売します。期間は令和8年6月23日午前9時から令和9年2月26日午後5時15分までです。書類に不備のない状態で先着順を判断し、同日時の場合は抽選となります。",
       "url": "https://www.city.imabari.ehime.jp/soumuk/bukken/uriharai/",
-      "ai_rewritten": true
-    },
-    {
-      "date": "2026-11-20",
-      "category": "お知らせ",
-      "title": "【事業主向け】アルバイト・パート分も！給与支払報告書の提出",
-      "official_title": "事業主の皆さまへ　給与支払報告書（総括表・個人別明細書）の提出について",
-      "summary": "令和8年中に給与を支払った事業主は、役員やアルバイトを含む全従業員の給与支払報告書を作成し提出してください。提出期限は令和9年2月1日（月）です。",
-      "url": "https://www.city.imabari.ehime.jp/siminzei/kyuyosiharai/",
       "ai_rewritten": true
     }
   ]
